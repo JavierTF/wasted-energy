@@ -432,6 +432,86 @@ body {
 
 let treeData = [];
 
+
+const MAP_LABELS = {
+  es: {
+    rootMain: '☀ Energía Solar Excedente', rootSub: 'Nodo raíz · 532h/año',
+    r1Main: '⚗ 1. Química y H₂/O₂', r1Sub: '2H₂O → 2H₂ + O₂',
+    r2Main: '⚡ 2. Instalación Solar', r2Sub: 'Potencia · Ubicación · Elec.',
+    r3Main: '🌍 3. Territorios', r3Sub: 'Navarra · Euskadi · Aragón · FR',
+    r4Main: '🇫🇷 4. Problemas Francia', r4Sub: 'PLF 2026 · Fuentes oficiales',
+    r5Main: '💡 5. Impacto Social', r5Sub: 'Agua · Salud · Movilidad…',
+    r6Main: '🤝 6. Collab. con Francia', r6Sub: 'INTERREG · France 2030',
+    r7Main: '❓ 7. Incógnitas Abiertas', r7Sub: 'Técnicas · Econ. · Legales',
+    r8Main: '📣 8. Dónde Publicarse', r8Sub: 'UE · Coops · Inversión · Rural',
+    r9Main: '📊 9. Mercado Energético FR', r9Sub: 'Producción · Precios · PPAs',
+    r10Main: '💰 10. Modelo de Negocio', r10Sub: '4 fuentes de ingresos',
+    r11Main: '⚔ 11. Competidores y Aliados', r11Sub: 'Mapa completo Francia',
+    r12Main: '🚀 12. Go-to-Market y MVP', r12Sub: '3 fases · Stakeholders',
+    r13Main: '🎯 13. Pitch para Inversores', r13Sub: 'Argumentos · Datos · Frases',
+    r1_1: '1.1 Química básica H₂/O₂', r1_2: '1.2 Cálculos de producción',
+    r1_3: '1.3 Todos los usos del H₂', r1_4: '1.4 Usos médicos del H₂',
+    r1_desal: '1.5 Desalinización solar',
+    r3_nav: '3.1 Navarra', r3_eus: '3.2 Euskadi', r3_ara: '3.3 Aragón', r3_fr: '3.4 Sur de Francia',
+    r4_rec: '4.1 Recortes PLF 2026', r4_pob: '4.2 Pobreza y empleo',
+    r4_rural: '4.3 Ruralidad / desiertos méd.', r4_sequia: '4.4 Sequía',
+    r5_agua: '5.1 Agua y saneamiento', r5_salud: '5.2 Salud rural',
+    r5_digit: '5.3 Conectividad', r5_agro: '5.4 Agricultura',
+    r5_eco: '5.5 Economía social', r5_movil: '5.6 Movilidad',
+    r8_ue: '8.1 Plataformas UE', r8_coop: '8.2 Cooperativas',
+    r8_imp: '8.3 Inversión de impacto', r8_salud: '8.4 Salud e investigación', r8_rural: '8.5 Ruralidad',
+    r10_agua: '10.1 Venta de agua', r10_rte: '10.2 Flexibilidad red (RTE)',
+    r10_carbono: '10.3 Créditos de carbono', r10_sal: '10.4 Sal y minerales',
+    r11_eff: '11.1 Effacement / demanda', r11_bat: '11.2 Baterías estacionarias',
+    r11_v2g: '11.3 V2G — vehículos eléc.', r11_h2: '11.4 Hidrógeno verde',
+    r11_ppa: '11.5 PPAs — aliados nat.', r11_exp: '11.6 Exportación',
+    r12_mvp: '12.1 Fase 1 — MVP', r12_b2b: '12.2 Fase 2 — B2B',
+    r12_res: '12.3 Fase 3 — Residencial', r12_prod: '12.4 Por qué prod. solar 1º', r12_stake: '12.5 Stakeholders críticos',
+    r13_insight: '13.1 El insight central', r13_elementos: '13.2 Los 6 elementos',
+    r13_datos: '13.3 Datos impactantes', r13_esg: '13.4 Certificaciones ESG',
+    newBranches: 'nuevas ramas', legendExisting: 'Existente',
+    legendNew: 'Nuevo (PDF)', legendSub: 'Subrama — clic para ver'
+  },
+  en: {
+    rootMain: '☀ Surplus Solar Energy', rootSub: 'Root node · 532h/year',
+    r1Main: '⚗ 1. Chemistry & H₂/O₂', r1Sub: '2H₂O → 2H₂ + O₂',
+    r2Main: '⚡ 2. Solar Installation', r2Sub: 'Capacity · Location · Elec.',
+    r3Main: '🌍 3. Territories', r3Sub: 'Navarra · Euskadi · Aragón · FR',
+    r4Main: '🇫🇷 4. France Issues', r4Sub: 'PLF 2026 · Official sources',
+    r5Main: '💡 5. Social Impact', r5Sub: 'Water · Health · Mobility…',
+    r6Main: '🤝 6. Collab. with France', r6Sub: 'INTERREG · France 2030',
+    r7Main: '❓ 7. Open Questions', r7Sub: 'Technical · Econ. · Legal',
+    r8Main: '📣 8. Where to Publish', r8Sub: 'EU · Coops · Investment · Rural',
+    r9Main: '📊 9. FR Energy Market', r9Sub: 'Production · Prices · PPAs',
+    r10Main: '💰 10. Business Model', r10Sub: '4 revenue streams',
+    r11Main: '⚔ 11. Competitors & Allies', r11Sub: 'Full France map',
+    r12Main: '🚀 12. Go-to-Market & MVP', r12Sub: '3 phases · Stakeholders',
+    r13Main: '🎯 13. Investor Pitch', r13Sub: 'Arguments · Data · Phrases',
+    r1_1: '1.1 Basic H₂/O₂ chemistry', r1_2: '1.2 Production calculations',
+    r1_3: '1.3 All uses of H₂', r1_4: '1.4 Medical uses of H₂',
+    r1_desal: '1.5 Solar desalination',
+    r3_nav: '3.1 Navarra', r3_eus: '3.2 Euskadi', r3_ara: '3.3 Aragón', r3_fr: '3.4 Southern France',
+    r4_rec: '4.1 PLF 2026 cuts', r4_pob: '4.2 Poverty & employment',
+    r4_rural: '4.3 Rurality / med. deserts', r4_sequia: '4.4 Drought',
+    r5_agua: '5.1 Water & sanitation', r5_salud: '5.2 Rural health',
+    r5_digit: '5.3 Connectivity', r5_agro: '5.4 Agriculture',
+    r5_eco: '5.5 Social economy', r5_movil: '5.6 Mobility',
+    r8_ue: '8.1 EU platforms', r8_coop: '8.2 Cooperatives',
+    r8_imp: '8.3 Impact investment', r8_salud: '8.4 Health & research', r8_rural: '8.5 Rurality',
+    r10_agua: '10.1 Water sales', r10_rte: '10.2 Grid flexibility (RTE)',
+    r10_carbono: '10.3 Carbon credits', r10_sal: '10.4 Salt & minerals',
+    r11_eff: '11.1 Demand response', r11_bat: '11.2 Stationary batteries',
+    r11_v2g: '11.3 V2G — electric vehicles', r11_h2: '11.4 Green hydrogen',
+    r11_ppa: '11.5 PPAs — natural allies', r11_exp: '11.6 Export',
+    r12_mvp: '12.1 Phase 1 — MVP', r12_b2b: '12.2 Phase 2 — B2B',
+    r12_res: '12.3 Phase 3 — Residential', r12_prod: '12.4 Why solar prod. first', r12_stake: '12.5 Critical stakeholders',
+    r13_insight: '13.1 The core insight', r13_elementos: '13.2 The 6 elements',
+    r13_datos: '13.3 Impactful data', r13_esg: '13.4 ESG certifications',
+    newBranches: 'new branches', legendExisting: 'Existing',
+    legendNew: 'New (PDF)', legendSub: 'Sub-branch — click to view'
+  }
+};
+
 const COLORS = {
   c1:'#e8a020', c2:'#2db88a', c3:'#e05c8a',
   c4:'#6c5ce7', c5:'#0984e3', c6:'#e17055',
@@ -473,6 +553,8 @@ async function setLang(lang) {
     const node = findNode(selectedId, treeData);
     if (node) showPanel(node);
     else showMapStructure();
+  } else {
+    showMapStructure();
   }
 }
 
@@ -642,6 +724,7 @@ function showMapStructure() {
 }
 
 function getMapSVG() {
+  const L = MAP_LABELS[currentLang];
   return `<svg width="100%" viewBox="0 0 680 1820" xmlns="http://www.w3.org/2000/svg" style="display:block">
 <defs>
   <marker id="marr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
@@ -664,8 +747,8 @@ function getMapSVG() {
 <!-- ROOT -->
 <g class="mn" onclick="selectNode('root')">
   <rect x="190" y="18" width="300" height="50" rx="10" fill="#e8a020"/>
-  <text class="mt" x="340" y="38" text-anchor="middle" dominant-baseline="central">☀ Energía Solar Excedente</text>
-  <text class="ms" x="340" y="56" text-anchor="middle" dominant-baseline="central">Nodo raíz · 532h/año</text>
+  <text class="mt" x="340" y="38" text-anchor="middle" dominant-baseline="central">${L.rootMain}</text>
+  <text class="ms" x="340" y="56" text-anchor="middle" dominant-baseline="central">${L.rootSub}</text>
 </g>
 
 <!-- trunk -->
@@ -676,213 +759,213 @@ function getMapSVG() {
 <line x1="340" y1="126" x2="80" y2="126" class="branch"/>
 <g class="mn" onclick="selectNode('r1')">
   <rect x="18" y="104" width="244" height="44" rx="8" fill="#e8a020"/>
-  <text class="mt" x="140" y="122" text-anchor="middle" dominant-baseline="central">⚗ 1. Química y H₂/O₂</text>
-  <text class="ms" x="140" y="138" text-anchor="middle" dominant-baseline="central">2H₂O → 2H₂ + O₂</text>
+  <text class="mt" x="140" y="122" text-anchor="middle" dominant-baseline="central">${L.r1Main}</text>
+  <text class="ms" x="140" y="138" text-anchor="middle" dominant-baseline="central">${L.r1Sub}</text>
 </g>
 <line x1="80" y1="148" x2="80" y2="358" class="spine"/>
 <line x1="80" y1="175" x2="18" y2="175" class="branch"/>
-<g class="mn" onclick="selectNode('r1_1')"><rect x="18" y="161" width="205" height="28" rx="6" class="cb"/><text class="ct" x="120" y="175" text-anchor="middle" dominant-baseline="central">1.1 Química básica H₂/O₂</text></g>
+<g class="mn" onclick="selectNode('r1_1')"><rect x="18" y="161" width="205" height="28" rx="6" class="cb"/><text class="ct" x="120" y="175" text-anchor="middle" dominant-baseline="central">${L.r1_1}</text></g>
 <line x1="80" y1="205" x2="18" y2="205" class="branch"/>
-<g class="mn" onclick="selectNode('r1_2')"><rect x="18" y="191" width="205" height="28" rx="6" class="cb"/><text class="ct" x="120" y="205" text-anchor="middle" dominant-baseline="central">1.2 Cálculos de producción</text></g>
+<g class="mn" onclick="selectNode('r1_2')"><rect x="18" y="191" width="205" height="28" rx="6" class="cb"/><text class="ct" x="120" y="205" text-anchor="middle" dominant-baseline="central">${L.r1_2}</text></g>
 <line x1="80" y1="235" x2="18" y2="235" class="branch"/>
-<g class="mn" onclick="selectNode('r1_3')"><rect x="18" y="221" width="205" height="28" rx="6" class="cb"/><text class="ct" x="120" y="235" text-anchor="middle" dominant-baseline="central">1.3 Todos los usos del H₂</text></g>
+<g class="mn" onclick="selectNode('r1_3')"><rect x="18" y="221" width="205" height="28" rx="6" class="cb"/><text class="ct" x="120" y="235" text-anchor="middle" dominant-baseline="central">${L.r1_3}</text></g>
 <line x1="80" y1="265" x2="18" y2="265" class="branch"/>
-<g class="mn" onclick="selectNode('r1_4')"><rect x="18" y="251" width="205" height="28" rx="6" class="cb"/><text class="ct" x="120" y="265" text-anchor="middle" dominant-baseline="central">1.4 Usos médicos del H₂</text></g>
+<g class="mn" onclick="selectNode('r1_4')"><rect x="18" y="251" width="205" height="28" rx="6" class="cb"/><text class="ct" x="120" y="265" text-anchor="middle" dominant-baseline="central">${L.r1_4}</text></g>
 <line x1="80" y1="295" x2="18" y2="295" class="branch"/>
-<g class="mn" onclick="selectNode('r1_desal')"><rect x="18" y="281" width="205" height="28" rx="6" class="cb"/><text class="ct" x="120" y="295" text-anchor="middle" dominant-baseline="central">1.5 Desalinización solar</text></g>
+<g class="mn" onclick="selectNode('r1_desal')"><rect x="18" y="281" width="205" height="28" rx="6" class="cb"/><text class="ct" x="120" y="295" text-anchor="middle" dominant-baseline="central">${L.r1_desal}</text></g>
 
 <!-- ── RAMA 2 ── -->
 <line x1="340" y1="196" x2="600" y2="196" class="branch"/>
 <g class="mn" onclick="selectNode('r2')">
   <rect x="416" y="174" width="244" height="44" rx="8" fill="#2db88a"/>
-  <text class="mt" x="538" y="192" text-anchor="middle" dominant-baseline="central">⚡ 2. Instalación Solar</text>
-  <text class="ms" x="538" y="208" text-anchor="middle" dominant-baseline="central">Potencia · Ubicación · Elec.</text>
+  <text class="mt" x="538" y="192" text-anchor="middle" dominant-baseline="central">${L.r2Main}</text>
+  <text class="ms" x="538" y="208" text-anchor="middle" dominant-baseline="central">${L.r2Sub}</text>
 </g>
 
 <!-- ── RAMA 3 ── -->
 <line x1="340" y1="380" x2="80" y2="380" class="branch"/>
 <g class="mn" onclick="selectNode('r3')">
   <rect x="18" y="358" width="244" height="44" rx="8" fill="#e05c8a"/>
-  <text class="mt" x="140" y="376" text-anchor="middle" dominant-baseline="central">🌍 3. Territorios</text>
-  <text class="ms" x="140" y="392" text-anchor="middle" dominant-baseline="central">Navarra · Euskadi · Aragón · FR</text>
+  <text class="mt" x="140" y="376" text-anchor="middle" dominant-baseline="central">${L.r3Main}</text>
+  <text class="ms" x="140" y="392" text-anchor="middle" dominant-baseline="central">${L.r3Sub}</text>
 </g>
 <line x1="80" y1="402" x2="80" y2="520" class="spine"/>
 <line x1="80" y1="420" x2="18" y2="420" class="branch"/>
-<g class="mn" onclick="selectNode('r3_nav')"><rect x="18" y="406" width="155" height="28" rx="6" class="cb"/><text class="ct" x="96" y="420" text-anchor="middle" dominant-baseline="central">3.1 Navarra</text></g>
+<g class="mn" onclick="selectNode('r3_nav')"><rect x="18" y="406" width="155" height="28" rx="6" class="cb"/><text class="ct" x="96" y="420" text-anchor="middle" dominant-baseline="central">${L.r3_nav}</text></g>
 <line x1="80" y1="450" x2="18" y2="450" class="branch"/>
-<g class="mn" onclick="selectNode('r3_eus')"><rect x="18" y="436" width="155" height="28" rx="6" class="cb"/><text class="ct" x="96" y="450" text-anchor="middle" dominant-baseline="central">3.2 Euskadi</text></g>
+<g class="mn" onclick="selectNode('r3_eus')"><rect x="18" y="436" width="155" height="28" rx="6" class="cb"/><text class="ct" x="96" y="450" text-anchor="middle" dominant-baseline="central">${L.r3_eus}</text></g>
 <line x1="80" y1="480" x2="18" y2="480" class="branch"/>
-<g class="mn" onclick="selectNode('r3_ara')"><rect x="18" y="466" width="155" height="28" rx="6" class="cb"/><text class="ct" x="96" y="480" text-anchor="middle" dominant-baseline="central">3.3 Aragón</text></g>
+<g class="mn" onclick="selectNode('r3_ara')"><rect x="18" y="466" width="155" height="28" rx="6" class="cb"/><text class="ct" x="96" y="480" text-anchor="middle" dominant-baseline="central">${L.r3_ara}</text></g>
 <line x1="80" y1="510" x2="18" y2="510" class="branch"/>
-<g class="mn" onclick="selectNode('r3_fr')"><rect x="18" y="496" width="155" height="28" rx="6" class="cb"/><text class="ct" x="96" y="510" text-anchor="middle" dominant-baseline="central">3.4 Sur de Francia</text></g>
+<g class="mn" onclick="selectNode('r3_fr')"><rect x="18" y="496" width="155" height="28" rx="6" class="cb"/><text class="ct" x="96" y="510" text-anchor="middle" dominant-baseline="central">${L.r3_fr}</text></g>
 
 <!-- ── RAMA 4 ── -->
 <line x1="340" y1="450" x2="600" y2="450" class="branch"/>
 <g class="mn" onclick="selectNode('r4')">
   <rect x="416" y="428" width="244" height="44" rx="8" fill="#6c5ce7"/>
-  <text class="mt" x="538" y="446" text-anchor="middle" dominant-baseline="central">🇫🇷 4. Problemas Francia</text>
-  <text class="ms" x="538" y="462" text-anchor="middle" dominant-baseline="central">PLF 2026 · Fuentes oficiales</text>
+  <text class="mt" x="538" y="446" text-anchor="middle" dominant-baseline="central">${L.r4Main}</text>
+  <text class="ms" x="538" y="462" text-anchor="middle" dominant-baseline="central">${L.r4Sub}</text>
 </g>
 <line x1="600" y1="472" x2="600" y2="580" class="spine"/>
 <line x1="600" y1="492" x2="662" y2="492" class="branch"/>
-<g class="mn" onclick="selectNode('r4_rec')"><rect x="452" y="478" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="492" text-anchor="middle" dominant-baseline="central">4.1 Recortes PLF 2026</text></g>
+<g class="mn" onclick="selectNode('r4_rec')"><rect x="452" y="478" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="492" text-anchor="middle" dominant-baseline="central">${L.r4_rec}</text></g>
 <line x1="600" y1="522" x2="662" y2="522" class="branch"/>
-<g class="mn" onclick="selectNode('r4_pob')"><rect x="452" y="508" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="522" text-anchor="middle" dominant-baseline="central">4.2 Pobreza y empleo</text></g>
+<g class="mn" onclick="selectNode('r4_pob')"><rect x="452" y="508" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="522" text-anchor="middle" dominant-baseline="central">${L.r4_pob}</text></g>
 <line x1="600" y1="552" x2="662" y2="552" class="branch"/>
-<g class="mn" onclick="selectNode('r4_rural')"><rect x="452" y="538" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="552" text-anchor="middle" dominant-baseline="central">4.3 Ruralidad / desiertos méd.</text></g>
+<g class="mn" onclick="selectNode('r4_rural')"><rect x="452" y="538" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="552" text-anchor="middle" dominant-baseline="central">${L.r4_rural}</text></g>
 <line x1="600" y1="582" x2="662" y2="582" class="branch"/>
-<g class="mn" onclick="selectNode('r4_sequia')"><rect x="452" y="568" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="582" text-anchor="middle" dominant-baseline="central">4.4 Sequía</text></g>
+<g class="mn" onclick="selectNode('r4_sequia')"><rect x="452" y="568" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="582" text-anchor="middle" dominant-baseline="central">${L.r4_sequia}</text></g>
 
 <!-- ── RAMA 5 ── -->
 <line x1="340" y1="580" x2="80" y2="580" class="branch"/>
 <g class="mn" onclick="selectNode('r5')">
   <rect x="18" y="558" width="244" height="44" rx="8" fill="#0984e3"/>
-  <text class="mt" x="140" y="576" text-anchor="middle" dominant-baseline="central">💡 5. Impacto Social</text>
-  <text class="ms" x="140" y="592" text-anchor="middle" dominant-baseline="central">Agua · Salud · Movilidad…</text>
+  <text class="mt" x="140" y="576" text-anchor="middle" dominant-baseline="central">${L.r5Main}</text>
+  <text class="ms" x="140" y="592" text-anchor="middle" dominant-baseline="central">${L.r5Sub}</text>
 </g>
 <line x1="80" y1="602" x2="80" y2="760" class="spine"/>
 <line x1="80" y1="618" x2="18" y2="618" class="branch"/>
-<g class="mn" onclick="selectNode('r5_agua')"><rect x="18" y="604" width="155" height="28" rx="6" class="cb"/><text class="ct" x="96" y="618" text-anchor="middle" dominant-baseline="central">5.1 Agua y saneamiento</text></g>
+<g class="mn" onclick="selectNode('r5_agua')"><rect x="18" y="604" width="155" height="28" rx="6" class="cb"/><text class="ct" x="96" y="618" text-anchor="middle" dominant-baseline="central">${L.r5_agua}</text></g>
 <line x1="80" y1="648" x2="18" y2="648" class="branch"/>
-<g class="mn" onclick="selectNode('r5_salud')"><rect x="18" y="634" width="155" height="28" rx="6" class="cb"/><text class="ct" x="96" y="648" text-anchor="middle" dominant-baseline="central">5.2 Salud rural</text></g>
+<g class="mn" onclick="selectNode('r5_salud')"><rect x="18" y="634" width="155" height="28" rx="6" class="cb"/><text class="ct" x="96" y="648" text-anchor="middle" dominant-baseline="central">${L.r5_salud}</text></g>
 <line x1="80" y1="678" x2="18" y2="678" class="branch"/>
-<g class="mn" onclick="selectNode('r5_digit')"><rect x="18" y="664" width="155" height="28" rx="6" class="cb"/><text class="ct" x="96" y="678" text-anchor="middle" dominant-baseline="central">5.3 Conectividad</text></g>
+<g class="mn" onclick="selectNode('r5_digit')"><rect x="18" y="664" width="155" height="28" rx="6" class="cb"/><text class="ct" x="96" y="678" text-anchor="middle" dominant-baseline="central">${L.r5_digit}</text></g>
 <line x1="80" y1="708" x2="18" y2="708" class="branch"/>
-<g class="mn" onclick="selectNode('r5_agro')"><rect x="18" y="694" width="155" height="28" rx="6" class="cb"/><text class="ct" x="96" y="708" text-anchor="middle" dominant-baseline="central">5.4 Agricultura</text></g>
+<g class="mn" onclick="selectNode('r5_agro')"><rect x="18" y="694" width="155" height="28" rx="6" class="cb"/><text class="ct" x="96" y="708" text-anchor="middle" dominant-baseline="central">${L.r5_agro}</text></g>
 <line x1="80" y1="738" x2="18" y2="738" class="branch"/>
-<g class="mn" onclick="selectNode('r5_eco')"><rect x="18" y="724" width="155" height="28" rx="6" class="cb"/><text class="ct" x="96" y="738" text-anchor="middle" dominant-baseline="central">5.5 Economía social</text></g>
+<g class="mn" onclick="selectNode('r5_eco')"><rect x="18" y="724" width="155" height="28" rx="6" class="cb"/><text class="ct" x="96" y="738" text-anchor="middle" dominant-baseline="central">${L.r5_eco}</text></g>
 <line x1="80" y1="768" x2="18" y2="768" class="branch"/>
-<g class="mn" onclick="selectNode('r5_movil')"><rect x="18" y="754" width="155" height="28" rx="6" class="cb"/><text class="ct" x="96" y="768" text-anchor="middle" dominant-baseline="central">5.6 Movilidad</text></g>
+<g class="mn" onclick="selectNode('r5_movil')"><rect x="18" y="754" width="155" height="28" rx="6" class="cb"/><text class="ct" x="96" y="768" text-anchor="middle" dominant-baseline="central">${L.r5_movil}</text></g>
 
 <!-- ── RAMA 6 ── -->
 <line x1="340" y1="660" x2="600" y2="660" class="branch"/>
 <g class="mn" onclick="selectNode('r6')">
   <rect x="416" y="638" width="244" height="44" rx="8" fill="#e17055"/>
-  <text class="mt" x="538" y="656" text-anchor="middle" dominant-baseline="central">🤝 6. Collab. con Francia</text>
-  <text class="ms" x="538" y="672" text-anchor="middle" dominant-baseline="central">INTERREG · France 2030</text>
+  <text class="mt" x="538" y="656" text-anchor="middle" dominant-baseline="central">${L.r6Main}</text>
+  <text class="ms" x="538" y="672" text-anchor="middle" dominant-baseline="central">${L.r6Sub}</text>
 </g>
 
 <!-- ── RAMA 7 ── -->
 <line x1="340" y1="740" x2="80" y2="740" class="branch"/>
 <g class="mn" onclick="selectNode('r7')">
   <rect x="18" y="718" width="244" height="44" rx="8" fill="#00b894"/>
-  <text class="mt" x="140" y="736" text-anchor="middle" dominant-baseline="central">❓ 7. Incógnitas Abiertas</text>
-  <text class="ms" x="140" y="752" text-anchor="middle" dominant-baseline="central">Técnicas · Econ. · Legales</text>
+  <text class="mt" x="140" y="736" text-anchor="middle" dominant-baseline="central">${L.r7Main}</text>
+  <text class="ms" x="140" y="752" text-anchor="middle" dominant-baseline="central">${L.r7Sub}</text>
 </g>
 
 <!-- ── RAMA 8 ── -->
 <line x1="340" y1="800" x2="600" y2="800" class="branch"/>
 <g class="mn" onclick="selectNode('r8')">
   <rect x="416" y="778" width="244" height="44" rx="8" fill="#d63031"/>
-  <text class="mt" x="538" y="796" text-anchor="middle" dominant-baseline="central">📣 8. Dónde Publicarse</text>
-  <text class="ms" x="538" y="812" text-anchor="middle" dominant-baseline="central">UE · Coops · Inversión · Rural</text>
+  <text class="mt" x="538" y="796" text-anchor="middle" dominant-baseline="central">${L.r8Main}</text>
+  <text class="ms" x="538" y="812" text-anchor="middle" dominant-baseline="central">${L.r8Sub}</text>
 </g>
 <line x1="600" y1="822" x2="600" y2="940" class="spine"/>
 <line x1="600" y1="838" x2="662" y2="838" class="branch"/>
-<g class="mn" onclick="selectNode('r8_ue')"><rect x="452" y="824" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="838" text-anchor="middle" dominant-baseline="central">8.1 Plataformas UE</text></g>
+<g class="mn" onclick="selectNode('r8_ue')"><rect x="452" y="824" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="838" text-anchor="middle" dominant-baseline="central">${L.r8_ue}</text></g>
 <line x1="600" y1="868" x2="662" y2="868" class="branch"/>
-<g class="mn" onclick="selectNode('r8_coop')"><rect x="452" y="854" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="868" text-anchor="middle" dominant-baseline="central">8.2 Cooperativas</text></g>
+<g class="mn" onclick="selectNode('r8_coop')"><rect x="452" y="854" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="868" text-anchor="middle" dominant-baseline="central">${L.r8_coop}</text></g>
 <line x1="600" y1="898" x2="662" y2="898" class="branch"/>
-<g class="mn" onclick="selectNode('r8_imp')"><rect x="452" y="884" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="898" text-anchor="middle" dominant-baseline="central">8.3 Inversión de impacto</text></g>
+<g class="mn" onclick="selectNode('r8_imp')"><rect x="452" y="884" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="898" text-anchor="middle" dominant-baseline="central">${L.r8_imp}</text></g>
 <line x1="600" y1="928" x2="662" y2="928" class="branch"/>
-<g class="mn" onclick="selectNode('r8_salud')"><rect x="452" y="914" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="928" text-anchor="middle" dominant-baseline="central">8.4 Salud e investigación</text></g>
+<g class="mn" onclick="selectNode('r8_salud')"><rect x="452" y="914" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="928" text-anchor="middle" dominant-baseline="central">${L.r8_salud}</text></g>
 <line x1="600" y1="958" x2="662" y2="958" class="branch"/>
-<g class="mn" onclick="selectNode('r8_rural')"><rect x="452" y="944" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="958" text-anchor="middle" dominant-baseline="central">8.5 Ruralidad</text></g>
+<g class="mn" onclick="selectNode('r8_rural')"><rect x="452" y="944" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="958" text-anchor="middle" dominant-baseline="central">${L.r8_rural}</text></g>
 
 <!-- separator -->
 <line x1="160" y1="1000" x2="290" y2="1000" class="branch"/>
-<text class="lbl" x="340" y="1004" text-anchor="middle">nuevas ramas</text>
+<text class="lbl" x="340" y="1004" text-anchor="middle">${L.newBranches}</text>
 <line x1="390" y1="1000" x2="520" y2="1000" class="branch"/>
 
 <!-- ── RAMA 9 ── -->
 <line x1="340" y1="1018" x2="80" y2="1018" class="branch"/>
 <g class="mn" onclick="selectNode('r9')">
   <rect x="18" y="996" width="244" height="44" rx="8" fill="#6c5ce7"/>
-  <text class="mt" x="140" y="1014" text-anchor="middle" dominant-baseline="central">📊 9. Mercado Energético FR</text>
-  <text class="ms" x="140" y="1030" text-anchor="middle" dominant-baseline="central">Producción · Precios · PPAs</text>
+  <text class="mt" x="140" y="1014" text-anchor="middle" dominant-baseline="central">${L.r9Main}</text>
+  <text class="ms" x="140" y="1030" text-anchor="middle" dominant-baseline="central">${L.r9Sub}</text>
 </g>
 
 <!-- ── RAMA 10 ── -->
 <line x1="340" y1="1098" x2="600" y2="1098" class="branch"/>
 <g class="mn" onclick="selectNode('r10')">
   <rect x="416" y="1076" width="244" height="44" rx="8" fill="#0984e3"/>
-  <text class="mt" x="538" y="1094" text-anchor="middle" dominant-baseline="central">💰 10. Modelo de Negocio</text>
-  <text class="ms" x="538" y="1110" text-anchor="middle" dominant-baseline="central">4 fuentes de ingresos</text>
+  <text class="mt" x="538" y="1094" text-anchor="middle" dominant-baseline="central">${L.r10Main}</text>
+  <text class="ms" x="538" y="1110" text-anchor="middle" dominant-baseline="central">${L.r10Sub}</text>
 </g>
 <line x1="600" y1="1120" x2="600" y2="1248" class="spine"/>
 <line x1="600" y1="1136" x2="662" y2="1136" class="branch"/>
-<g class="mn" onclick="selectNode('r10_agua')"><rect x="452" y="1122" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="1136" text-anchor="middle" dominant-baseline="central">10.1 Venta de agua</text></g>
+<g class="mn" onclick="selectNode('r10_agua')"><rect x="452" y="1122" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="1136" text-anchor="middle" dominant-baseline="central">${L.r10_agua}</text></g>
 <line x1="600" y1="1166" x2="662" y2="1166" class="branch"/>
-<g class="mn" onclick="selectNode('r10_rte')"><rect x="452" y="1152" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="1166" text-anchor="middle" dominant-baseline="central">10.2 Flexibilidad red (RTE)</text></g>
+<g class="mn" onclick="selectNode('r10_rte')"><rect x="452" y="1152" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="1166" text-anchor="middle" dominant-baseline="central">${L.r10_rte}</text></g>
 <line x1="600" y1="1196" x2="662" y2="1196" class="branch"/>
-<g class="mn" onclick="selectNode('r10_carbono')"><rect x="452" y="1182" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="1196" text-anchor="middle" dominant-baseline="central">10.3 Créditos de carbono</text></g>
+<g class="mn" onclick="selectNode('r10_carbono')"><rect x="452" y="1182" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="1196" text-anchor="middle" dominant-baseline="central">${L.r10_carbono}</text></g>
 <line x1="600" y1="1226" x2="662" y2="1226" class="branch"/>
-<g class="mn" onclick="selectNode('r10_sal')"><rect x="452" y="1212" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="1226" text-anchor="middle" dominant-baseline="central">10.4 Sal y minerales</text></g>
+<g class="mn" onclick="selectNode('r10_sal')"><rect x="452" y="1212" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="1226" text-anchor="middle" dominant-baseline="central">${L.r10_sal}</text></g>
 
 <!-- ── RAMA 11 ── -->
 <line x1="340" y1="1290" x2="80" y2="1290" class="branch"/>
 <g class="mn" onclick="selectNode('r11')">
   <rect x="18" y="1268" width="244" height="44" rx="8" fill="#e17055"/>
-  <text class="mt" x="140" y="1286" text-anchor="middle" dominant-baseline="central">⚔ 11. Competidores y Aliados</text>
-  <text class="ms" x="140" y="1302" text-anchor="middle" dominant-baseline="central">Mapa completo Francia</text>
+  <text class="mt" x="140" y="1286" text-anchor="middle" dominant-baseline="central">${L.r11Main}</text>
+  <text class="ms" x="140" y="1302" text-anchor="middle" dominant-baseline="central">${L.r11Sub}</text>
 </g>
 <line x1="80" y1="1312" x2="80" y2="1490" class="spine"/>
 <line x1="80" y1="1328" x2="18" y2="1328" class="branch"/>
-<g class="mn" onclick="selectNode('r11_eff')"><rect x="18" y="1314" width="205" height="28" rx="6" class="cb"/><text class="ct" x="120" y="1328" text-anchor="middle" dominant-baseline="central">11.1 Effacement / demanda</text></g>
+<g class="mn" onclick="selectNode('r11_eff')"><rect x="18" y="1314" width="205" height="28" rx="6" class="cb"/><text class="ct" x="120" y="1328" text-anchor="middle" dominant-baseline="central">${L.r11_eff}</text></g>
 <line x1="80" y1="1358" x2="18" y2="1358" class="branch"/>
-<g class="mn" onclick="selectNode('r11_bat')"><rect x="18" y="1344" width="205" height="28" rx="6" class="cb"/><text class="ct" x="120" y="1358" text-anchor="middle" dominant-baseline="central">11.2 Baterías estacionarias</text></g>
+<g class="mn" onclick="selectNode('r11_bat')"><rect x="18" y="1344" width="205" height="28" rx="6" class="cb"/><text class="ct" x="120" y="1358" text-anchor="middle" dominant-baseline="central">${L.r11_bat}</text></g>
 <line x1="80" y1="1388" x2="18" y2="1388" class="branch"/>
-<g class="mn" onclick="selectNode('r11_v2g')"><rect x="18" y="1374" width="205" height="28" rx="6" class="cb"/><text class="ct" x="120" y="1388" text-anchor="middle" dominant-baseline="central">11.3 V2G — vehículos eléc.</text></g>
+<g class="mn" onclick="selectNode('r11_v2g')"><rect x="18" y="1374" width="205" height="28" rx="6" class="cb"/><text class="ct" x="120" y="1388" text-anchor="middle" dominant-baseline="central">${L.r11_v2g}</text></g>
 <line x1="80" y1="1418" x2="18" y2="1418" class="branch"/>
-<g class="mn" onclick="selectNode('r11_h2')"><rect x="18" y="1404" width="205" height="28" rx="6" class="cb"/><text class="ct" x="120" y="1418" text-anchor="middle" dominant-baseline="central">11.4 Hidrógeno verde</text></g>
+<g class="mn" onclick="selectNode('r11_h2')"><rect x="18" y="1404" width="205" height="28" rx="6" class="cb"/><text class="ct" x="120" y="1418" text-anchor="middle" dominant-baseline="central">${L.r11_h2}</text></g>
 <line x1="80" y1="1448" x2="18" y2="1448" class="branch"/>
-<g class="mn" onclick="selectNode('r11_ppa')"><rect x="18" y="1434" width="205" height="28" rx="6" class="cb"/><text class="ct" x="120" y="1448" text-anchor="middle" dominant-baseline="central">11.5 PPAs — aliados nat.</text></g>
+<g class="mn" onclick="selectNode('r11_ppa')"><rect x="18" y="1434" width="205" height="28" rx="6" class="cb"/><text class="ct" x="120" y="1448" text-anchor="middle" dominant-baseline="central">${L.r11_ppa}</text></g>
 <line x1="80" y1="1478" x2="18" y2="1478" class="branch"/>
-<g class="mn" onclick="selectNode('r11_exp')"><rect x="18" y="1464" width="205" height="28" rx="6" class="cb"/><text class="ct" x="120" y="1478" text-anchor="middle" dominant-baseline="central">11.6 Exportación</text></g>
+<g class="mn" onclick="selectNode('r11_exp')"><rect x="18" y="1464" width="205" height="28" rx="6" class="cb"/><text class="ct" x="120" y="1478" text-anchor="middle" dominant-baseline="central">${L.r11_exp}</text></g>
 
 <!-- ── RAMA 12 ── -->
 <line x1="340" y1="1400" x2="600" y2="1400" class="branch"/>
 <g class="mn" onclick="selectNode('r12')">
   <rect x="416" y="1378" width="244" height="44" rx="8" fill="#00b894"/>
-  <text class="mt" x="538" y="1396" text-anchor="middle" dominant-baseline="central">🚀 12. Go-to-Market y MVP</text>
-  <text class="ms" x="538" y="1412" text-anchor="middle" dominant-baseline="central">3 fases · Stakeholders</text>
+  <text class="mt" x="538" y="1396" text-anchor="middle" dominant-baseline="central">${L.r12Main}</text>
+  <text class="ms" x="538" y="1412" text-anchor="middle" dominant-baseline="central">${L.r12Sub}</text>
 </g>
 <line x1="600" y1="1422" x2="600" y2="1560" class="spine"/>
 <line x1="600" y1="1438" x2="662" y2="1438" class="branch"/>
-<g class="mn" onclick="selectNode('r12_mvp')"><rect x="452" y="1424" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="1438" text-anchor="middle" dominant-baseline="central">12.1 Fase 1 — MVP</text></g>
+<g class="mn" onclick="selectNode('r12_mvp')"><rect x="452" y="1424" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="1438" text-anchor="middle" dominant-baseline="central">${L.r12_mvp}</text></g>
 <line x1="600" y1="1468" x2="662" y2="1468" class="branch"/>
-<g class="mn" onclick="selectNode('r12_b2b')"><rect x="452" y="1454" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="1468" text-anchor="middle" dominant-baseline="central">12.2 Fase 2 — B2B</text></g>
+<g class="mn" onclick="selectNode('r12_b2b')"><rect x="452" y="1454" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="1468" text-anchor="middle" dominant-baseline="central">${L.r12_b2b}</text></g>
 <line x1="600" y1="1498" x2="662" y2="1498" class="branch"/>
-<g class="mn" onclick="selectNode('r12_res')"><rect x="452" y="1484" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="1498" text-anchor="middle" dominant-baseline="central">12.3 Fase 3 — Residencial</text></g>
+<g class="mn" onclick="selectNode('r12_res')"><rect x="452" y="1484" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="1498" text-anchor="middle" dominant-baseline="central">${L.r12_res}</text></g>
 <line x1="600" y1="1528" x2="662" y2="1528" class="branch"/>
-<g class="mn" onclick="selectNode('r12_prod')"><rect x="452" y="1514" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="1528" text-anchor="middle" dominant-baseline="central">12.4 Por qué prod. solar 1º</text></g>
+<g class="mn" onclick="selectNode('r12_prod')"><rect x="452" y="1514" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="1528" text-anchor="middle" dominant-baseline="central">${L.r12_prod}</text></g>
 <line x1="600" y1="1558" x2="662" y2="1558" class="branch"/>
-<g class="mn" onclick="selectNode('r12_stake')"><rect x="452" y="1544" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="1558" text-anchor="middle" dominant-baseline="central">12.5 Stakeholders críticos</text></g>
+<g class="mn" onclick="selectNode('r12_stake')"><rect x="452" y="1544" width="200" height="28" rx="6" class="cb"/><text class="ct" x="552" y="1558" text-anchor="middle" dominant-baseline="central">${L.r12_stake}</text></g>
 
 <!-- ── RAMA 13 ── -->
 <line x1="340" y1="1600" x2="80" y2="1600" class="branch"/>
 <g class="mn" onclick="selectNode('r13')">
   <rect x="18" y="1578" width="244" height="44" rx="8" fill="#2db88a"/>
-  <text class="mt" x="140" y="1596" text-anchor="middle" dominant-baseline="central">🎯 13. Pitch para Inversores</text>
-  <text class="ms" x="140" y="1612" text-anchor="middle" dominant-baseline="central">Argumentos · Datos · Frases</text>
+  <text class="mt" x="140" y="1596" text-anchor="middle" dominant-baseline="central">${L.r13Main}</text>
+  <text class="ms" x="140" y="1612" text-anchor="middle" dominant-baseline="central">${L.r13Sub}</text>
 </g>
 <line x1="80" y1="1622" x2="80" y2="1760" class="spine"/>
 <line x1="80" y1="1638" x2="18" y2="1638" class="branch"/>
-<g class="mn" onclick="selectNode('r13_insight')"><rect x="18" y="1624" width="205" height="28" rx="6" class="cb"/><text class="ct" x="120" y="1638" text-anchor="middle" dominant-baseline="central">13.1 El insight central</text></g>
+<g class="mn" onclick="selectNode('r13_insight')"><rect x="18" y="1624" width="205" height="28" rx="6" class="cb"/><text class="ct" x="120" y="1638" text-anchor="middle" dominant-baseline="central">${L.r13_insight}</text></g>
 <line x1="80" y1="1668" x2="18" y2="1668" class="branch"/>
-<g class="mn" onclick="selectNode('r13_elementos')"><rect x="18" y="1654" width="205" height="28" rx="6" class="cb"/><text class="ct" x="120" y="1668" text-anchor="middle" dominant-baseline="central">13.2 Los 6 elementos</text></g>
+<g class="mn" onclick="selectNode('r13_elementos')"><rect x="18" y="1654" width="205" height="28" rx="6" class="cb"/><text class="ct" x="120" y="1668" text-anchor="middle" dominant-baseline="central">${L.r13_elementos}</text></g>
 <line x1="80" y1="1698" x2="18" y2="1698" class="branch"/>
-<g class="mn" onclick="selectNode('r13_datos')"><rect x="18" y="1684" width="205" height="28" rx="6" class="cb"/><text class="ct" x="120" y="1698" text-anchor="middle" dominant-baseline="central">13.3 Datos impactantes</text></g>
+<g class="mn" onclick="selectNode('r13_datos')"><rect x="18" y="1684" width="205" height="28" rx="6" class="cb"/><text class="ct" x="120" y="1698" text-anchor="middle" dominant-baseline="central">${L.r13_datos}</text></g>
 <line x1="80" y1="1728" x2="18" y2="1728" class="branch"/>
-<g class="mn" onclick="selectNode('r13_esg')"><rect x="18" y="1714" width="205" height="28" rx="6" class="cb"/><text class="ct" x="120" y="1728" text-anchor="middle" dominant-baseline="central">13.4 Certificaciones ESG</text></g>
+<g class="mn" onclick="selectNode('r13_esg')"><rect x="18" y="1714" width="205" height="28" rx="6" class="cb"/><text class="ct" x="120" y="1728" text-anchor="middle" dominant-baseline="central">${L.r13_esg}</text></g>
 
 <!-- legend -->
 <rect x="200" y="1770" width="12" height="12" rx="2" fill="#e8a020"/>
-<text class="lbl" x="218" y="1779" dominant-baseline="central">Existente</text>
+<text class="lbl" x="218" y="1779" dominant-baseline="central">${L.legendExisting}</text>
 <rect x="290" y="1770" width="12" height="12" rx="2" fill="#6c5ce7"/>
-<text class="lbl" x="308" y="1779" dominant-baseline="central">Nuevo (PDF)</text>
+<text class="lbl" x="308" y="1779" dominant-baseline="central">${L.legendNew}</text>
 <rect x="400" y="1770" width="12" height="12" rx="2" fill="#ffffff" stroke="#e8e2d9" stroke-width="0.5"/>
-<text class="lbl" x="418" y="1779" dominant-baseline="central">Subrama — clic para ver</text>
+<text class="lbl" x="418" y="1779" dominant-baseline="central">${L.legendSub}</text>
 
 </svg>`;
 }
