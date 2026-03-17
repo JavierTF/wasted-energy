@@ -1,0 +1,3353 @@
+[
+  {
+    "id": "root",
+    "emoji": "☀️",
+    "label": "Root Node: Surplus Solar Energy",
+    "sub": "532h/year · capacity pending",
+    "color": "c1",
+    "detail": {
+      "breadcrumb": "ROOT NODE",
+      "title": "Surplus Solar Energy",
+      "sub": "532 annual hours of production exceeding own consumption",
+      "emoji": "☀️",
+      "sections": [
+        {
+          "title": "CONCEPT",
+          "items": [
+            "Photovoltaic solar installation producing more than it consumes",
+            "532 annual hours with available surplus",
+            "That surplus can be directed to multiple uses with social impact"
+          ]
+        },
+        {
+          "title": "CRITICAL UNKNOWNS",
+          "items": [
+            "⚠️ Without capacity (kW) the total kWh cannot be calculated",
+            "⚠️ Formula: kWh = Capacity (kW) × 532 hours",
+            "⚠️ Panel location still not defined"
+          ],
+          "type": "warning"
+        },
+        {
+          "title": "KEY QUESTIONS",
+          "items": [
+            "How many kWp does the installation have?",
+            "How many total kWh does it generate per year?",
+            "Where are the panels located?"
+          ]
+        }
+      ]
+    },
+    "children": [
+      {
+        "id": "r1",
+        "emoji": "⚗️",
+        "label": "1. Chemistry & H₂/O₂ Production",
+        "sub": "2H₂O → 2H₂ + O₂",
+        "color": "c1",
+        "detail": {
+          "breadcrumb": "BRANCH 1",
+          "title": "Chemistry & H₂ Production",
+          "sub": "Water electrolysis as the foundation of the project",
+          "emoji": "⚗️",
+          "sections": [
+            {
+              "title": "BASE REACTION",
+              "items": [
+                "2H₂O → 2H₂ + O₂ (electrolysis)",
+                "Reverse reaction: 2H₂ + O₂ → 2H₂O (clean combustion, produces only water)"
+              ]
+            },
+            {
+              "title": "SUB-BRANCHES",
+              "items": [
+                "1.1 Basic chemistry of H₂ and O₂",
+                "1.2 Production calculations",
+                "1.3 All uses of H₂",
+                "1.4 Medical uses of H₂ (in depth)",
+                "1.5 Solar desalination"
+              ]
+            }
+          ]
+        },
+        "children": [
+          {
+            "id": "r1_1",
+            "emoji": "🔬",
+            "label": "1.1 Basic Chemistry",
+            "sub": "H₂ and O₂",
+            "color": "c1",
+            "detail": {
+              "breadcrumb": "BRANCH 1 › 1.1",
+              "title": "Basic Chemistry of H₂ and O₂",
+              "sub": "Properties and behaviour of both gases",
+              "emoji": "🔬",
+              "sections": [
+                {
+                  "title": "HYDROGEN (H₂)",
+                  "items": [
+                    "Lightest gas in the universe — colourless, odourless",
+                    "Energy density: 120 MJ/kg (highest of any fuel)",
+                    "Extremely flammable (explosion risk >4% in air)",
+                    "Not breathable — displaces O₂ in confined spaces"
+                  ]
+                },
+                {
+                  "title": "OXYGEN (O₂)",
+                  "items": [
+                    "21% of the air we breathe — essential for life",
+                    "Valuable by-product of electrolysis",
+                    "Uses: medicine, aquaculture, food industry, water treatment"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r1_2",
+            "emoji": "🔢",
+            "label": "1.2 Production Calculations",
+            "sub": "10kW→106 kg H₂ · 100kW→1,064 kg",
+            "color": "c1",
+            "detail": {
+              "breadcrumb": "BRANCH 1 › 1.2",
+              "title": "Production Calculations",
+              "sub": "How much H₂ and O₂ can be obtained with 532 hours",
+              "emoji": "🔢",
+              "sections": [
+                {
+                  "title": "BASE FORMULA",
+                  "items": [
+                    "kWh = Capacity (kW) × 532 hours",
+                    "PEM electrolyser efficiency: ~50 kWh per kg of H₂",
+                    "Water required: 9 litres per kg of H₂ produced"
+                  ]
+                },
+                {
+                  "title": "SCENARIO 10 kW × 532h",
+                  "stats": [
+                    {
+                      "label": "Total energy",
+                      "val": "5,320 kWh"
+                    },
+                    {
+                      "label": "H₂ produced",
+                      "val": "106.4 kg"
+                    },
+                    {
+                      "label": "H₂ volume",
+                      "val": "~1,183 m³"
+                    },
+                    {
+                      "label": "O₂ produced",
+                      "val": "851.2 kg"
+                    },
+                    {
+                      "label": "Water consumed",
+                      "val": "~958 litres"
+                    }
+                  ]
+                },
+                {
+                  "title": "SCENARIO 100 kW × 532h",
+                  "stats": [
+                    {
+                      "label": "Total energy",
+                      "val": "53,200 kWh"
+                    },
+                    {
+                      "label": "H₂ produced",
+                      "val": "1,064 kg"
+                    },
+                    {
+                      "label": "O₂ produced",
+                      "val": "8,512 kg"
+                    },
+                    {
+                      "label": "Water consumed",
+                      "val": "~9,580 litres"
+                    }
+                  ]
+                },
+                {
+                  "title": "UNKNOWN",
+                  "items": [
+                    "⚠️ Actual installation capacity not yet defined"
+                  ],
+                  "type": "warning"
+                }
+              ]
+            }
+          },
+          {
+            "id": "r1_3",
+            "emoji": "🏭",
+            "label": "1.3 All Uses of H₂",
+            "sub": "Energy · Industry · Health · Agriculture · Environment",
+            "color": "c1",
+            "detail": {
+              "breadcrumb": "BRANCH 1 › 1.3",
+              "title": "All Uses of H₂ — Unbiased",
+              "sub": "H₂ has applications in virtually every sector",
+              "emoji": "🏭",
+              "sections": [
+                {
+                  "title": "⚡ ENERGY",
+                  "items": [
+                    "Fuel for fuel cell vehicles (cars, buses, ships)",
+                    "Heavy trucks: Hyundai XCIENT (450 miles, operational in 13 countries)",
+                    "Aviation: Airbus ZeroE (first H₂ fuel cell flight, 2024)",
+                    "Long-duration energy storage (days/weeks)",
+                    "Electricity generation in turbines (Hyflexpower project, 12 MW)"
+                  ]
+                },
+                {
+                  "title": "🏭 INDUSTRIAL",
+                  "items": [
+                    "Green steel (H2DRI-EAF): reduces CO₂ emissions 97% vs coal",
+                    "Green ammonia and fertilisers (NH₃) without fossil fuels",
+                    "Oil refining and desulphurisation (current majority use)",
+                    "Green methanol production",
+                    "Cement and construction (decarbonising hard-to-abate sectors)"
+                  ]
+                },
+                {
+                  "title": "🏥 MEDICAL",
+                  "items": [
+                    "Selective antioxidant (neutralises hydroxyl radicals •OH)",
+                    "Therapeutic inhalation approved in Japan (2016) for cardiac emergencies",
+                    "Hydrogen-rich water (HRW) — studies on Parkinson's, Alzheimer's, cancer",
+                    "Dermatology, nephrology, cardiology in clinical research"
+                  ]
+                },
+                {
+                  "title": "🌱 AGRICULTURAL & FOOD",
+                  "items": [
+                    "Green fertiliser (ammonia without fossils for agriculture)",
+                    "Food preservation in H₂-controlled atmospheres",
+                    "Hydrogenation of vegetable oils (margarines, etc.)",
+                    "Phytotherapy research: H₂ reduces oxidative stress in crops"
+                  ]
+                },
+                {
+                  "title": "♻️ ENVIRONMENTAL",
+                  "items": [
+                    "Decontamination of heavy-metal-polluted soils",
+                    "Industrial wastewater purification",
+                    "CO₂ capture and mineralisation using H₂",
+                    "NOx reduction in combustion gases",
+                    "Drinking water production as a fuel cell by-product"
+                  ]
+                },
+                {
+                  "title": "🔋 CIRCULAR ECONOMY",
+                  "items": [
+                    "Energy vector for storing renewable surpluses",
+                    "Power-to-X: H₂ → methane, methanol, synthetic ammonia",
+                    "Blue energy / osmotic energy (salinity differential)",
+                    "ZLD (Zero Liquid Discharge) in industry: H₂ as reducing agent"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r1_4",
+            "emoji": "💊",
+            "label": "1.4 Medical Uses of H₂ (detail)",
+            "sub": "Antioxidant · Anti-inflammatory · Clinical",
+            "color": "c1",
+            "detail": {
+              "breadcrumb": "BRANCH 1 › 1.4",
+              "title": "Medical Uses of H₂ — In Depth",
+              "sub": "Emerging therapeutic gas with promising clinical results",
+              "emoji": "💊",
+              "sections": [
+                {
+                  "title": "MECHANISM OF ACTION",
+                  "items": [
+                    "Smallest molecule known → crosses cell membranes",
+                    "Reaches the mitochondria where oxidative stress is generated",
+                    "Selectively neutralises hydroxyl radicals (•OH) — the most cytotoxic",
+                    "Does not affect physiological ROS needed for cell signalling",
+                    "Anti-inflammatory: reduces pro-inflammatory cytokines (NF-κB, IL-6)"
+                  ]
+                },
+                {
+                  "title": "DELIVERY METHODS",
+                  "items": [
+                    "Direct inhalation (mask, nasal cannula, ventilator)",
+                    "Hydrogen-rich water (HRW) — simple, portable, no known side effects",
+                    "H₂-rich solution injection (controlled clinical use)",
+                    "Hydrogenated water bath (dermatology)"
+                  ]
+                },
+                {
+                  "title": "DISEASES UNDER INVESTIGATION",
+                  "items": [
+                    "Parkinson's: HRW trials, mixed but promising results",
+                    "Alzheimer's: positive in animal models; H2 Medical Technologies (LSI Europe 2025)",
+                    "Stroke / cerebral haemorrhage: 3% inhaled H₂ → neuroprotection",
+                    "COVID-19: phase 3 trial CHU Grenoble+INSERM (2024) — negative result",
+                    "Cancer: combinable with chemotherapy, reduces side effects",
+                    "Kidney disease, dermatology, cardiac arrest (Japan, approved)"
+                  ]
+                },
+                {
+                  "title": "REGIONAL RESEARCH",
+                  "items": [
+                    "🇫🇷 CHU Grenoble + INSERM: only confirmed nearby H₂ medical research",
+                    "🇫🇷 FRH2/CNRS: 300+ researchers, focused on energy, not medicine",
+                    "🇪🇸 CIMA (Pamplona): investigates oxidative stress/antioxidants — adjacent",
+                    "🇪🇸 BioCruces (Bilbao): general biomedicine, no specific H₂ line",
+                    "⚠️ IIS Navarra: no documented medical H₂ projects"
+                  ]
+                },
+                {
+                  "title": "IMPORTANT LIMITATION",
+                  "items": [
+                    "⚠️ Clinical evidence in humans still mixed — more trials needed"
+                  ],
+                  "type": "warning"
+                }
+              ]
+            }
+          },
+          {
+            "id": "r1_desal",
+            "emoji": "🌊",
+            "label": "1.5 Solar Desalination",
+            "sub": "Drinking water + Brine valorisation",
+            "color": "c1",
+            "detail": {
+              "breadcrumb": "BRANCH 1 › 1.5",
+              "title": "Complete Solar Desalination Flow",
+              "sub": "Seawater → drinking water + valuable minerals + responsible return",
+              "emoji": "🌊",
+              "sections": [
+                {
+                  "title": "MAIN FLOW",
+                  "items": [
+                    "① Seawater / brackish water → desalination plant",
+                    "② Process: Reverse Osmosis (RO) — most energy-efficient",
+                    "③ Output A → Drinking water (permeate)",
+                    "④ Output B → Concentrated brine (~2× seawater salinity)",
+                    "⑤ Energy → fed by solar surplus"
+                  ]
+                },
+                {
+                  "title": "💧 DRINKING WATER (output A)",
+                  "items": [
+                    "Rural municipalities without drinking water access (southern France, Pyrenees)",
+                    "Precision agricultural irrigation in water-scarce areas",
+                    "Supply to rural hospitals and health centres",
+                    "Strategic reserve during drought periods (Languedoc, PACA)"
+                  ]
+                },
+                {
+                  "title": "🧂 BRINE VALORISATION (output B)",
+                  "items": [
+                    "NaCl (salt): direct sale, food preservation",
+                    "MgCl₂: construction, dust control, animal feed",
+                    "Lithium: EV batteries — direct DLE extraction, $3,500–4,400/ton (Stanford 2024)",
+                    "Magnesium: metallurgy (Magrathea Metals — 10,000 t/year, active project)",
+                    "Potassium: agricultural fertilisers",
+                    "SEA4VALUE project (EU): modular multi-mineral brine recovery"
+                  ]
+                },
+                {
+                  "title": "🌿 RESPONSIBLE RETURN TO THE SEA",
+                  "items": [
+                    "Multi-port diffuser: rapid dilution, impact localised to <10m",
+                    "Salinity limit: maximum +2 psu increase (Spanish recommendation)",
+                    "Dense brine sinks → risk for posidonia and corals",
+                    "Dispersion modelling (MIKE 3, Delft 3D) before discharge",
+                    "Mandatory continuous post-discharge monitoring"
+                  ]
+                },
+                {
+                  "title": "⚠️ DOCUMENTED RISK",
+                  "items": [
+                    "RO brine can travel up to 5 km from discharge point along the seabed",
+                    "Affects posidonia, corals, polychaetes and benthic communities",
+                    "Chemical additives (antiscalants) worsen ecological impact"
+                  ],
+                  "type": "warning"
+                },
+                {
+                  "title": "🔄 IDEAL CIRCULAR MODEL",
+                  "items": [
+                    "Solar → RO → drinking water + brine → mineral extraction + responsible discharge",
+                    "Long-term ZLD (Zero Liquid Discharge) target",
+                    "Estimated payback brine valorisation plant: 3–5 years"
+                  ],
+                  "type": "link"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "r2",
+        "emoji": "⚡",
+        "label": "2. Solar Installation",
+        "sub": "Capacity · Location · Electrolysers",
+        "color": "c2",
+        "detail": {
+          "breadcrumb": "BRANCH 2",
+          "title": "Solar Installation",
+          "sub": "The enabler of the entire project — data still pending",
+          "emoji": "⚡",
+          "sections": [
+            {
+              "title": "ELECTROLYSER TYPES",
+              "stats": [
+                {
+                  "label": "PEM",
+                  "val": "75–85%"
+                },
+                {
+                  "label": "Alkaline (AEL)",
+                  "val": "70–80%"
+                },
+                {
+                  "label": "SOEC",
+                  "val": "up to 90%"
+                }
+              ]
+            },
+            {
+              "title": "ALTERNATIVES TO H₂ FOR THE SURPLUS",
+              "items": [
+                "Batteries: direct storage, use when there is no sun",
+                "Grid sale (low and highly variable price)",
+                "Direct use in industrial processes or local services",
+                "Battery + H₂ combination depending on time of day and demand"
+              ]
+            },
+            {
+              "title": "⚠️ CRITICAL UNKNOWNS",
+              "items": [
+                "⚠️ Installed capacity (kWp) — defines absolutely everything",
+                "⚠️ Location of the solar panels",
+                "⚠️ Total annual surplus kWh",
+                "⚠️ Available grid transport infrastructure"
+              ],
+              "type": "warning"
+            }
+          ]
+        }
+      },
+      {
+        "id": "r3",
+        "emoji": "🌍",
+        "label": "3. Territories",
+        "sub": "Navarre · Basque Country · Aragon · Southern France",
+        "color": "c3",
+        "detail": {
+          "breadcrumb": "BRANCH 3",
+          "title": "Project Territories",
+          "sub": "Pyrenees corridor + Ebro + Cross-border Euroregion",
+          "emoji": "🌍",
+          "sections": [
+            {
+              "title": "SHARED CORRIDOR",
+              "items": [
+                "Pyrenees + Ebro Corridor + Pyrenees-Mediterranean Euroregion",
+                "Very similar problems on both sides of the border",
+                "INTERREG POCTEFA framework already operational for cross-border projects"
+              ]
+            }
+          ]
+        },
+        "children": [
+          {
+            "id": "r3_nav",
+            "emoji": "🟢",
+            "label": "Navarre",
+            "sub": "UNAV · IIS · CIMA · Depopulated Pyrenees",
+            "color": "c3",
+            "detail": {
+              "breadcrumb": "BRANCH 3 › Navarre",
+              "title": "Navarre",
+              "sub": "Strong in biomedicine, challenged by rurality and depopulation",
+              "emoji": "🟢",
+              "sections": [
+                {
+                  "title": "KEY INSTITUTIONS",
+                  "items": [
+                    "University of Navarre (UNAV) + CIMA — oncological and neurological research",
+                    "IIS Navarra (cert. Carlos III) — health research",
+                    "Clínica Universidad de Navarra — international reference",
+                    "Navarra Health Cluster — network of health companies and institutions"
+                  ]
+                },
+                {
+                  "title": "TERRITORIAL CHALLENGES",
+                  "items": [
+                    "Depopulation of the Navarrese Pyrenees",
+                    "Municipalities without digital coverage or basic services",
+                    "Water scarcity in the Ribera de Navarra",
+                    "Rapidly ageing population"
+                  ]
+                },
+                {
+                  "title": "MEDICAL H₂ IN NAVARRE",
+                  "items": [
+                    "⚠️ No documented medical H₂ projects currently"
+                  ],
+                  "type": "warning"
+                }
+              ]
+            }
+          },
+          {
+            "id": "r3_eus",
+            "emoji": "🟡",
+            "label": "Basque Country",
+            "sub": "BioCruces · CIC bioGUNE · H2Ekimena",
+            "color": "c3",
+            "detail": {
+              "breadcrumb": "BRANCH 3 › Basque Country",
+              "title": "Basque Country / Euskadi",
+              "sub": "Strong industrial and biotechnological ecosystem",
+              "emoji": "🟡",
+              "sections": [
+                {
+                  "title": "INSTITUTIONS",
+                  "items": [
+                    "BioCruces (cert. ISCIII) — biomedicine, alliances with CIC bioGUNE",
+                    "CIC bioGUNE — world-class molecular and structural biology",
+                    "CIC biomaGUNE — nanomaterials and molecular imaging",
+                    "H2Ekimena — Basque Hydrogen Association",
+                    "UPV/EHU — Faculty of Medicine and Sciences"
+                  ]
+                },
+                {
+                  "title": "STRENGTHS",
+                  "items": [
+                    "+94 entities in biotechnology in the Basque Country",
+                    "Active and operational Basque Health Cluster",
+                    "Strong industry in Miranda de Ebro, Bilbao",
+                    "Active corridor Basque Country–Nouvelle-Aquitaine (France)"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r3_ara",
+            "emoji": "🟠",
+            "label": "Aragon / Zaragoza",
+            "sub": "Monegros · Wildfires · Ebro Corridor",
+            "color": "c3",
+            "detail": {
+              "breadcrumb": "BRANCH 3 › Aragon",
+              "title": "Aragon / Zaragoza",
+              "sub": "High solar irradiation, environmental and depopulation challenges",
+              "emoji": "🟠",
+              "sections": [
+                {
+                  "title": "CHALLENGES",
+                  "items": [
+                    "High incidence of forest fires in the Pre-Pyrenees",
+                    "Severe depopulation in Monegros and Cinco Villas",
+                    "Arid areas with severe water scarcity",
+                    "Highly deficient service infrastructure in rural areas"
+                  ]
+                },
+                {
+                  "title": "OPPORTUNITIES",
+                  "items": [
+                    "Ebro industrial corridor (Sabiñánigo, Monzón, Zaragoza)",
+                    "Chemical industry with direct H₂ demand (fertilisers, refinery)",
+                    "Great solar potential — maximum irradiation in the region"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r3_fr",
+            "emoji": "🇫🇷",
+            "label": "Southern France",
+            "sub": "Nouvelle-Aquitaine · Occitanie · Pyrenees",
+            "color": "c3",
+            "detail": {
+              "breadcrumb": "BRANCH 3 › Southern France",
+              "title": "Southern France",
+              "sub": "Direct border, same challenges, shared European frameworks",
+              "emoji": "🇫🇷",
+              "sections": [
+                {
+                  "title": "KEY REGIONS",
+                  "items": [
+                    "Nouvelle-Aquitaine — direct border with Navarre and Basque Country",
+                    "Occitanie — aerospace industry (Airbus Toulouse), rural tourism",
+                    "French Pyrenees — depopulation, disconnection from basic services",
+                    "Languedoc-Roussillon — France's most chronically drought-affected area"
+                  ]
+                },
+                {
+                  "title": "INSTITUTIONAL CONNECTIONS",
+                  "items": [
+                    "CHU Grenoble Alpes + INSERM: only confirmed nearby H₂ medical research",
+                    "Basque Country–Nouvelle-Aquitaine corridor: already operational with joint projects",
+                    "Enercoop: French energy cooperative with 100,000 clients, seeking partners"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "r4",
+        "emoji": "🇫🇷",
+        "label": "4. France's Problems (official)",
+        "sub": "Sources: gouvernement.fr · vie-publique.fr",
+        "color": "c4",
+        "detail": {
+          "breadcrumb": "BRANCH 4",
+          "title": "France's Main Problems — Official Sources",
+          "sub": "PLF 2026, PLFSS 2026, Cour des comptes, vie-publique.fr",
+          "emoji": "🇫🇷",
+          "sections": [
+            {
+              "title": "POLITICAL CRISIS",
+              "items": [
+                "Dissolution of the National Assembly in 2024",
+                "2026 budget passed via article 49.3 (without a vote)",
+                "Double no-confidence motion rejected (January 2026)"
+              ]
+            }
+          ]
+        },
+        "children": [
+          {
+            "id": "r4_rec",
+            "emoji": "✂️",
+            "label": "Cuts by Ministry — PLF 2026",
+            "sub": "Labour −12% · Poverty −7% · SS −€9.1bn",
+            "color": "c4",
+            "detail": {
+              "breadcrumb": "BRANCH 4 › Cuts",
+              "title": "PLF 2026 Cuts by Ministry",
+              "sub": "The most significant cuts in the French budget",
+              "emoji": "✂️",
+              "sections": [
+                {
+                  "title": "CONFIRMED CUTS",
+                  "stats": [
+                    {
+                      "label": "Labour / Employment",
+                      "val": "−12%"
+                    },
+                    {
+                      "label": "Economic transitions",
+                      "val": "−21%"
+                    },
+                    {
+                      "label": "Programme 304 (poverty)",
+                      "val": "−7%"
+                    },
+                    {
+                      "label": "Social Security health spend",
+                      "val": "−€9.1bn"
+                    },
+                    {
+                      "label": "Research (AE and CP)",
+                      "val": "Down"
+                    }
+                  ]
+                },
+                {
+                  "title": "DIRECT CONSEQUENCES",
+                  "items": [
+                    "−515 full-time equivalents at France Travail",
+                    "51% of integration companies freeze hiring",
+                    "Social Security deficit: €10.8bn (2023) → €23bn (2025)",
+                    "Autonomy/disability branch in deficit before 2026"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r4_pob",
+            "emoji": "👷",
+            "label": "Poverty and Employment",
+            "sub": "15.4% below threshold · 9.1 million people",
+            "color": "c4",
+            "detail": {
+              "breadcrumb": "BRANCH 4 › Poverty",
+              "title": "Poverty and Employment in France",
+              "sub": "Official data 2024–2025",
+              "emoji": "👷",
+              "sections": [
+                {
+                  "title": "DATA 2024–2025",
+                  "stats": [
+                    {
+                      "label": "Below poverty line",
+                      "val": "15.4%"
+                    },
+                    {
+                      "label": "People in poverty",
+                      "val": "9.1M"
+                    },
+                    {
+                      "label": "Minimum benefit recipients",
+                      "val": "4.25M"
+                    },
+                    {
+                      "label": "Annual increase",
+                      "val": "+1.3%"
+                    },
+                    {
+                      "label": "Minimum income alone",
+                      "val": "€873/month"
+                    }
+                  ]
+                },
+                {
+                  "title": "MOST VULNERABLE GROUPS",
+                  "items": [
+                    "Rural youth aged 16–29 (\"feel abandoned\")",
+                    "Single-parent families",
+                    "Working poor",
+                    "Dependent elderly people"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r4_rural",
+            "emoji": "🏘️",
+            "label": "Rurality and Medical Deserts",
+            "sub": "Priority 2026 · 2,000 maisons France santé",
+            "color": "c4",
+            "detail": {
+              "breadcrumb": "BRANCH 4 › Rural",
+              "title": "Rurality, Depopulation and Medical Deserts",
+              "sub": "Official priority of the French government for 2026",
+              "emoji": "🏘️",
+              "sections": [
+                {
+                  "title": "OFFICIAL PRIORITY 2026",
+                  "items": [
+                    "Pacte des solidarités: explicit emphasis on rural poverty",
+                    "Rural youth: fewer training and integration opportunities",
+                    "Specific mobility and housing access problems"
+                  ]
+                },
+                {
+                  "title": "MEDICAL DESERTS",
+                  "items": [
+                    "Target: 2,000 \"maisons France santé\" before summer 2026",
+                    "Target: 5,000 by 2027",
+                    "Goal: healthcare access within 30 minutes for every citizen"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r4_sequia",
+            "emoji": "🌵",
+            "label": "Drought",
+            "sub": "Chronic south · Eastern Pyrenees · Summer",
+            "color": "c4",
+            "detail": {
+              "breadcrumb": "BRANCH 4 › Drought",
+              "title": "Drought in France — Official Data (eaufrance.fr)",
+              "sub": "Structural pattern especially affecting the southern Mediterranean",
+              "emoji": "🌵",
+              "sections": [
+                {
+                  "title": "STRUCTURAL PATTERN",
+                  "items": [
+                    "Mediterranean strip: chronic summer drought (July–September)",
+                    "Languedoc-Roussillon, PACA, Occitanie: recurring deficit >30%",
+                    "Pyrénées-Orientales: deficit sometimes >70% in summer",
+                    "North: alternates summer drought and autumn floods"
+                  ]
+                },
+                {
+                  "title": "DATA 2024–2025",
+                  "stats": [
+                    {
+                      "label": "Depts. in crisis (peak)",
+                      "val": "26–51"
+                    },
+                    {
+                      "label": "Rainfall deficit Aug. 2024",
+                      "val": ">40% south"
+                    },
+                    {
+                      "label": "Rivers with no flow (Aug. 2024)",
+                      "val": "197 stations"
+                    },
+                    {
+                      "label": "Very dry soils (year end)",
+                      "val": ">50% territory"
+                    }
+                  ]
+                },
+                {
+                  "title": "MOST AFFECTED DEPARTMENTS",
+                  "items": [
+                    "Hérault, Var, Vaucluse, Alpes-de-Haute-Provence",
+                    "Aude, Gard, Pyrénées-Orientales, Alpes-Maritimes",
+                    "8 of the 10 lowest-flow departments nationally are in the south"
+                  ]
+                },
+                {
+                  "title": "CONNECTION TO THE PROJECT",
+                  "items": [
+                    "Solar desalination can directly supply drinking water",
+                    "Pumping and purification systems powered by solar surplus"
+                  ],
+                  "type": "link"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "r5",
+        "emoji": "💡",
+        "label": "5. Social Impact — Applications",
+        "sub": "Water · Health · Connectivity · Agriculture · Economy",
+        "color": "c5",
+        "detail": {
+          "breadcrumb": "BRANCH 5",
+          "title": "Social Impact Applications",
+          "sub": "Subsidised electricity (not free) reducing the cost of public services the State can no longer fund",
+          "emoji": "💡",
+          "sections": [
+            {
+              "title": "KEY PRINCIPLE",
+              "items": [
+                "Electricity is subsidised, not free",
+                "Solar surplus reduces the operating cost of services the State cannot afford after cuts",
+                "This has direct, quantifiable political, budgetary and social value for the French government"
+              ]
+            }
+          ]
+        },
+        "children": [
+          {
+            "id": "r5_agua",
+            "emoji": "💧",
+            "label": "Water and Sanitation",
+            "sub": "Purification · Pumping · Osmosis",
+            "color": "c5",
+            "detail": {
+              "breadcrumb": "BRANCH 5 › Water",
+              "title": "Water and Sanitation",
+              "sub": "Direct applications in water-scarce areas",
+              "emoji": "💧",
+              "sections": [
+                {
+                  "title": "APPLICATIONS",
+                  "items": [
+                    "Solar purification with UV filters in rural municipalities without access",
+                    "Pumping to reservoirs during solar surplus hours",
+                    "Reverse osmosis (cheaper than full desalination)",
+                    "Wastewater treatment in small municipalities",
+                    "River water quality monitoring (Ebro and Pyrenean tributaries)",
+                    "Full solar desalination with brine valorisation (→ see 1.5)"
+                  ]
+                },
+                {
+                  "title": "PRIORITY TERRITORIES",
+                  "items": [
+                    "Ribera de Navarra — structural water scarcity",
+                    "Monegros and Cinco Villas (Aragon) — arid areas",
+                    "Southern France: Languedoc, Pyrénées-Orientales — chronic drought",
+                    "Pyrenean municipalities without sanitation network"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r5_salud",
+            "emoji": "🏥",
+            "label": "Rural Health",
+            "sub": "Clinics · Telemedicine · Vaccines · Medical H₂",
+            "color": "c5",
+            "detail": {
+              "breadcrumb": "BRANCH 5 › Health",
+              "title": "Rural Health",
+              "sub": "Energy support for health services in uncovered areas",
+              "emoji": "🏥",
+              "sections": [
+                {
+                  "title": "APPLICATIONS",
+                  "items": [
+                    "Powering rural \"maisons France santé\" (target 5,000 by 2027)",
+                    "Cold chain for vaccines in remote municipalities",
+                    "Solar telemedicine: remote consultations without patient travel",
+                    "Field hospitals or mobile health centres",
+                    "Wellness and rehabilitation centres for elderly people"
+                  ]
+                },
+                {
+                  "title": "CONNECTION TO MEDICAL H₂",
+                  "items": [
+                    "Hydrogen-rich water for use in clinics and wellness centres",
+                    "Experimental H₂ for research in collaboration with CIMA / CHU Grenoble"
+                  ],
+                  "type": "link"
+                }
+              ]
+            }
+          },
+          {
+            "id": "r5_digit",
+            "emoji": "📡",
+            "label": "Connectivity and Education",
+            "sub": "Rural WiFi · Classrooms · Training",
+            "color": "c5",
+            "detail": {
+              "breadcrumb": "BRANCH 5 › Digital",
+              "title": "Digital Connectivity and Education",
+              "sub": "Eliminating the digital divide in rural Pyrenean areas",
+              "emoji": "📡",
+              "sections": [
+                {
+                  "title": "APPLICATIONS",
+                  "items": [
+                    "Autonomous WiFi repeaters for Pyrenean areas without coverage",
+                    "Self-sufficient digital classrooms in rural schools at risk of closure",
+                    "Public charging points for mobiles and tablets in municipalities",
+                    "Digital centres for elderly people (digital divide)",
+                    "Vocational training in renewable energy for excluded youth"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r5_agro",
+            "emoji": "🌾",
+            "label": "Agriculture and Food",
+            "sub": "Irrigation · Cold storage · Green fertiliser",
+            "color": "c5",
+            "detail": {
+              "breadcrumb": "BRANCH 5 › Agriculture",
+              "title": "Agriculture and Food Sovereignty",
+              "sub": "Supporting small farmers and local production",
+              "emoji": "🌾",
+              "sections": [
+                {
+                  "title": "APPLICATIONS",
+                  "items": [
+                    "Smart irrigation with solar pumping (no energy cost)",
+                    "Community refrigerators and cold storage rooms",
+                    "Solar-assisted drying of fruits, vegetables and cereals",
+                    "Community greenhouses in peri-urban and rural areas",
+                    "Green ammoniacal fertiliser production (H₂ + N₂)",
+                    "Sustainable aquaculture using O₂ as electrolysis by-product",
+                    "Energy self-sufficient community dining halls"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r5_eco",
+            "emoji": "🤝",
+            "label": "Social Economy",
+            "sub": "Cooperatives · Integration · Energy poverty",
+            "color": "c5",
+            "detail": {
+              "breadcrumb": "BRANCH 5 › Social Economy",
+              "title": "Social Economy and Cooperativism",
+              "sub": "Subsidised energy as a lever for inclusion and employment",
+              "emoji": "🤝",
+              "sections": [
+                {
+                  "title": "APPLICATIONS",
+                  "items": [
+                    "Local energy cooperatives managed by the community",
+                    "Reducing energy poverty in vulnerable households",
+                    "Productive workshops with subsidised energy for labour integration",
+                    "Rural coworking for entrepreneurs and digital nomads",
+                    "Rural micro-enterprises with access to affordable energy",
+                    "Energy time-bank between neighbours"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r5_movil",
+            "emoji": "🚗",
+            "label": "Sustainable Mobility",
+            "sub": "EV chargers · Rural transport · H₂",
+            "color": "c5",
+            "detail": {
+              "breadcrumb": "BRANCH 5 › Mobility",
+              "title": "Sustainable Mobility",
+              "sub": "Electrical and H₂ infrastructure for rural areas",
+              "emoji": "🚗",
+              "sections": [
+                {
+                  "title": "APPLICATIONS",
+                  "items": [
+                    "EV chargers in municipalities without infrastructure",
+                    "Electric public transport fleets in poorly connected areas",
+                    "On-demand electric transport for elderly people without mobility",
+                    "H₂ stations for buses or trucks on the Ebro corridor",
+                    "Shared electric bicycles in small municipalities"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "r6",
+        "emoji": "🤝",
+        "label": "6. Collaboration with France",
+        "sub": "INTERREG · France 2030 · Pactes · Prices",
+        "color": "c6",
+        "detail": {
+          "breadcrumb": "BRANCH 6",
+          "title": "Collaboration with the French Government",
+          "sub": "Structural reduction of service costs the State can no longer fund",
+          "emoji": "🤝",
+          "sections": [
+            {
+              "title": "VALUE PROPOSITION",
+              "items": [
+                "Not a donation: subsidised electricity at a negotiated price",
+                "Reduces the operating cost of cut public services",
+                "Direct and quantifiable political + budgetary + social value"
+              ]
+            },
+            {
+              "title": "ELECTRICITY PRICE (Mar. 2026)",
+              "stats": [
+                {
+                  "label": "EDF household tariff",
+                  "val": "€0.194/kWh"
+                },
+                {
+                  "label": "Business tariff",
+                  "val": "€0.158/kWh"
+                },
+                {
+                  "label": "Possible subsidy",
+                  "val": "~€0.10/kWh"
+                },
+                {
+                  "label": "Saving per kWh",
+                  "val": "~€0.09"
+                }
+              ]
+            },
+            {
+              "title": "AVAILABLE MECHANISMS",
+              "items": [
+                "INTERREG POCTEFA (Spain–France–Andorra): open calls",
+                "France 2030 Régionalisé: State–Region co-financing",
+                "Pactes locaux des solidarités: private actors + social objectives",
+                "France Santé: network of rural health centres (target 5,000 by 2027)",
+                "Pyrenees-Mediterranean Euroregion + Basque Country–Nouvelle-Aquitaine corridor"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "r7",
+        "emoji": "❓",
+        "label": "7. Open Unknowns",
+        "sub": "Technical · Economic · Legal",
+        "color": "c7",
+        "detail": {
+          "breadcrumb": "BRANCH 7",
+          "title": "Unknowns and Open Gaps",
+          "sub": "Unanswered questions that define project viability",
+          "emoji": "❓",
+          "sections": [
+            {
+              "title": "⚠️ TECHNICAL",
+              "items": [
+                "⚠️ Actual installation capacity (kWp) — defines ABSOLUTELY EVERYTHING",
+                "⚠️ Exact location of the solar panels",
+                "⚠️ Actual annual surplus kWh",
+                "⚠️ Available grid transport infrastructure in the area"
+              ],
+              "type": "warning"
+            },
+            {
+              "title": "⚠️ ECONOMIC",
+              "items": [
+                "⚠️ Business model and financing structure",
+                "⚠️ Economic return for the installation owner",
+                "⚠️ Viable and sustainable subsidy level",
+                "⚠️ Who manages distribution at the destination"
+              ],
+              "type": "warning"
+            },
+            {
+              "title": "⚠️ LEGAL / OPERATIONAL",
+              "items": [
+                "⚠️ Legal framework for subsidised cross-border sale Spain–France",
+                "⚠️ Agreements needed with local or regional governments",
+                "⚠️ Legal structure of the project (cooperative, LLC, foundation…)"
+              ],
+              "type": "warning"
+            }
+          ]
+        }
+      },
+      {
+        "id": "r8",
+        "emoji": "📣",
+        "label": "8. Where to Publish & Find Collaboration",
+        "sub": "EU · Cooperatives · Social investment · Health · Rural",
+        "color": "c8",
+        "detail": {
+          "breadcrumb": "BRANCH 8",
+          "title": "Where to Publish the Project and Find Collaborators",
+          "sub": "The project has multiple dimensions — each platform has a different audience",
+          "emoji": "📣",
+          "sections": [
+            {
+              "title": "KEY NOTE",
+              "items": [
+                "Not only energy: the project has dimensions of health, water, rurality, research and social impact",
+                "The same proposal can interest very different actors depending on the angle presented"
+              ]
+            }
+          ]
+        },
+        "children": [
+          {
+            "id": "r8_ue",
+            "emoji": "🇪🇺",
+            "label": "Official EU Platforms",
+            "sub": "InvestEU · INTERREG · Social Economy Gateway",
+            "color": "c8",
+            "detail": {
+              "breadcrumb": "BRANCH 8 › EU",
+              "title": "Official European Platforms",
+              "sub": "Matchmaking between projects and investors at European scale",
+              "emoji": "🇪🇺",
+              "sections": [
+                {
+                  "title": "INVESTOR-PROJECT MATCHMAKING",
+                  "items": [
+                    "InvestEU Portal (ec.europa.eu/investeuportal): EU marketplace, pre-verified by EC, free",
+                    "EU Social Economy Gateway: specific to social economy, microfinance, social enterprises",
+                    "European Energy Communities Facility: direct grants, active until 2028"
+                  ]
+                },
+                {
+                  "title": "PARTNER SEARCH FOR CONSORTIA",
+                  "items": [
+                    "INTERREG Partner Search: cross-border projects, includes POCTEFA Spain–France",
+                    "Funding & Tenders Portal (EU): Horizon Europe, LIFE calls, partner search",
+                    "Erasmus+ Partner Search: if there is a training or educational component"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r8_coop",
+            "emoji": "🤲",
+            "label": "Cooperatives and Social Economy",
+            "sub": "REScoop · Enercoop · REAS · Énergie Partagée",
+            "color": "c8",
+            "detail": {
+              "breadcrumb": "BRANCH 8 › Cooperatives",
+              "title": "Cooperative Networks and Social Economy",
+              "sub": "Organisations actively seeking new sources and partners",
+              "emoji": "🤲",
+              "sections": [
+                {
+                  "title": "COMMUNITY RENEWABLE ENERGY",
+                  "items": [
+                    "REScoop.eu: network of +3,400 European renewable energy cooperatives, open directory",
+                    "Enercoop (France): 100,000 clients, 55,000 cooperative members, actively seeking partners",
+                    "Énergie Partagée (France): citizen energy projects, seeking partners and funding",
+                    "~30 active renewable cooperatives in Spain (Energética, Som Energia, etc.)"
+                  ]
+                },
+                {
+                  "title": "SOCIAL ECONOMY",
+                  "items": [
+                    "REAS (Alternative and Solidarity Economy Network): project directory in Spain",
+                    "Social Economy Europe: connects cooperatives with local administrations across the EU",
+                    "Pam a Pam (Catalonia): mapping of solidarity economy projects"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r8_imp",
+            "emoji": "💸",
+            "label": "Impact Investment and Crowdfunding",
+            "sub": "Goteo · Lita · Lumo · Wiseed",
+            "color": "c8",
+            "detail": {
+              "breadcrumb": "BRANCH 8 › Impact Investment",
+              "title": "Impact Investment and Social Crowdfunding",
+              "sub": "Platforms where you publish what collaboration you seek, not just money",
+              "emoji": "💸",
+              "sections": [
+                {
+                  "title": "SPAIN",
+                  "items": [
+                    "Goteo (goteo.org): social crowdfunding, you can publish what type of collaboration you seek",
+                    "ECrowd: loans to projects with positive social or environmental impact",
+                    "Capital Cell: investment in health and biomedical innovation projects"
+                  ]
+                },
+                {
+                  "title": "FRANCE / EUROPE",
+                  "items": [
+                    "Lita.co: social impact investment in France and Europe, companies openly publish needs",
+                    "Lumo (France): specific to citizen renewable energy projects",
+                    "Miimosa (France/Europe): sustainable agriculture and food",
+                    "Wiseed (France): investment in impactful startups"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r8_salud",
+            "emoji": "🏥",
+            "label": "Health and Research Sector",
+            "sub": "INSERM · CHU · Schwab · Ashoka",
+            "color": "c8",
+            "detail": {
+              "breadcrumb": "BRANCH 8 › Health",
+              "title": "Channels for the Health and Research Sector",
+              "sub": "Access to funding and visibility in the biomedical ecosystem",
+              "emoji": "🏥",
+              "sections": [
+                {
+                  "title": "MEDICAL RESEARCH (H₂)",
+                  "items": [
+                    "INSERM Innovation: calls for public-private collaboration in biomedicine",
+                    "PHRC (Hospital Clinical Research Programme, France): funds clinical trials",
+                    "CHU Grenoble: already researching medical H₂ — most direct and nearby entry point",
+                    "ClinicalTrials.gov: register or search active H₂ trials"
+                  ]
+                },
+                {
+                  "title": "SOCIAL-HEALTH IMPACT ACCELERATORS",
+                  "items": [
+                    "Schwab Foundation (WEF): Global Alliance for Social Entrepreneurship, 100 global members",
+                    "Ashoka: network of social entrepreneurs, international support and visibility",
+                    "Catalyst 2030: business-social entrepreneurship collaboration platform",
+                    "AB InBev 100+ Accelerator: up to $100k for sustainable innovation pilots"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r8_rural",
+            "emoji": "🌾",
+            "label": "Rurality and Depopulation",
+            "sub": "LEADER · AEIDL · Rural Network · SODENA",
+            "color": "c8",
+            "detail": {
+              "breadcrumb": "BRANCH 8 › Rural",
+              "title": "Channels for Rural and Depopulation Projects",
+              "sub": "Networks and programmes specific to rural territories",
+              "emoji": "🌾",
+              "sections": [
+                {
+                  "title": "RURAL NETWORKS AND PROGRAMMES",
+                  "items": [
+                    "LEADER programme (EAFRD-EU): local action groups, territorial calls",
+                    "AEIDL: European local development network, connects projects with funders",
+                    "National Rural Network (Spain): project directory and rural innovation",
+                    "Réseau Rural Français: French equivalent, connects rural actors"
+                  ]
+                },
+                {
+                  "title": "NAVARRE AND ARAGON SPECIFIC",
+                  "items": [
+                    "SODENA (Navarre Development Society): project funding in Navarre",
+                    "CEIN (European Business and Innovation Centre of Navarre): entrepreneurship support",
+                    "SARGA (Aragon): public agency for rural development and environment"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "r9",
+        "emoji": "📊",
+        "label": "9. French Energy Market",
+        "sub": "Negative prices · Duck Curve · PPAs · Sectors",
+        "color": "c9",
+        "detail": {
+          "breadcrumb": "BRANCH 9",
+          "title": "French Energy Market",
+          "sub": "The context that creates the opportunity — data for investor conversations",
+          "emoji": "📊",
+          "sections": [
+            {
+              "title": "THE REAL PROBLEM",
+              "items": [
+                "It is not structural overproduction: it is a synchrony imbalance",
+                "Too much energy at the wrong times — especially at solar noon",
+                "The massive nuclear restart (low flexibility) amplifies these imbalances",
+                "France produces enough or too much electricity, but fails to electrify its uses fast enough"
+              ]
+            },
+            {
+              "title": "KEY FIGURES 2024",
+              "stats": [
+                {
+                  "label": "Total production",
+                  "val": "536–561 TWh"
+                },
+                {
+                  "label": "Total consumption",
+                  "val": "449 TWh"
+                },
+                {
+                  "label": "Record exports",
+                  "val": "90–101 TWh"
+                },
+                {
+                  "label": "Export value",
+                  "val": "4–5 mil M€"
+                },
+                {
+                  "label": "% low carbon",
+                  "val": "95%"
+                },
+                {
+                  "label": "Solar 2024",
+                  "val": "~24,8 TWh"
+                }
+              ]
+            },
+            {
+              "title": "OPPORTUNITY FOR LOCAL SOLUTIONS",
+              "items": [
+                "Surplus exported at negative prices is raw material for whoever can absorb it",
+                "Every solution that converts that surplus into local value disrupts the export status quo",
+                "There is no single correct destination: water, H₂, industrial heat, mobility, connectivity, medical H₂ — all are valid"
+              ],
+              "type": "link"
+            }
+          ]
+        },
+        "children": [
+          {
+            "id": "r9_neg",
+            "emoji": "📉",
+            "label": "9.1 Negative Prices — The Opportunity",
+            "sub": "352h (2024) → 432h (2025) · €80M losses · ×40 in 7 years",
+            "color": "c9",
+            "detail": {
+              "breadcrumb": "BRANCH 9 › 9.1",
+              "title": "Negative Prices — The Raw Material",
+              "sub": "Electricity nobody wants — and it grows every year",
+              "emoji": "📉",
+              "sections": [
+                {
+                  "title": "EVOLUTION 2018→2025",
+                  "stats": [
+                    {
+                      "label": "Negative price hours 2018",
+                      "val": "~11h"
+                    },
+                    {
+                      "label": "Negative price hours 2024",
+                      "val": "352h"
+                    },
+                    {
+                      "label": "Negative price hours 2025",
+                      "val": ">432h"
+                    },
+                    {
+                      "label": "Growth",
+                      "val": "×40 in 7 years"
+                    },
+                    {
+                      "label": "Producer losses 2024",
+                      "val": "80 M€"
+                    },
+                    {
+                      "label": "Curtailed energy 2024",
+                      "val": "1,8 TWh"
+                    },
+                    {
+                      "label": "State compensation 2024",
+                      "val": "15 M€"
+                    }
+                  ]
+                },
+                {
+                  "title": "WHEN THEY OCCUR",
+                  "items": [
+                    "By hour: 11h–16h (solar peak) and 2h–7h overnight (nuclear with no demand)",
+                    "By season: April–October (solar + nuclear + low heating demand)",
+                    "First half: 2× more negative hours than the second",
+                    "Q2 2024: +10% of time at negative price — in that quarter alone",
+                    "Record: 31 March 2025 at 13:30 — unprecedented solar peak of 18 GW"
+                  ]
+                },
+                {
+                  "title": "WHAT THIS MEANS FOR ANY SOLUTION",
+                  "items": [
+                    "Those hours are the raw material: free electricity or paid to consume it",
+                    "Any process that can switch on and off in those windows has a structural advantage",
+                    "The trend is clear: more negative hours every year — the opportunity grows on its own"
+                  ],
+                  "type": "link"
+                }
+              ]
+            }
+          },
+          {
+            "id": "r9_duck",
+            "emoji": "🦆",
+            "label": "9.2 French Duck Curve",
+            "sub": "Inflexible nuclear + solar = chronic imbalance",
+            "color": "c9",
+            "detail": {
+              "breadcrumb": "BRANCH 9 › 9.2",
+              "title": "The French Duck Curve",
+              "sub": "Why the problem worsens structurally every year",
+              "emoji": "🦆",
+              "sections": [
+                {
+                  "title": "WHAT IT IS",
+                  "items": [
+                    "Duck-shaped curve: solar production rises at noon, demand falls → price collapses",
+                    "French nuclear (67% of the mix) is inflexible: hard to switch off and on",
+                    "Result: at noon there is structural surplus the system cannot absorb quickly"
+                  ]
+                },
+                {
+                  "title": "RECENT EVIDENCE",
+                  "items": [
+                    "November 2024: EDF shut down 6 reactors in 3 days due to wind record (Storm Bert, 19.3 GW) — first time in history",
+                    "It was not the wind replacing the reactors: there was too much energy and nobody to sell it to at a profitable price",
+                    "April 2024: EDF modulated reactors due to negative prices linked to renewables",
+                    "RTE estimates that by 2030 HEMS could reduce curtailment by 75%"
+                  ]
+                },
+                {
+                  "title": "WHY IT WORSENS",
+                  "items": [
+                    "Each new GW of solar installed adds more negative-price hours at noon",
+                    "France installed +5 GW solar in 2024 (total: 25.3 GW) — the trend does not stop",
+                    "The problem is not solar energy: it is the lack of local flexible sinks"
+                  ],
+                  "type": "warning"
+                }
+              ]
+            }
+          },
+          {
+            "id": "r9_ppas",
+            "emoji": "📝",
+            "label": "9.3 PPAs in France",
+            "sub": "4 GW contracted · SME gap · End of ARENH Dec 2025",
+            "color": "c9",
+            "detail": {
+              "breadcrumb": "BRANCH 9 › 9.3",
+              "title": "The PPA Market in France",
+              "sub": "The contractual vehicle for any long-term solution",
+              "emoji": "📝",
+              "sections": [
+                {
+                  "title": "MARKET STATUS",
+                  "stats": [
+                    {
+                      "label": "Capacity under PPA (2024)",
+                      "val": "4 GW"
+                    },
+                    {
+                      "label": "Growth 2025",
+                      "val": "600→1.200 MW"
+                    },
+                    {
+                      "label": "Industrial PPA signed 2024",
+                      "val": "€65/MWh (15 years)"
+                    },
+                    {
+                      "label": "Normal spot price",
+                      "val": "45–80 €/MWh"
+                    },
+                    {
+                      "label": "Spot price negative hours",
+                      "val": "~−19 €/MWh"
+                    }
+                  ]
+                },
+                {
+                  "title": "CRITICAL REGULATORY WINDOW",
+                  "items": [
+                    "End of ARENH (December 2025): corporate buyers lose access to nuclear at €42/MWh",
+                    "They are looking for alternatives now — perfect entry window for any proposal",
+                    "Décret du 27 juin 2024: autorización específica de la CRE antes de firmar un PPA",
+                    "Loi APER 2023: simplifies installations but requires specific land zones"
+                  ]
+                },
+                {
+                  "title": "MARKET GAP",
+                  "items": [
+                    "Current corporate buyers: Orange, Carrefour, SNCF, Les Mousquetaires, Leroy Merlin",
+                    "PPA market for SMEs and residential: almost non-existent — that is the gap",
+                    "Most PPAs are for large groups with consumption >100 GWh/year"
+                  ],
+                  "type": "link"
+                }
+              ]
+            }
+          },
+          {
+            "id": "r9_sectores",
+            "emoji": "🏗️",
+            "label": "9.4 Consumer Sectors",
+            "sub": "Residential 39% · Services 32% · Industrial 26%",
+            "color": "c9",
+            "detail": {
+              "breadcrumb": "BRANCH 9 › 9.4",
+              "title": "Electricity Consumer Sectors — France 2024",
+              "sub": "449 TWh total electricity consumption — where the market is",
+              "emoji": "🏗️",
+              "sections": [
+                {
+                  "title": "ELECTRICITY CONSUMPTION BY SECTOR (449 TWh total)",
+                  "stats": [
+                    {
+                      "label": "Residential",
+                      "val": "175 TWh (39%)"
+                    },
+                    {
+                      "label": "Services",
+                      "val": "144 TWh (32%)"
+                    },
+                    {
+                      "label": "Industrial",
+                      "val": "117 TWh (26%)"
+                    },
+                    {
+                      "label": "Transport + Agri.",
+                      "val": "13 TWh (3%)"
+                    }
+                  ]
+                },
+                {
+                  "title": "SOLAR PANELS BY SEGMENT (end 2024)",
+                  "stats": [
+                    {
+                      "label": "Residential",
+                      "val": "677.000 inst. / 3,8 GW"
+                    },
+                    {
+                      "label": "Terciario/C&I",
+                      "val": "~350.000 inst. / ~4 GW"
+                    },
+                    {
+                      "label": "Large plants (>12 MW)",
+                      "val": "~17 GW vía RTE"
+                    }
+                  ]
+                },
+                {
+                  "title": "KEY PARADOX",
+                  "items": [
+                    "The industrial sector has 17 GW installed but sells almost everything to the grid — generates the most surplus",
+                    "Residential grew +54% in installations in 2024, but self-consumes almost everything",
+                    "Few companies, lots of energy, lots of surplus — the raw material is in industry",
+                    "Private services sector (Carrefour, SNCF, hotels): already signs PPAs, actively seeking solutions"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "r10",
+        "emoji": "💰",
+        "label": "10. Business Model",
+        "sub": "4 uncorrelated sources · Water · Grid · Carbon · Minerals",
+        "color": "c2",
+        "detail": {
+          "breadcrumb": "BRANCH 10",
+          "title": "Business Model — 4 Revenue Streams",
+          "sub": "The model's strength is diversification — no stream depends on the others",
+          "emoji": "💰",
+          "sections": [
+            {
+              "title": "WHY 4 STREAMS IS KEY FOR INVESTORS",
+              "items": [
+                "Most renewable projects have one source: the spot price — which can be negative",
+                "This model has 4 uncorrelated streams: if one falls, the others do not depend on it",
+                "In financial terms: cash flow diversification → lower perceived risk → better valuation",
+                "The model does not impose a single use for the surplus — each territory chooses the optimal mix"
+              ]
+            },
+            {
+              "title": "THE 4 STREAMS AT A GLANCE",
+              "stats": [
+                {
+                  "label": "Water (stability)",
+                  "val": "★★★★★"
+                },
+                {
+                  "label": "Grid flexibility",
+                  "val": "★★★★"
+                },
+                {
+                  "label": "Carbon credits",
+                  "val": "★★★"
+                },
+                {
+                  "label": "Salt and minerals",
+                  "val": "★★"
+                }
+              ]
+            },
+            {
+              "title": "CENTRAL INSIGHT",
+              "items": [
+                "\"France has too much energy exactly when nobody wants it, and too little of what that energy could produce\"",
+                "The disruptive question: Do you know any business where your main raw material sometimes has a negative price — you are paid to consume it — and you still produce something sellable?"
+              ],
+              "type": "link"
+            }
+          ]
+        },
+        "children": [
+          {
+            "id": "r10_agua",
+            "emoji": "💧",
+            "label": "10.1 Water Sales",
+            "sub": "Water PPA · Fixed price 5–15 years · Guaranteed demand",
+            "color": "c2",
+            "detail": {
+              "breadcrumb": "BRANCH 10 › 10.1",
+              "title": "Water Sales — First Revenue Stream",
+              "sub": "Guaranteed demand regardless of energy price",
+              "emoji": "💧",
+              "sections": [
+                {
+                  "title": "MODEL",
+                  "items": [
+                    "Fixed-price contract per m³, similar to a PPA but for water (5–15 years)",
+                    "Water prices in France have risen consistently — structural demand",
+                    "Water decouples production from consumption: a tank stores weeks, not hours"
+                  ]
+                },
+                {
+                  "title": "POTENTIAL CLIENTS",
+                  "items": [
+                    "Households and residences in areas with summer water scarcity (Occitanie, PACA)",
+                    "SMEs: restaurants, hotels, agriculture, light industry",
+                    "Municipalities supplementing their public network during drought periods",
+                    "Rural hospitals and health centres"
+                  ]
+                },
+                {
+                  "title": "HIDDEN ADVANTAGE VS. ENERGY",
+                  "items": [
+                    "A water tank stores the energy equivalent of days or weeks with no losses or degradation",
+                    "Storage cost: practically zero compared to batteries",
+                    "Decouples production from consumption — something no battery can do with electricity"
+                  ],
+                  "type": "link"
+                }
+              ]
+            }
+          },
+          {
+            "id": "r10_red",
+            "emoji": "⚡",
+            "label": "10.2 Grid Flexibility (RTE)",
+            "sub": "Effacement · €50–150/MWh · Mature regulatory path",
+            "color": "c2",
+            "detail": {
+              "breadcrumb": "BRANCH 10 › 10.2",
+              "title": "Grid Flexibility — Services to RTE",
+              "sub": "RTE pays to consume electricity when there is surplus on the grid",
+              "emoji": "⚡",
+              "sections": [
+                {
+                  "title": "WHAT IS EFFACEMENT",
+                  "items": [
+                    "RTE pays actors who can switch their consumption on or off on demand to balance the grid",
+                    "You register as a flexible consumer — when there is surplus, they activate you and pay you",
+                    "Applies to any flexible process: desalination, electrolysis, pumping, EV charging, industrial heating",
+                    "You get paid twice: RTE pays you to consume, and you convert that electricity into a product you also sell"
+                  ]
+                },
+                {
+                  "title": "PAYMENT",
+                  "stats": [
+                    {
+                      "label": "RTE payment range",
+                      "val": "50–150 €/MWh"
+                    },
+                    {
+                      "label": "Regulatory maturity",
+                      "val": "High"
+                    },
+                    {
+                      "label": "Reference",
+                      "val": "Enerdigit already charges this"
+                    }
+                  ]
+                },
+                {
+                  "title": "RISK TO MANAGE",
+                  "items": [
+                    "RTE can cut your production if you have no formal prior agreement",
+                    "You need technical validation as a certified flexible load",
+                    "Include RTE management in the timeline from day one of the project"
+                  ],
+                  "type": "warning"
+                }
+              ]
+            }
+          },
+          {
+            "id": "r10_carbono",
+            "emoji": "🌿",
+            "label": "10.3 Carbon Credits",
+            "sub": "Label Bas Carbone · €30–80/tCO₂ · ESG narrative",
+            "color": "c2",
+            "detail": {
+              "breadcrumb": "BRANCH 10 › 10.3",
+              "title": "Carbon Credits — Third Revenue Stream",
+              "sub": "Recurring income and improved ESG story for investors",
+              "emoji": "🌿",
+              "sections": [
+                {
+                  "title": "HOW THEY ARE GENERATED",
+                  "items": [
+                    "Each process replaces methods that consume fossil energy or carbon-intensive infrastructure",
+                    "By absorbing surplus that would have been curtailed, that energy waste is avoided",
+                    "Carbon footprint calculable and certifiable per unit of production or service"
+                  ]
+                },
+                {
+                  "title": "HOW THEY ARE MONETISED",
+                  "stats": [
+                    {
+                      "label": "France mechanism",
+                      "val": "Label Bas Carbone"
+                    },
+                    {
+                      "label": "European voluntary market",
+                      "val": "30–80 €/tCO₂"
+                    },
+                    {
+                      "label": "European certification",
+                      "val": "Garanties d'Origine"
+                    }
+                  ]
+                },
+                {
+                  "title": "STRATEGIC VALUE",
+                  "items": [
+                    "Not the primary income, but recurring, predictable and greatly improves the ESG story",
+                    "Attracts ESG investors and impact funds that would otherwise overlook the project",
+                    "Additional certifications: ISO 14001, Label Bas Carbone"
+                  ],
+                  "type": "link"
+                }
+              ]
+            }
+          },
+          {
+            "id": "r10_minerales",
+            "emoji": "🧂",
+            "label": "10.4 Salt and Minerals",
+            "sub": "Brine → salt · magnesium · potassium · lithium",
+            "color": "c2",
+            "detail": {
+              "breadcrumb": "BRANCH 10 › 10.4",
+              "title": "Salt and Minerals — Fourth Stream (when desalination applies)",
+              "sub": "Turns the only residue into a product — zero-waste model",
+              "emoji": "🧂",
+              "sections": [
+                {
+                  "title": "CONTEXT",
+                  "items": [
+                    "Applies specifically when the chosen solution includes desalination or reverse osmosis",
+                    "Residual brine shifts from a management cost to a revenue source",
+                    "Narrative value: \"we have no residues, we have four products\""
+                  ]
+                },
+                {
+                  "title": "EXTRACTABLE PRODUCTS",
+                  "items": [
+                    "NaCl (sal): evaporación solar → sal cristalizable. Sal de Camargue: 0,50–3 €/kg",
+                    "MgCl₂ (magnesio): construcción, alimentación animal, metalurgia",
+                    "Potasio: fertilizantes agrícolas directos",
+                    "Litio: extracción DLE, $3.500–4.400/ton (Stanford 2024) — requiere tecnología adicional"
+                  ]
+                },
+                {
+                  "title": "PHASED STRATEGY",
+                  "items": [
+                    "MVP phase: return diluted brine to sea under certified environmental protocol — net zero impact",
+                    "Scale phase: crystallise and sell salt → fourth revenue stream without changing the core process",
+                    "Later phases: magnesium, potassium, lithium extraction depending on profitability"
+                  ],
+                  "type": "link"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "r11",
+        "emoji": "🗺️",
+        "label": "11. Competitors and Allies",
+        "sub": "Effacement · Batteries · V2G · Green H₂ · PPAs · Desalination",
+        "color": "c3",
+        "detail": {
+          "breadcrumb": "BRANCH 11",
+          "title": "Competitor and Ally Map in France",
+          "sub": "6 solution categories — some compete, others are natural allies",
+          "emoji": "🗺️",
+          "sections": [
+            {
+              "title": "STRATEGIC POSITIONING",
+              "items": [
+                "Effacement (Enerdigit): competidor directo en captación del excedente — no produce nada físico",
+                "Baterías estacionarias: competidor indirecto — almacena energía, no producto",
+                "V2G (DREEV/EDF): amenaza a largo plazo (2030+), hoy en fase piloto",
+                "H₂ verde: competidor institucional con mucho dinero público pero baja madurez",
+                "PPAs solares (Valeco, Technique Solaire, Engle): aliados naturales — tienen el excedente",
+                "Desalinización solar: sin actor en Francia — espacio abierto"
+              ]
+            },
+            {
+              "title": "STRATEGIC CONCLUSION",
+              "items": [
+                "No actor in France combines distributed solar + multiple surplus uses + local distribution to SMEs and residential",
+                "Geographically closest: projects in the southern Mediterranean",
+                "First-mover window in France still open"
+              ],
+              "type": "link"
+            }
+          ]
+        },
+        "children": [
+          {
+            "id": "r11_effacement",
+            "emoji": "🔌",
+            "label": "11.1 Demand Flexibility (Effacement)",
+            "sub": "Enerdigit · Orus Energy · Ecojoko",
+            "color": "c3",
+            "detail": {
+              "breadcrumb": "BRANCH 11 › 11.1",
+              "title": "Demand Flexibility — Direct Competitors in Surplus Capture",
+              "sub": "Already paid to absorb surplus, but only manage demand — create no product",
+              "emoji": "🔌",
+              "sections": [
+                {
+                  "title": "ACTORES",
+                  "items": [
+                    "Enerdigit (Nantes): startup más relevante. 20 empleados, >20M€ CA en 2024. Remunerada por transferir electricidad no consumida. Planea diversificarse con baterías",
+                    "Orus Energy (GreenTech Innovation 2024): ayuda y remunera a edificios comerciales por gestionar su consumo inteligentemente",
+                    "Ecojoko: asistente para particulares, integra tarifas horas punta/valle"
+                  ]
+                },
+                {
+                  "title": "THEIR LIMITATION",
+                  "items": [
+                    "They absorb energy when there is surplus and adjust consumption — only manage electricity demand",
+                    "They produce no physical good with that energy",
+                    "Any solution that converts surplus into a physical product has a direct differential advantage"
+                  ],
+                  "type": "link"
+                }
+              ]
+            }
+          },
+          {
+            "id": "r11_baterias",
+            "emoji": "🔋",
+            "label": "11.2 Battery Storage",
+            "sub": "Ze Energy · STEPs · €1.3bn EU",
+            "color": "c3",
+            "detail": {
+              "breadcrumb": "BRANCH 11 › 11.2",
+              "title": "Stationary Battery Storage",
+              "sub": "Indirect competitor — stores energy but does not convert it into a product",
+              "emoji": "🔋",
+              "sections": [
+                {
+                  "title": "ACTORES",
+                  "items": [
+                    "Ze Energy (creada 2019): diseña, construye y opera centrales híbridas solar + almacenamiento. Levantó fondos con Amundi Transition Énergétique",
+                    "STEPs: ~5 GW turbinado + 4,3 GW bombeo en Francia a finales de 2024. Solicitudes de conexión multiplicadas por dos desde 2022",
+                    "Inversión pública UE: 1.300 M€ validados por CE para flexibilidad no carbonada"
+                  ]
+                },
+                {
+                  "title": "LIMITATION",
+                  "items": [
+                    "A battery stores electricity for hours — not days or weeks",
+                    "Re-sells electricity whose price may still be low or negative",
+                    "Physical storage (water, H₂, heat) can last weeks without losses"
+                  ],
+                  "type": "link"
+                }
+              ]
+            }
+          },
+          {
+            "id": "r11_v2g",
+            "emoji": "🚗",
+            "label": "11.3 Electric Vehicles V2G",
+            "sub": "DREEV · EVVE Project · Threat 2030+",
+            "color": "c3",
+            "detail": {
+              "breadcrumb": "BRANCH 11 › 11.3",
+              "title": "V2G — Vehicles as Storage",
+              "sub": "Advanced and well-funded solution, but in pilot phase today",
+              "emoji": "🚗",
+              "sections": [
+                {
+                  "title": "ACTORES",
+                  "items": [
+                    "DREEV (EDF + Nuvve): certificado por RTE. V2G en empresas y colectividades. Valorización en mercado de ajuste",
+                    "Proyecto EVVE (EDF + Fondo Innovación Europeo): 800 estaciones bidireccionales → batería virtual de 8,36 MW",
+                    "Potencial 2040: los VE conectados podrían reducir hasta el 92% la necesidad de almacenamiento estacionario"
+                  ]
+                },
+                {
+                  "title": "ASSESSMENT",
+                  "items": [
+                    "Short term: V2G in pilot phase, does not cover the current gap",
+                    "Long term (2030+): indirect threat if cars become massive batteries",
+                    "By then, solutions with physical product will already have contracts and scale"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r11_h2verde",
+            "emoji": "⚗️",
+            "label": "11.4 Green Hydrogen",
+            "sub": "Air Liquide · TotalEnergies · Masshylia · €9bn public funds",
+            "color": "c3",
+            "detail": {
+              "breadcrumb": "BRANCH 11 › 11.4",
+              "title": "Green Hydrogen — Institutional Competitor",
+              "sub": "Lots of public money, but also more risks and new infrastructure needed",
+              "emoji": "⚗️",
+              "sections": [
+                {
+                  "title": "ACTORES",
+                  "items": [
+                    "Air Liquide + TotalEnergies: 450 MW de electrolizadores planificados en Francia",
+                    "Masshylia (TotalEnergies + Engie, La Mède, PACA): piloto H₂ verde a partir de FV. 5 toneladas H₂/día",
+                    "Hyd'Occ (Port-la-Nouvelle, Occitanie): mayor usina H₂ verde de Francia. 3.000 t/año en 2025",
+                    "Inversión pública: 9.000 M€ atribuidos al H₂ descarbonado hasta 2030"
+                  ]
+                },
+                {
+                  "title": "THEIR ACHILLES HEEL",
+                  "items": [
+                    "Cour des comptes: targets appear out of reach — only 0.5 GW fully secured by 2030",
+                    "Requires new and non-existent distribution infrastructure",
+                    "Very high storage costs — final market does not yet exist at scale"
+                  ]
+                },
+                {
+                  "title": "ARGUMENT FOR INVESTORS",
+                  "items": [
+                    "Green H₂ needs €9bn of public investment to get started",
+                    "Solutions using existing infrastructure can be executed with much less capital",
+                    "They do not compete in the same market: H₂ targets heavy industry, other solutions target SMEs and local consumption"
+                  ],
+                  "type": "link"
+                }
+              ]
+            }
+          },
+          {
+            "id": "r11_ppas",
+            "emoji": "🤝",
+            "label": "11.5 Solar Producers — Natural Allies",
+            "sub": "Engle · Valeco · Technique Solaire · TotalEnergies",
+            "color": "c3",
+            "detail": {
+              "breadcrumb": "BRANCH 11 › 11.5",
+              "title": "Solar Producers — Allies, Not Competitors",
+              "sub": "They have exactly the problem that an absorption solution solves",
+              "emoji": "🤝",
+              "sections": [
+                {
+                  "title": "ACTORES",
+                  "items": [
+                    "Technique Solaire: 302M€ levantados en 2025 para 341 proyectos en Francia, España y Países Bajos",
+                    "Valeco (filial EnBW): PPAs greenfield 5–18 años, agrovoltaísmo. Fuerte en Occitanie y Nouvelle-Aquitaine",
+                    "Engle: uno de los mayores propietarios de parques solares en Francia",
+                    "TotalEnergies: producción solar a gran escala, cofundador Masshylia"
+                  ]
+                },
+                {
+                  "title": "WHY THEY ARE ALLIES",
+                  "items": [
+                    "They all share the same problem: between 12h and 16h their prices turn negative",
+                    "Reverse PPA: they provide surplus at zero or negative price, the solution converts it into a product",
+                    "If Engle or TotalEnergies sign with you, it is the best possible presentation card for investors and regulators",
+                    "Perfect incentive alignment: they want to get rid of the surplus, you want to consume it"
+                  ]
+                },
+                {
+                  "title": "PITCH LINE TOWARDS THEM",
+                  "items": [
+                    "\"Your electricity that today is worth zero or negative between 12h and 16h, with us it is worth [local impact product].\""
+                  ],
+                  "type": "link"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "r12",
+        "emoji": "🚀",
+        "label": "12. Go-to-Market and MVP",
+        "sub": "2 months · Occitanie/PACA · B2B first · 3 phases",
+        "color": "c6",
+        "detail": {
+          "breadcrumb": "BRANCH 12",
+          "title": "Go-to-Market and MVP",
+          "sub": "How to reach the market in 2 months and scale sustainably",
+          "emoji": "🚀",
+          "sections": [
+            {
+              "title": "3-PHASE MODEL",
+              "items": [
+                "Phase 1 (MVP ~2 months): agreement with 1 solar producer in Occitanie or PACA. Surplus at zero or negative price. Prove the model works",
+                "Phase 2 (B2B Scale): more producers, product or service sold to municipalities and local industry",
+                "Phase 3 (Residential): when there is volume, brand and regulatory validation"
+              ]
+            },
+            {
+              "title": "PRIORITY MVP TERRITORY",
+              "items": [
+                "Southern France (Occitanie, PACA): more negative-price hours, more summer drought, more political interest",
+                "Valeco and Technique Solaire present — surplus available now",
+                "Record: 31 March 2025, solar peak of 18 GW at noon"
+              ],
+              "type": "link"
+            }
+          ]
+        },
+        "children": [
+          {
+            "id": "r12_b2b",
+            "emoji": "🏭",
+            "label": "12.1 Why Start with B2B",
+            "sub": "Solar producers first · Short cycle · Perfect alignment",
+            "color": "c6",
+            "detail": {
+              "breadcrumb": "BRANCH 12 › 12.1",
+              "title": "Why Start with Solar Producers, Not Households",
+              "sub": "The most important strategic go-to-market decision",
+              "emoji": "🏭",
+              "sections": [
+                {
+                  "title": "WHY NOT START WITH HOUSEHOLDS",
+                  "items": [
+                    "Very long sales cycle: 6 to 18 months per individual customer",
+                    "Small ticket: you would need thousands of households for a viable MVP business",
+                    "Very high acquisition cost per small contract",
+                    "Market education from scratch: the average household does not know what overproduction is"
+                  ]
+                },
+                {
+                  "title": "WHY START WITH SOLAR PRODUCERS",
+                  "items": [
+                    "They already have the problem you solve — they live it every day between 12h and 16h",
+                    "One signature = massive impact: one contract with Technique Solaire gives access to hundreds of MW",
+                    "They speak your language: PPAs, negative prices, curtailment, RTE",
+                    "They legitimise you before all other investors and regulators",
+                    "Perfect incentive alignment: they want to get rid of the surplus, you want to consume it"
+                  ]
+                },
+                {
+                  "title": "PITCH LINE",
+                  "items": [
+                    "\"We do not sell door to door. We sign a contract with whoever already has the problem, and from there we reach thousands of end users without touching them one by one.\""
+                  ],
+                  "type": "link"
+                }
+              ]
+            }
+          },
+          {
+            "id": "r12_stakeholders",
+            "emoji": "🏛️",
+            "label": "12.2 Critical Stakeholders",
+            "sub": "RTE · Enedis · CRE · ADEME · BpiFrance · Mairies",
+            "color": "c6",
+            "detail": {
+              "breadcrumb": "BRANCH 12 › 12.2",
+              "title": "Stakeholders You Cannot Ignore",
+              "sub": "Each one can block or accelerate the project",
+              "emoji": "🏛️",
+              "sections": [
+                {
+                  "title": "STAKEHOLDER TABLE",
+                  "items": [
+                    "RTE: national grid manager. Can pay for flexibility OR cut your production. Without their validation the MVP does not work",
+                    "Enedis: local distribution. Blocks SME connection if not aligned",
+                    "CRE: approves PPAs. Months of delay if not managed in the timeline",
+                    "ADEME: funds pilots — key subsidies for the MVP",
+                    "Mairies / collectivités: land permits, local political support",
+                    "BpiFrance / Crédit Agricole: project financing — initial capex",
+                    "SMEs: final demand target — without education, no adoption"
+                  ]
+                },
+                {
+                  "title": "KEY REGULATORY",
+                  "items": [
+                    "Décret du 27 juin 2024: autorización específica de la CRE antes de firmar un PPA",
+                    "Loi APER 2023: simplifies installations but requires specific land zones"
+                  ],
+                  "type": "warning"
+                }
+              ]
+            }
+          },
+          {
+            "id": "r12_mvp",
+            "emoji": "🎯",
+            "label": "12.3 The 6 MVP Elements",
+            "sub": "Verified problem · Regulatory window · Triple model",
+            "color": "c6",
+            "detail": {
+              "breadcrumb": "BRANCH 12 › 12.3",
+              "title": "The 6 MVP Elements",
+              "sub": "What the 2-month MVP must demonstrate",
+              "emoji": "🎯",
+              "sections": [
+                {
+                  "title": "THE 6 ELEMENTS",
+                  "items": [
+                    "① Verified problem: €80M losses in 2024, 32% more negative hours in 2025",
+                    "② Regulatory window: end of ARENH in Dec. 2025 → real urgency for buyers",
+                    "③ Quantified market: 39% residential + 32% services consumption with no local absorption solution",
+                    "④ Existing technology: surplus absorption solutions already work (RO, electrolysis, pumping, EV charging)",
+                    "⑤ Multiple revenue model: product + grid flexibility (RTE pays) + green origin guarantees",
+                    "⑥ MVP territory: Southern France (Occitanie, PACA) — more solar, more scarcity, more political interest"
+                  ]
+                },
+                {
+                  "title": "LINE FOR INVESTORS",
+                  "items": [
+                    "\"During negative-price hours (12–16h, spring–summer), we absorb local solar surplus and convert it into real value for the region, while generating flexibility credits for RTE.\""
+                  ],
+                  "type": "link"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "r13",
+        "emoji": "🎤",
+        "label": "13. Investor Pitch",
+        "sub": "Central insight · Impact data · Objections and answers",
+        "color": "c8",
+        "detail": {
+          "breadcrumb": "BRANCH 13",
+          "title": "Investor Pitch",
+          "sub": "The arguments, data and lines to defend the model before any investor",
+          "emoji": "🎤",
+          "sections": [
+            {
+              "title": "THE CENTRAL INSIGHT",
+              "items": [
+                "\"France has too much energy exactly when nobody wants it, and too little of what that energy could produce\"",
+                "The market asks: how do we store or export the surplus?",
+                "This project asks: into what product or service with guaranteed demand can we convert it?",
+                "That difference in perspective defines a disruptive business versus an incremental one"
+              ]
+            },
+            {
+              "title": "THE QUESTION THAT DISARMS THE SCEPTICAL INVESTOR",
+              "items": [
+                "\"Do you know any other business where your main raw material sometimes has a negative price — you are paid to consume it — and you still produce something you can sell?\"",
+                "The honest answer: no, there is no other like it in France today"
+              ],
+              "type": "link"
+            }
+          ]
+        },
+        "children": [
+          {
+            "id": "r13_datos",
+            "emoji": "📈",
+            "label": "13.1 Impact Data for the Pitch",
+            "sub": "352h→432h · €80M · ×40 in 7 years · 1.8 TWh wasted",
+            "color": "c8",
+            "detail": {
+              "breadcrumb": "BRANCH 13 › 13.1",
+              "title": "Impact Data — Use Directly in the Pitch",
+              "sub": "Ordered for maximum impact before investors",
+              "emoji": "📈",
+              "sections": [
+                {
+                  "title": "THE NUMBERS THAT LAND",
+                  "stats": [
+                    {
+                      "label": "Negative price hours 2018",
+                      "val": "~11h"
+                    },
+                    {
+                      "label": "Negative price hours 2024",
+                      "val": "352h"
+                    },
+                    {
+                      "label": "Negative price hours 2025",
+                      "val": ">432h"
+                    },
+                    {
+                      "label": "Growth in 7 years",
+                      "val": "×40"
+                    },
+                    {
+                      "label": "Producer losses 2024",
+                      "val": "80 M€"
+                    },
+                    {
+                      "label": "Wasted energy 2024",
+                      "val": "1,8 TWh"
+                    },
+                    {
+                      "label": "Q2 2024 negative price",
+                      "val": "+10% of time"
+                    },
+                    {
+                      "label": "State compensation 2024",
+                      "val": "15 M€"
+                    }
+                  ]
+                },
+                {
+                  "title": "CLOSING LINE FOR THE PITCH",
+                  "items": [
+                    "\"In 2024, France had 352 hours in which producers were paying for someone to take their energy away. By 2025, 432 hours had already been exceeded before the year ended — and the trend is vertical.\""
+                  ],
+                  "type": "link"
+                }
+              ]
+            }
+          },
+          {
+            "id": "r13_defensas",
+            "emoji": "🛡️",
+            "label": "13.2 Objections and Answers",
+            "sub": "Batteries · Regulation · Residues · Real risks",
+            "color": "c8",
+            "detail": {
+              "breadcrumb": "BRANCH 13 › 13.2",
+              "title": "Frequent Objections and How to Answer Them",
+              "sub": "The questions any investor or regulator will ask",
+              "emoji": "🛡️",
+              "sections": [
+                {
+                  "title": "Isn't this the same as batteries?",
+                  "items": [
+                    "No. A battery re-sells electricity whose price may still be negative",
+                    "Converting surplus into a physical product completely decouples value from electricity price",
+                    "Physical storage (water, H₂, heat): weeks without degradation, at near-zero cost"
+                  ]
+                },
+                {
+                  "title": "Won't the regulator block this?",
+                  "items": [
+                    "The regulatory path already exists: Enerdigit charges for effacement, DREEV is certified by RTE",
+                    "You must manage CRE, RTE and Enedis from day 1 — not ignore them",
+                    "Décret du 27 juin 2024 y Loi APER 2023 son el marco legal vigente"
+                  ]
+                },
+                {
+                  "title": "REAL RISKS THAT CANNOT BE IGNORED",
+                  "items": [
+                    "⚠️ Price cannibalisation: more panels = more negative hours — you must operate precisely in those hours",
+                    "⚠️ Curtailment: RTE can cut production if the grid is saturated — prior agreement mandatory",
+                    "⚠️ Multiple model: requires more complex management than a mono-product model"
+                  ],
+                  "type": "warning"
+                }
+              ]
+            }
+          },
+          {
+            "id": "r13_esg",
+            "emoji": "🏷️",
+            "label": "13.3 ESG Certifications and Positioning",
+            "sub": "Label Bas Carbone · Garanties d'Origine · ISO 14001",
+            "color": "c8",
+            "detail": {
+              "breadcrumb": "BRANCH 13 › 13.3",
+              "title": "ESG Certifications and Brand Positioning",
+              "sub": "How to present the project to attract impact investors",
+              "emoji": "🏷️",
+              "sections": [
+                {
+                  "title": "RELEVANT CERTIFICATIONS",
+                  "items": [
+                    "Label Bas Carbone (Francia): mecanismo oficial del Estado para proyectos de reducción de emisiones fuera del EU ETS",
+                    "Garanties d'Origine: certifica que la electricidad proviene de fuentes renovables — estándar europeo",
+                    "ISO 14001: gestión ambiental — relevante para contratos con corporaciones y administraciones"
+                  ]
+                },
+                {
+                  "title": "POSITIONING",
+                  "items": [
+                    "Don't sell \"energy\": sell local sovereignty + impact solutions for regions",
+                    "Emotional argument in France: \"paying to export your electricity is a scandal — we convert it into value for your region\"",
+                    "You are not inventing a market — you are entering markets that have worked for centuries"
+                  ]
+                },
+                {
+                  "title": "TARGET INVESTORS",
+                  "items": [
+                    "ESG and impact funds: attracted by Label Bas Carbone and circularity narrative",
+                    "Lita.co (Francia): inversión de impacto social, empresas publican necesidades abiertamente",
+                    "Lumo (Francia): específica para proyectos de energía renovable ciudadana",
+                    "BpiFrance: public investment bank, has directly funded photovoltaic projects"
+                  ],
+                  "type": "link"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "r9",
+        "emoji": "📊",
+        "label": "9. French Energy Market",
+        "sub": "Production · Negative prices · PPAs",
+        "color": "c4",
+        "detail": {
+          "breadcrumb": "BRANCH 9",
+          "title": "French Energy Market",
+          "sub": "The context that makes the project viable — real 2024–2025 data",
+          "emoji": "📊",
+          "sections": [
+            {
+              "title": "WHAT IS REALLY HAPPENING",
+              "items": [
+                "Not structural overproduction — it is a synchrony imbalance",
+                "Solar very productive at midday transforms the grid balance",
+                "Massive, inflexible nuclear amplifies the imbalances",
+                "1st half 2025: 32% more hours with negative prices than in 2024",
+                "May 2025: 90% of days had negative or zero prices (−€19/MWh average)"
+              ]
+            },
+            {
+              "title": "KEY FIGURES 2024",
+              "stats": [
+                {
+                  "label": "Total production",
+                  "val": "536–561 TWh"
+                },
+                {
+                  "label": "Total consumption",
+                  "val": "449 TWh"
+                },
+                {
+                  "label": "Exports",
+                  "val": "~90–101 TWh"
+                },
+                {
+                  "label": "% low carbon",
+                  "val": "95%"
+                },
+                {
+                  "label": "Nuclear 2024",
+                  "val": "~361 TWh (67%)"
+                },
+                {
+                  "label": "Solar 2024",
+                  "val": "~24.8 TWh (+10%)"
+                }
+              ]
+            },
+            {
+              "title": "NEGATIVE PRICES — THE OPPORTUNITY",
+              "stats": [
+                {
+                  "label": "Neg. price hours 2024",
+                  "val": "352 h"
+                },
+                {
+                  "label": "Neg. price hours 2025",
+                  "val": ">432 h"
+                },
+                {
+                  "label": "Producer losses 2024",
+                  "val": "€80M"
+                },
+                {
+                  "label": "Curtailed energy 2024",
+                  "val": "1.8 TWh"
+                },
+                {
+                  "label": "Q2 2024 neg. price",
+                  "val": ">10% of time"
+                }
+              ]
+            },
+            {
+              "title": "WHEN NEGATIVE PRICES OCCUR",
+              "items": [
+                "By time of day: 11h–16h (solar peak) and 2h–7h (nuclear without night demand)",
+                "By season: April–October (solar season)",
+                "1st half: 2× more negative-price hours than the 2nd half",
+                "Record: 31 March 2025 at 13:30 — solar production reached 18 GW"
+              ]
+            },
+            {
+              "title": "THE FRENCH DUCK CURVE",
+              "items": [
+                "EDF shut down 6 nuclear reactors on 24–25 Nov. 2024 due to wind record (19.3 GW)",
+                "First time in history that 6 reactors are shut down due to excess supply",
+                "Shows that even \"inflexible\" nuclear must yield to oversupply"
+              ]
+            },
+            {
+              "title": "PPA MARKET IN FRANCE",
+              "items": [
+                "2025: PPA market grows from 600 MW to over 1,200 MW of contracted capacity",
+                "Active corporate buyers: Orange, Carrefour, SNCF, Les Mousquetaires, Leroy Merlin",
+                "Huge gap: PPA market for SMEs is underdeveloped — there is the opportunity",
+                "End of ARENH (Dec. 2025): mechanism that allowed buying nuclear at €42/MWh",
+                "With ARENH gone, buyers urgently seek private PPA alternatives"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "r10",
+        "emoji": "💰",
+        "label": "10. Business Model",
+        "sub": "4 uncorrelated revenue streams",
+        "color": "c5",
+        "detail": {
+          "breadcrumb": "BRANCH 10",
+          "title": "Business Model",
+          "sub": "4 uncorrelated revenue streams — the key argument for investors",
+          "emoji": "💰",
+          "sections": [
+            {
+              "title": "WHY 4 UNCORRELATED STREAMS",
+              "items": [
+                "Most renewable projects have a single source: spot electricity price",
+                "If the price drops or goes negative, the model collapses",
+                "With 4 uncorrelated streams: if one falls, the others compensate",
+                "In financial terms: cash flow diversification → lower risk → better valuation"
+              ]
+            }
+          ]
+        },
+        "children": [
+          {
+            "id": "r10_agua",
+            "emoji": "💧",
+            "label": "10.1 Water sales",
+            "sub": "Water PPA · fixed price · guaranteed demand",
+            "color": "c5",
+            "detail": {
+              "breadcrumb": "BRANCH 10 › 10.1",
+              "title": "Water Sales",
+              "sub": "First revenue stream — the most stable",
+              "emoji": "💧",
+              "sections": [
+                {
+                  "title": "CUSTOMERS",
+                  "items": [
+                    "Households and residences in summer water-scarce areas (Occitanie, PACA)",
+                    "SMEs: restaurants, hotels, agriculture, light industry",
+                    "Municipalities supplementing their public network"
+                  ]
+                },
+                {
+                  "title": "PRICING MODEL",
+                  "items": [
+                    "Fixed-price contract per m³, similar to a PPA but for water",
+                    "Term: 5–15 years — the client knows exactly what they pay",
+                    "Water prices in France have risen consistently — attractive for the client"
+                  ]
+                },
+                {
+                  "title": "COMPETITIVE ADVANTAGE",
+                  "items": [
+                    "Water has guaranteed demand regardless of energy price",
+                    "Tank storage: decouples production from consumption (days or weeks)",
+                    "A battery stores electricity for hours — a tank stores the energy equivalent for weeks at near-zero cost"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r10_rte",
+            "emoji": "⚡",
+            "label": "10.2 Grid flexibility — RTE",
+            "sub": "Effacement · €50–150/MWh · regulatory maturity",
+            "color": "c5",
+            "detail": {
+              "breadcrumb": "BRANCH 10 › 10.2",
+              "title": "Grid Flexibility (RTE)",
+              "sub": "Second stream — RTE pays for consuming during surplus moments",
+              "emoji": "⚡",
+              "sections": [
+                {
+                  "title": "WHAT IT IS EXACTLY",
+                  "items": [
+                    "RTE (Réseau de Transport d'Électricité) pays actors who can switch their consumption on or off on demand",
+                    "Called \"adjustment services\" or \"effacement\"",
+                    "Register as a flexible consumer; when RTE has excess production, they activate you and pay you to consume"
+                  ]
+                },
+                {
+                  "title": "IN NUMBERS",
+                  "stats": [
+                    {
+                      "label": "RTE payment",
+                      "val": "€50–150/MWh"
+                    },
+                    {
+                      "label": "Maturity",
+                      "val": "High"
+                    },
+                    {
+                      "label": "Reference",
+                      "val": "Enerdigit"
+                    }
+                  ]
+                },
+                {
+                  "title": "THE DOUBLE GAIN",
+                  "items": [
+                    "RTE pays you for consuming the electricity",
+                    "You convert that electricity into water (or another product) that you also sell",
+                    "Two revenue streams from the same action: consuming solar surplus"
+                  ]
+                },
+                {
+                  "title": "CRITICAL STAKEHOLDER",
+                  "items": [
+                    "⚠️ RTE can cut your production if the grid is saturated and you have no agreement",
+                    "⚠️ Their technical validation as a \"certified flexible load\" opens the adjustment services market",
+                    "Without their cooperation the model fails — with it they pay you to exist"
+                  ],
+                  "type": "warning"
+                }
+              ]
+            }
+          },
+          {
+            "id": "r10_carbono",
+            "emoji": "🌱",
+            "label": "10.3 Carbon credits",
+            "sub": "Label Bas Carbone · €30–80/tCO₂ · ESG narrative",
+            "color": "c5",
+            "detail": {
+              "breadcrumb": "BRANCH 10 › 10.3",
+              "title": "Carbon Credits",
+              "sub": "Third stream — recurring, predictable, improves the ESG story",
+              "emoji": "🌱",
+              "sections": [
+                {
+                  "title": "HOW THEY ARE GENERATED",
+                  "items": [
+                    "The installation replaces methods that consume fossil energy or require carbon-intensive infrastructure",
+                    "Each m³ of water produced with solar energy displacing conventional water has a calculable, certifiable carbon footprint",
+                    "Absorbing solar surpluses that would otherwise be curtailed avoids wasting that energy"
+                  ]
+                },
+                {
+                  "title": "HOW THEY ARE MONETISED",
+                  "stats": [
+                    {
+                      "label": "Voluntary market price",
+                      "val": "€30–80/tCO₂"
+                    },
+                    {
+                      "label": "French mechanism",
+                      "val": "Label Bas Carbone"
+                    },
+                    {
+                      "label": "EU alternative",
+                      "val": "Guarantees of Origin"
+                    }
+                  ]
+                },
+                {
+                  "title": "STRATEGIC VALUE",
+                  "items": [
+                    "Not the main revenue — but recurring and predictable",
+                    "Greatly improves the ESG story for investors",
+                    "Relevant certifications: Label Bas Carbone, Guarantees of Origin, ISO 14001"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r10_sal",
+            "emoji": "🧂",
+            "label": "10.4 Salt and minerals",
+            "sub": "€0.50–3/kg · residue → product · ZLD narrative",
+            "color": "c5",
+            "detail": {
+              "breadcrumb": "BRANCH 10 › 10.4",
+              "title": "Salt and Minerals",
+              "sub": "Fourth stream — turns the only waste into a product",
+              "emoji": "🧂",
+              "sections": [
+                {
+                  "title": "WHAT IS OBTAINED",
+                  "items": [
+                    "Reverse osmosis brine contains crystallisable salt, magnesium, potassium and lithium",
+                    "Instead of being a waste management cost, it becomes a saleable product",
+                    "France has an established salt industry (Guérande, Camargue) — existing market and local know-how"
+                  ]
+                },
+                {
+                  "title": "REFERENCE PRICES",
+                  "stats": [
+                    {
+                      "label": "Quality salt France",
+                      "val": "€0.50–3/kg"
+                    },
+                    {
+                      "label": "Use",
+                      "val": "Constant industrial"
+                    },
+                    {
+                      "label": "Lithium (DLE)",
+                      "val": "$3,500–4,400/t"
+                    }
+                  ]
+                },
+                {
+                  "title": "INVESTOR NARRATIVE VALUE",
+                  "items": [
+                    "The message: \"We have no waste, we have four products\"",
+                    "Turns the model into virtually waste-free (ZLD)",
+                    "In MVP phase: diluted brine returned to sea under certified environmental protocol",
+                    "At scale: crystallising and selling the salt adds a fourth income stream without changing the core process"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "r11",
+        "emoji": "⚔️",
+        "label": "11. Competitors and Allies",
+        "sub": "Complete map of solutions in France",
+        "color": "c6",
+        "detail": {
+          "breadcrumb": "BRANCH 11",
+          "title": "Competitors and Allies",
+          "sub": "6 solution categories — some direct competitors, others natural allies",
+          "emoji": "⚔️",
+          "sections": [
+            {
+              "title": "STRATEGIC MAP",
+              "items": [
+                "Demand flexibility / effacement: direct competitor (Enerdigit, Orus Energy)",
+                "Stationary batteries: indirect competitor (Ze Energy)",
+                "V2G electric vehicles: long-term threat (DREEV/EDF, EVVE Project)",
+                "Green hydrogen: institutional competitor (Air Liquide + TotalEnergies, Hyd'Occ)",
+                "PPAs for SMEs and solar producers: natural allies (Engle, Valeco/EnBW, Technique Solaire)",
+                "Export: the status quo that the project replaces"
+              ]
+            },
+            {
+              "title": "STRATEGIC CONCLUSION",
+              "items": [
+                "No actor in France is combining distributed solar + local production + PPA for SMEs and residences",
+                "That space is empty — first-mover window",
+                "The closest is in Saudi Arabia (DESOLINATION) or Spain/Morocco"
+              ],
+              "type": "link"
+            }
+          ]
+        },
+        "children": [
+          {
+            "id": "r11_eff",
+            "emoji": "🔌",
+            "label": "11.1 Demand flexibility",
+            "sub": "Enerdigit · Orus Energy · direct competitors",
+            "color": "c6",
+            "detail": {
+              "breadcrumb": "BRANCH 11 › 11.1",
+              "title": "Demand Flexibility (Effacement)",
+              "sub": "The principle: pay companies to consume more during surplus moments",
+              "emoji": "🔌",
+              "sections": [
+                {
+                  "title": "MAIN PLAYERS",
+                  "items": [
+                    "Enerdigit (Nantes): most relevant startup in this space, 20 employees, >€20M revenue 2024, industrial grid flexibility solutions",
+                    "Orus Energy (GreenTech Innovation 2024): helps and compensates commercial buildings for smart consumption management",
+                    "Ecojoko: connected assistant for individuals, makes real-time consumption visible"
+                  ]
+                },
+                {
+                  "title": "RELEVANCE TO THE PROJECT",
+                  "items": [
+                    "Producing any product (water, H₂, etc.) as a \"flexible load\" is exactly this model",
+                    "Enerdigit and Orus are direct competitors in capturing companies as \"flexible sinks\"",
+                    "The difference: the project produces something physical (water, H₂…), they only adjust consumption"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r11_bat",
+            "emoji": "🔋",
+            "label": "11.2 Stationary batteries",
+            "sub": "Ze Energy · indirect competitor",
+            "color": "c6",
+            "detail": {
+              "breadcrumb": "BRANCH 11 › 11.2",
+              "title": "Stationary Battery Storage",
+              "sub": "Indirect competitor — they store energy, the project converts it into a product",
+              "emoji": "🔋",
+              "sections": [
+                {
+                  "title": "PLAYERS",
+                  "items": [
+                    "Ze Energy (founded 2019): designs, builds and operates hybrid solar + storage plants, funded by Amundi Transition Énergétique",
+                    "STEP (pumped storage stations): ~5 GW turbined + 4.3 GW pumped in France by end 2024",
+                    "Public investment: EC validated €1.3bn in France for short-term non-carbon flexibility solutions"
+                  ]
+                },
+                {
+                  "title": "PROJECT ADVANTAGE OVER BATTERIES",
+                  "items": [
+                    "A battery stores electricity for hours — a water tank stores the energy equivalent for days or weeks",
+                    "No losses, no degradation, at near-zero cost",
+                    "It is the cheapest \"storage\" that exists — nobody in the energy market is looking at it this way"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r11_v2g",
+            "emoji": "🚗",
+            "label": "11.3 V2G — electric vehicles",
+            "sub": "DREEV/EDF · long-term threat",
+            "color": "c6",
+            "detail": {
+              "breadcrumb": "BRANCH 11 › 11.3",
+              "title": "V2G — Electric Vehicles as Storage",
+              "sub": "One of the best-funded solutions in France — long-term threat",
+              "emoji": "🚗",
+              "sections": [
+                {
+                  "title": "PLAYERS",
+                  "items": [
+                    "DREEV (EDF + Nuvve): RTE certified their participation, implements V2G in companies and local authorities",
+                    "EVVE Project (EDF + European Innovation Fund): 800 bidirectional charging stations, virtual battery of 8.36 MW"
+                  ]
+                },
+                {
+                  "title": "LONG-TERM POTENTIAL",
+                  "items": [
+                    "EVs connected home + work could reduce up to 92% of the need for stationary battery storage",
+                    "By 2040: potential savings of up to €4.4bn annually",
+                    "RTE already anticipates this in its \"rapid decarbonisation\" scenarios"
+                  ]
+                },
+                {
+                  "title": "RELEVANCE TO THE PROJECT",
+                  "items": [
+                    "Short term (2-month MVP): V2G still in pilot phase, does not cover the gap",
+                    "Long term: if millions of cars become mobile batteries, need for other sinks decreases",
+                    "Project advantage: produces something physical with guaranteed demand — V2G does not produce water"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r11_h2",
+            "emoji": "🟢",
+            "label": "11.4 Green hydrogen",
+            "sub": "Air Liquide · TotalEnergies · Hyd'Occ · inst. competitor",
+            "color": "c6",
+            "detail": {
+              "breadcrumb": "BRANCH 11 › 11.4",
+              "title": "Green Hydrogen (Power-to-Gas)",
+              "sub": "Institutional competitor — the State is betting heavily here",
+              "emoji": "🟢",
+              "sections": [
+                {
+                  "title": "MAIN PLAYERS",
+                  "items": [
+                    "Air Liquide + TotalEnergies: 450 MW combined electrolysers for green H₂",
+                    "Masshylia (TotalEnergies + Engie): pilot project in La Méde, PACA — 5 tonnes/day of green H₂ from solar",
+                    "Hyd'Occ (Port-la-Nouvelle, Occitanie): France's largest green H₂ plant, target 3,000 t/year by 2025",
+                    "Public investment: €9bn attributed to decarbonised H₂ development to 2030"
+                  ]
+                },
+                {
+                  "title": "BUT THERE IS AN IMPORTANT BRAKE",
+                  "items": [
+                    "Cour des comptes: new H₂ production targets \"still appear out of reach\"",
+                    "Only 0.5 GW fully secured between now and 2030",
+                    "H₂ distribution infrastructure nonexistent — must be built from scratch"
+                  ]
+                },
+                {
+                  "title": "KEY ARGUMENT FOR INVESTORS",
+                  "items": [
+                    "Where green H₂ needs €9bn of public funding to start, the project can operate with existing infrastructure",
+                    "H₂ has no market at scale today — water has had a functioning market for centuries"
+                  ],
+                  "type": "link"
+                }
+              ]
+            }
+          },
+          {
+            "id": "r11_ppa",
+            "emoji": "🤝",
+            "label": "11.5 PPAs for SMEs — natural allies",
+            "sub": "Technique Solaire · Valeco · Engle · TotalEnergies",
+            "color": "c6",
+            "detail": {
+              "breadcrumb": "BRANCH 11 › 11.5",
+              "title": "Solar Producers — Natural Allies",
+              "sub": "They already have the problem the project solves",
+              "emoji": "🤝",
+              "sections": [
+                {
+                  "title": "PLAYERS",
+                  "items": [
+                    "Technique Solaire: builds and operates own PV plants, raised €302M in 2025 for 341 projects in France, Spain and Netherlands",
+                    "Valeco (EnBW subsidiary): greenfield PPAs 5–18 years, agrivoltaics, strong presence in Occitanie and Nouvelle-Aquitaine",
+                    "Engle: one of the largest solar park owners in France, signed 51 MWc with Orange in Hautes-Alpes",
+                    "TotalEnergies: produces solar energy at scale, co-founder of Masshylia (solar + H₂)"
+                  ]
+                },
+                {
+                  "title": "WHY THEY ARE ALLIES",
+                  "items": [
+                    "They already have the problem the project solves: electricity worth zero or negative between 12h and 16h",
+                    "No need to convince them the problem exists — they live it every day in lost euros",
+                    "One deal with Technique Solaire or Valeco gives access to tens or hundreds of MW at once",
+                    "Pitch to them: \"your electricity worth zero or negative between 12h–16h, with us is worth a product\""
+                  ]
+                },
+                {
+                  "title": "DERIVED GO-TO-MARKET",
+                  "items": [
+                    "MVP Phase 1: sign agreement with 1 solar producer in Occitanie or PACA",
+                    "They provide surplus at zero or negative price — the project produces and proves the model",
+                    "Phase 2: with the success case, approach more producers"
+                  ],
+                  "type": "link"
+                }
+              ]
+            }
+          },
+          {
+            "id": "r11_exp",
+            "emoji": "📤",
+            "label": "11.6 Export (status quo)",
+            "sub": "The problem the project replaces",
+            "color": "c6",
+            "detail": {
+              "breadcrumb": "BRANCH 11 › 11.6",
+              "title": "Export — The Status Quo",
+              "sub": "The French State's current emergency response",
+              "emoji": "📤",
+              "sections": [
+                {
+                  "title": "WHAT IT IS",
+                  "items": [
+                    "When there is too much electricity, France exports it to Germany, Spain, Italy or Switzerland",
+                    "The problem: when supply exceeds demand, prices go negative",
+                    "Producers must \"pay to export\" their electricity",
+                    "2024: France exported a record 90–101 TWh, but generating losses when prices were negative"
+                  ]
+                },
+                {
+                  "title": "RELEVANCE TO THE PROJECT",
+                  "items": [
+                    "Export is the status quo the project displaces",
+                    "The investor narrative: exporting at negative price is a loss of value",
+                    "The project converts that loss into a locally saleable product"
+                  ],
+                  "type": "link"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "r12",
+        "emoji": "🚀",
+        "label": "12. Go-to-Market & MVP",
+        "sub": "3 phases · 2 months · Critical stakeholders",
+        "color": "c7",
+        "detail": {
+          "breadcrumb": "BRANCH 12",
+          "title": "Go-to-Market & MVP",
+          "sub": "How to reach market in 2 months and scale sustainably",
+          "emoji": "🚀",
+          "sections": [
+            {
+              "title": "THE PITCH PHRASE",
+              "items": [
+                "\"We don't sell door to door. We sign a contract with whoever already has the problem, and from there we reach thousands of end users without touching them one by one.\""
+              ],
+              "type": "link"
+            },
+            {
+              "title": "3-PHASE MODEL",
+              "items": [
+                "Phase 1 — MVP (2 months): 1 solar producer in Occitanie or PACA, surplus at zero price, prove the model works",
+                "Phase 2 — B2B Scale: more producers, product sold to municipalities and local industry — not to individual households yet",
+                "Phase 3 — Residential: with volume, brand and regulatory validation, open the residential channel with the story already built"
+              ]
+            }
+          ]
+        },
+        "children": [
+          {
+            "id": "r12_mvp",
+            "emoji": "🔬",
+            "label": "12.1 Phase 1 — MVP (2 months)",
+            "sub": "Occitanie or PACA · 1 solar producer · prove model",
+            "color": "c7",
+            "detail": {
+              "breadcrumb": "BRANCH 12 › 12.1",
+              "title": "Phase 1 — MVP",
+              "sub": "The 2-month MVP must prove one convincing thing",
+              "emoji": "🔬",
+              "sections": [
+                {
+                  "title": "THE MVP OBJECTIVE",
+                  "items": [
+                    "\"During negative-price hours (12–16h, spring–summer), we absorb local solar surplus and produce drinking/industrial water, resold under PPA to regional SMEs and households, while generating grid flexibility credits for RTE.\""
+                  ]
+                },
+                {
+                  "title": "MVP TERRITORY",
+                  "items": [
+                    "Southern France (Occitanie, PACA) — more solar, more water scarcity, more political interest",
+                    "Strong presence of Valeco and Technique Solaire there — direct natural allies"
+                  ]
+                },
+                {
+                  "title": "MVP PITCH ELEMENTS",
+                  "items": [
+                    "① Verified problem: €80M losses in 2024, 32% more negative hours in 2025 — official data",
+                    "② Regulatory window: end of ARENH Dec. 2025 → real urgency for corporate buyers",
+                    "③ Quantified market: 39% residential + 32% tertiary consumption without local absorption solution",
+                    "④ Existing technology: reverse osmosis already works with solar (DESOLINATION, Mediterranean projects)",
+                    "⑤ Triple revenue model: water + RTE flexibility + carbon credits",
+                    "⑥ MVP territory: southern France — more sun, more drought, more political interest"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r12_b2b",
+            "emoji": "🏭",
+            "label": "12.2 Phase 2 — B2B Scale",
+            "sub": "More producers · municipalities · local industry",
+            "color": "c7",
+            "detail": {
+              "breadcrumb": "BRANCH 12 › 12.2",
+              "title": "Phase 2 — B2B Scale",
+              "sub": "With the MVP success case, approach more producers and institutional clients",
+              "emoji": "🏭",
+              "sections": [
+                {
+                  "title": "PRIORITY CLIENTS",
+                  "items": [
+                    "Municipalities: supplement their public network with fixed-price water under PPA",
+                    "Tertiary SMEs: restaurants, hotels, offices with high water and electricity demand",
+                    "Local light industry: food, pharma, precision manufacturing"
+                  ]
+                },
+                {
+                  "title": "WHY MUNICIPALITIES FIRST",
+                  "items": [
+                    "B2B decision — one contract with the municipality gives access to the entire population",
+                    "Municipalities understand PPA concept (they already have them for energy)",
+                    "Local political support = land permits + lower regulatory friction"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r12_res",
+            "emoji": "🏠",
+            "label": "12.3 Phase 3 — Residential",
+            "sub": "Volume + brand + validation → residential channel",
+            "color": "c7",
+            "detail": {
+              "breadcrumb": "BRANCH 12 › 12.3",
+              "title": "Phase 3 — Residential",
+              "sub": "Only when there is volume, brand and regulatory validation",
+              "emoji": "🏠",
+              "sections": [
+                {
+                  "title": "WHY NOT START WITH HOUSEHOLDS",
+                  "items": [
+                    "Very long sales cycle: each household is an individual decision — can take 6 to 18 months to sign",
+                    "Small ticket: a household consumes little — you need thousands for viable volume",
+                    "Very high acquisition cost: advertising, visits, demos, follow-up — all for a small contract",
+                    "Market education from zero: the average household does not know about solar overproduction or PPAs"
+                  ]
+                },
+                {
+                  "title": "WHEN RESIDENTIAL MAKES SENSE",
+                  "items": [
+                    "When you have a B2B success case certifying the technical and economic model",
+                    "When you have a recognised brand that reduces per-household acquisition cost",
+                    "When you have regulatory validation that removes entry barriers"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r12_prod",
+            "emoji": "🌞",
+            "label": "12.4 Why solar producers first",
+            "sub": "Perfect incentive alignment",
+            "color": "c7",
+            "detail": {
+              "breadcrumb": "BRANCH 12 › 12.4",
+              "title": "Why Start with Solar Producers",
+              "sub": "The answer is clear: perfect incentive alignment",
+              "emoji": "🌞",
+              "sections": [
+                {
+                  "title": "4 REASONS",
+                  "items": [
+                    "① They already have the problem: no need to convince them — they live it every day in lost euros between 12h and 16h",
+                    "② One deal, massive impact: one contract with Technique Solaire or Valeco gives access to tens or hundreds of MW",
+                    "③ They speak your language: they understand PPAs, negative prices, curtailment, RTE, grid flexibility — the conversation is technical and fast",
+                    "④ They legitimise you to everyone else: if Engle or TotalEnergies sign with you, that is the best possible introduction to investors, regulators and eventually households"
+                  ]
+                },
+                {
+                  "title": "INCENTIVE ALIGNMENT",
+                  "items": [
+                    "They want to get rid of the surplus — the project wants to consume it",
+                    "No complex negotiation — interests point exactly in the same direction",
+                    "The pitch: \"your electricity worth zero or negative between 12h–16h, with us is worth a product\""
+                  ],
+                  "type": "link"
+                }
+              ]
+            }
+          },
+          {
+            "id": "r12_stake",
+            "emoji": "🗺️",
+            "label": "12.5 Critical stakeholders",
+            "sub": "RTE · Enedis · CRE · ADEME · BpiFrance · Mairies",
+            "color": "c7",
+            "detail": {
+              "breadcrumb": "BRANCH 12 › 12.5",
+              "title": "Critical Stakeholders",
+              "sub": "The actors you cannot ignore — role, risk and opportunity",
+              "emoji": "🗺️",
+              "sections": [
+                {
+                  "title": "STAKEHOLDER TABLE",
+                  "stats": [
+                    {
+                      "label": "RTE",
+                      "val": "Grid transport"
+                    },
+                    {
+                      "label": "Enedis",
+                      "val": "Local distribution"
+                    },
+                    {
+                      "label": "CRE",
+                      "val": "PPA regulator"
+                    },
+                    {
+                      "label": "ADEME",
+                      "val": "Funds pilots"
+                    },
+                    {
+                      "label": "BpiFrance",
+                      "val": "Funds projects"
+                    },
+                    {
+                      "label": "Mairies",
+                      "val": "Land + politics"
+                    }
+                  ]
+                },
+                {
+                  "title": "RISKS IF IGNORED",
+                  "items": [
+                    "RTE: can cut your production without validation — MVP fails",
+                    "Enedis: can block SME connection to the distribution network",
+                    "CRE: months of delay if you lack their approval to sign PPAs",
+                    "ADEME: lose key pilot subsidies",
+                    "Mairies: without them no land — without land no project",
+                    "BpiFrance: without them no capex to start"
+                  ]
+                },
+                {
+                  "title": "KEY REGULATORY FRAMEWORK",
+                  "items": [
+                    "Décret du 27 juin 2024: producers need specific CRE authorisation before signing a PPA",
+                    "Loi APER 2023: simplifies installations but requires specific land zones",
+                    "Include these milestones in the project timeline for investors"
+                  ],
+                  "type": "warning"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "r13",
+        "emoji": "🎯",
+        "label": "13. Investor Pitch",
+        "sub": "Arguments · Data · The devastating question",
+        "color": "c8",
+        "detail": {
+          "breadcrumb": "BRANCH 13",
+          "title": "Investor Pitch",
+          "sub": "The arguments, data and phrases to defend the model to any investor",
+          "emoji": "🎯",
+          "sections": [
+            {
+              "title": "THE CENTRAL INSIGHT",
+              "items": [
+                "\"France has too much energy exactly when nobody wants it, and too little of what that energy could produce.\"",
+                "The problem is not that energy is scarce — the problem is that it is surplus at the wrong moment and nobody knows how to turn it into something useful"
+              ]
+            },
+            {
+              "title": "IN ONE PHRASE FOR INVESTORS",
+              "items": [
+                "\"We are the only company that converts France's problem —electricity nobody wants— into the resource France will need most: water.\""
+              ],
+              "type": "link"
+            }
+          ]
+        },
+        "children": [
+          {
+            "id": "r13_insight",
+            "emoji": "💡",
+            "label": "13.1 The central insight",
+            "sub": "Why water and not something else",
+            "color": "c8",
+            "detail": {
+              "breadcrumb": "BRANCH 13 › 13.1",
+              "title": "The Central Insight",
+              "sub": "The second layer of the insight — why it is truly defensible",
+              "emoji": "💡",
+              "sections": [
+                {
+                  "title": "WHY WATER AND NOT SOMETHING ELSE",
+                  "items": [
+                    "Water has 3 properties no other product has simultaneously:",
+                    "① Guaranteed demand regardless of energy price",
+                    "② Cheap storage for days or weeks in simple tanks",
+                    "③ A market that already exists with known distribution infrastructure"
+                  ]
+                },
+                {
+                  "title": "ADVANTAGE OVER GREEN H₂",
+                  "items": [
+                    "H₂ also converts surpluses into a product, but needs new infrastructure, very high storage costs, and its market does not yet exist at scale",
+                    "You are not inventing a market — you are entering one that has been working for centuries"
+                  ]
+                },
+                {
+                  "title": "THE QUESTION THAT LEAVES INVESTORS SPEECHLESS",
+                  "items": [
+                    "\"Do you know any other business where your main raw material —electricity— sometimes has a negative price, meaning they pay you to consume it, and you still produce something you can sell?\"",
+                    "That is the essence of the model. The honest answer: no, nothing like it exists in France today"
+                  ],
+                  "type": "link"
+                }
+              ]
+            }
+          },
+          {
+            "id": "r13_elementos",
+            "emoji": "📋",
+            "label": "13.2 The 6 pitch elements",
+            "sub": "Problem · Window · Market · Tech · Model · MVP",
+            "color": "c8",
+            "detail": {
+              "breadcrumb": "BRANCH 13 › 13.2",
+              "title": "The 6 Pitch Elements",
+              "sub": "Structure for presenting the project to any investor",
+              "emoji": "📋",
+              "sections": [
+                {
+                  "title": "STRUCTURE",
+                  "items": [
+                    "① Verified problem: €80M losses in 2024, 32% more negative hours in 2025 — official data",
+                    "② Regulatory window: end of ARENH Dec. 2025 → real urgency for corporate buyers",
+                    "③ Quantified market: 39% residential + 32% tertiary consumption without local absorption solution",
+                    "④ Existing technology: reverse osmosis already works with solar, not research — it is engineering",
+                    "⑤ Triple revenue model: water + RTE flexibility + carbon credits (+ salt at scale)",
+                    "⑥ MVP territory: southern France — more sun, more drought, more political interest, more natural allies"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r13_datos",
+            "emoji": "📊",
+            "label": "13.3 Impactful data",
+            "sub": "352h · €80M · +32% · 1.8 TWh curtailed",
+            "color": "c8",
+            "detail": {
+              "breadcrumb": "BRANCH 13 › 13.3",
+              "title": "Impactful Data for the Pitch",
+              "sub": "The numbers ordered for direct use in a presentation",
+              "emoji": "📊",
+              "sections": [
+                {
+                  "title": "DATA TO OPEN THE PITCH",
+                  "stats": [
+                    {
+                      "label": "Neg. price hours 2024",
+                      "val": "352 h"
+                    },
+                    {
+                      "label": "Neg. price hours 2025",
+                      "val": ">432 h"
+                    },
+                    {
+                      "label": "Growth in 7 years",
+                      "val": "40×"
+                    },
+                    {
+                      "label": "Producer losses",
+                      "val": "€80M"
+                    },
+                    {
+                      "label": "Curtailed energy 2024",
+                      "val": "1.8 TWh"
+                    },
+                    {
+                      "label": "Q2 2024 neg. price",
+                      "val": ">10% of time"
+                    }
+                  ]
+                },
+                {
+                  "title": "THE CLOSING PHRASE",
+                  "items": [
+                    "\"In 2024, France had 352 hours in which electricity producers paid for someone to take their energy. By 2025 they had already exceeded 432 hours before the year ended — and the trend is vertical. Our model exists to be there exactly during those hours.\""
+                  ],
+                  "type": "link"
+                },
+                {
+                  "title": "MOST POWERFUL DATA POINT",
+                  "items": [
+                    "In 2018 France had only 11 hours with negative prices",
+                    "By 2025 it had already exceeded 432 hours — 40× growth in 7 years",
+                    "There is no sign of it slowing down"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r13_esg",
+            "emoji": "🌿",
+            "label": "13.4 ESG certifications",
+            "sub": "Label Bas Carbone · Guarantees of Origin · ISO 14001",
+            "color": "c8",
+            "detail": {
+              "breadcrumb": "BRANCH 13 › 13.4",
+              "title": "Relevant ESG Certifications",
+              "sub": "The certifications that attract ESG investors and impact funds",
+              "emoji": "🌿",
+              "sections": [
+                {
+                  "title": "KEY CERTIFICATIONS",
+                  "items": [
+                    "Label Bas Carbone (France): official State mechanism for emissions reduction projects outside the EU ETS market",
+                    "Guarantees of Origin: European certificate certifying that energy comes from renewable sources",
+                    "ISO 14001: environmental management system — demonstrates rigour in managing environmental impacts (brine, water consumption)",
+                    "CSRD (Corporate Sustainability Reporting Directive): mandatory sustainability reporting for EU companies — the project can help clients comply"
+                  ]
+                },
+                {
+                  "title": "WHY THEY MATTER",
+                  "items": [
+                    "Attract ESG investment funds requiring certified environmental commitment",
+                    "Reduce cost of capital (better financing rate with green guarantees)",
+                    "Label Bas Carbone is also the route to monetise carbon credits in the French voluntary market"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
