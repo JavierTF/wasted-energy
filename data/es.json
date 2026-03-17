@@ -3349,5 +3349,141 @@
         }
       }
     ]
+  },
+  {
+    "id": "r14",
+    "emoji": "⚡",
+    "label": "14. EDF Power Solutions",
+    "sub": "Competidor clave · Actor de referencia en Francia",
+    "color": "c7",
+    "detail": {
+      "breadcrumb": "RAMA 14",
+      "title": "EDF Power Solutions",
+      "sub": "Competidor y potencial referencia para el modelo de negocio",
+      "emoji": "⚡",
+      "sections": [
+        {
+          "title": "QUÉ ES",
+          "items": [
+            "Nació de la fusión de EDF Renewables y la División Internacional de EDF (mayo 2025)",
+            "Opera en más de 25 países diseñando soluciones para reducir la huella de carbono",
+            "Actor principal en eólica onshore y offshore en Francia y en el mundo durante 15 años"
+          ]
+        },
+        {
+          "title": "SUBRAMAS",
+          "items": [
+            "14.1 ¿Qué es EDF Power Solutions?",
+            "14.2 Compromisos CSR — Ambitions 2035"
+          ]
+        }
+      ]
+    },
+    "children": [
+      {
+        "id": "r14_1",
+        "emoji": "🔌",
+        "label": "14.1 ¿Qué es EDF Power Solutions?",
+        "sub": "Presencia · Mercados · Desafíos",
+        "color": "c7",
+        "detail": {
+          "breadcrumb": "RAMA 14 › 14.1",
+          "title": "¿Qué es EDF Power Solutions?",
+          "sub": "Historia, presencia global y mercados que abordan",
+          "emoji": "🔌",
+          "sections": [
+            {
+              "title": "ORIGEN Y ESCALA",
+              "items": [
+                "Nació de la fusión de EDF Renewables y la División Internacional de EDF en mayo 2025",
+                "Opera en más de 25 países, diseñando e implementando soluciones para reducir la huella de carbono",
+                "Pionero y actor principal en eólica onshore y offshore en Francia y en el mundo — 18 países con parques eólicos"
+              ]
+            },
+            {
+              "title": "MERCADOS QUE ABORDAN",
+              "items": [
+                "Energías renovables: eólica onshore/offshore, solar FV (incluidos proyectos flotantes)",
+                "Primera central FV flotante del grupo EDF en Francia: 20 MWc sobre embalse hidroeléctrico en los Alpes",
+                "Almacenamiento y flexibilidad: baterías, bombeo hidroeléctrico, carga inteligente de EVs, microrredes, H₂ verde",
+                "Planta virtual PowerShift: optimiza activos como baterías y VEs para acceder a nuevas fuentes de ingresos",
+                "Sistemas off-grid con desalación: proyecto AMAALA (Arabia Saudí) — electricidad + agua 24/7 para 65.000 personas",
+                "Mercados emergentes: África, Oriente Medio, India, América del Norte y Europa"
+              ]
+            },
+            {
+              "title": "DESAFÍOS QUE ENFRENTAN",
+              "items": [
+                "Curtailment y sobreproducción renovable: el paisaje energético evoluciona rápido, con presión por mayor flexibilidad",
+                "Integración de flexibilidad a escala: con la expansión de las renovables, la intermitencia es el reto central",
+                "Reformas regulatorias y riesgo político: 2025 marcó ruptura política en el alineamiento sobre el net zero",
+                "Incertidumbre política afecta la confianza inversora y la continuidad de las políticas"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "r14_2",
+        "emoji": "🌿",
+        "label": "14.2 Compromisos CSR — Ambitions 2035",
+        "sub": "3 ejes · 12 compromisos · ODS",
+        "color": "c7",
+        "detail": {
+          "breadcrumb": "RAMA 14 › 14.2",
+          "title": "Los 12 compromisos CSR del Grupo EDF — Ambitions 2035",
+          "sub": "3 ejes estratégicos vinculados a los ODS de Naciones Unidas",
+          "emoji": "🌿",
+          "sections": [
+            {
+              "title": "RAZÓN DE SER",
+              "items": [
+                "Construir un futuro energético net zero con electricidad y soluciones innovadoras",
+                "Ayudar a salvar el planeta e impulsar el bienestar y el desarrollo económico"
+              ]
+            },
+            {
+              "title": "EJE 1 — Construir el sistema eléctrico del mañana (ODS 7, 9, 11, 13)",
+              "items": [
+                "Compromiso 1 — Net Zero emisiones para 2050",
+                "Compromiso 2 — Fomentar la electrificación de clientes y territorios",
+                "Compromiso 3 — Descarbonizar el mix energético (desplazar combustibles fósiles)",
+                "Compromiso 4 — Desarrollar redes avanzadas y soluciones de flexibilidad",
+                "Reducción Scope 1: ÷3 desde 2015 · Meta: -60% en 2025, -70% en 2030, -80% en 2035, net zero en 2050"
+              ]
+            },
+            {
+              "title": "EJE 2 — Operar dentro de los límites del planeta (ODS 6, 12, 14, 15)",
+              "items": [
+                "Compromiso 5 — Adaptación al cambio climático",
+                "Compromiso 6 — Preservar y regenerar ecosistemas",
+                "Compromiso 7 — Gestión sostenible del agua (recurso esencial para el negocio)",
+                "Compromiso 8 — Economía circular y sobriedad de recursos",
+                "El 97% del agua dulce retirada en Francia es devuelta al entorno natural"
+              ]
+            },
+            {
+              "title": "EJE 3 — Actuar para una transición justa (ODS 5, 8, 12, 17)",
+              "items": [
+                "Compromiso 9 — Garantizar salud, seguridad y bienestar de empleados y socios",
+                "Compromiso 10 — Combatir la pobreza energética",
+                "Compromiso 11 — Promover los derechos humanos e inclusión",
+                "Compromiso 12 — Fortalecer las comunidades locales"
+              ]
+            },
+            {
+              "title": "COMPROMISOS ADICIONALES Y CALIFICACIONES ESG",
+              "items": [
+                "EV100 desde 2017: primera empresa francesa — flota 100% eléctrica para 2030",
+                "Bonos verdes: proyectos eólicos, solares, hidroeléctricos, eficiencia energética, redes y nuclear",
+                "Biodiversidad: 50 años de compromiso — Entreprises engagés pour la nature + act4nature",
+                "CDP Climate Change: A (media del sector: C)",
+                "Moody's ESG: 77/100 (media sector: 68) · MSCI: AA · Ecovadis: top 5% (78/100)"
+              ]
+            }
+          ]
+        }
+      }
+    ]
   }
 ]

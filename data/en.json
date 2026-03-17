@@ -3349,5 +3349,141 @@
         ]
       }
     ]
+  },
+  {
+    "id": "r14",
+    "emoji": "⚡",
+    "label": "14. EDF Power Solutions",
+    "sub": "Key competitor · Reference player in France",
+    "color": "c7",
+    "detail": {
+      "breadcrumb": "BRANCH 14",
+      "title": "EDF Power Solutions",
+      "sub": "Competitor and potential business model reference",
+      "emoji": "⚡",
+      "sections": [
+        {
+          "title": "WHAT IT IS",
+          "items": [
+            "Born from the merger of EDF Renewables and EDF's International Division (May 2025)",
+            "Operates in 25+ countries designing solutions to reduce carbon footprint",
+            "Pioneer and leading player in onshore and offshore wind in France and globally for 15 years"
+          ]
+        },
+        {
+          "title": "SUB-BRANCHES",
+          "items": [
+            "14.1 What is EDF Power Solutions?",
+            "14.2 CSR Commitments — Ambitions 2035"
+          ]
+        }
+      ]
+    },
+    "children": [
+      {
+        "id": "r14_1",
+        "emoji": "🔌",
+        "label": "14.1 What is EDF Power Solutions?",
+        "sub": "Presence · Markets · Challenges",
+        "color": "c7",
+        "detail": {
+          "breadcrumb": "BRANCH 14 › 14.1",
+          "title": "What is EDF Power Solutions?",
+          "sub": "History, global presence and markets addressed",
+          "emoji": "🔌",
+          "sections": [
+            {
+              "title": "ORIGIN & SCALE",
+              "items": [
+                "Born from the merger of EDF Renewables and EDF's International Division in May 2025",
+                "Operates in 25+ countries, designing and implementing solutions to reduce carbon footprint",
+                "Pioneer and leading player in onshore and offshore wind — wind farms in 18 countries over 15 years"
+              ]
+            },
+            {
+              "title": "MARKETS ADDRESSED",
+              "items": [
+                "Renewables: onshore/offshore wind, solar PV (including floating projects)",
+                "First floating PV plant in the EDF group in France: 20 MWp on a hydroelectric reservoir in the Alps",
+                "Storage & flexibility: batteries, pumped hydro, smart EV charging, microgrids, green H₂",
+                "Virtual plant PowerShift: optimises assets (batteries, EVs) to unlock new revenue streams",
+                "Off-grid systems with desalination: AMAALA project (Saudi Arabia) — electricity + water 24/7 for 65,000 people",
+                "Emerging markets: Africa, Middle East, India, North America and Europe"
+              ]
+            },
+            {
+              "title": "CHALLENGES THEY FACE",
+              "items": [
+                "Curtailment and renewable overproduction: rapid energy landscape evolution demands more flexibility",
+                "Flexibility integration at scale: as renewables expand, intermittency becomes the central challenge",
+                "Regulatory reforms and political risk: 2025 marked a clear political break in net zero alignment",
+                "Political uncertainty affects investor confidence and policy continuity"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "r14_2",
+        "emoji": "🌿",
+        "label": "14.2 CSR Commitments — Ambitions 2035",
+        "sub": "3 pillars · 12 commitments · SDGs",
+        "color": "c7",
+        "detail": {
+          "breadcrumb": "BRANCH 14 › 14.2",
+          "title": "EDF Group's 12 CSR Commitments — Ambitions 2035",
+          "sub": "3 strategic pillars linked to the UN Sustainable Development Goals",
+          "emoji": "🌿",
+          "sections": [
+            {
+              "title": "PURPOSE",
+              "items": [
+                "Build a net zero energy future with electricity and innovative solutions",
+                "Help save the planet and drive well-being and economic development"
+              ]
+            },
+            {
+              "title": "PILLAR 1 — Build tomorrow's electricity system (SDGs 7, 9, 11, 13)",
+              "items": [
+                "Commitment 1 — Net Zero emissions by 2050",
+                "Commitment 2 — Foster electrification of customers and territories",
+                "Commitment 3 — Decarbonise the energy mix (replace fossil fuels)",
+                "Commitment 4 — Develop advanced grids and flexibility solutions",
+                "Scope 1 reduction: ÷3 since 2015 · Target: -60% by 2025, -70% by 2030, -80% by 2035, net zero by 2050"
+              ]
+            },
+            {
+              "title": "PILLAR 2 — Operate within planetary boundaries (SDGs 6, 12, 14, 15)",
+              "items": [
+                "Commitment 5 — Adapt to climate change",
+                "Commitment 6 — Preserve and regenerate ecosystems",
+                "Commitment 7 — Sustainable water management (essential resource for the business)",
+                "Commitment 8 — Circular economy and resource sobriety",
+                "97% of freshwater withdrawn in France is returned to the natural environment"
+              ]
+            },
+            {
+              "title": "PILLAR 3 — Act for a just transition (SDGs 5, 8, 12, 17)",
+              "items": [
+                "Commitment 9 — Ensure health, safety and well-being of employees and partners",
+                "Commitment 10 — Combat energy poverty",
+                "Commitment 11 — Promote human rights and inclusion",
+                "Commitment 12 — Strengthen local communities"
+              ]
+            },
+            {
+              "title": "ADDITIONAL COMMITMENTS & ESG RATINGS",
+              "items": [
+                "EV100 since 2017: first French company — 100% electric fleet by 2030",
+                "Green bonds: wind, solar, hydro, energy efficiency, grid and nuclear projects",
+                "Biodiversity: 50-year commitment — Entreprises engagés pour la nature + act4nature",
+                "CDP Climate Change: A (sector average: C)",
+                "Moody's ESG: 77/100 (sector avg: 68) · MSCI: AA · Ecovadis: top 5% (78/100)"
+              ]
+            }
+          ]
+        }
+      }
+    ]
   }
 ]
