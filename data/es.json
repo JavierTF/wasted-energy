@@ -1294,1983 +1294,60 @@
             }
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "r9",
-    "emoji": "📊",
-    "label": "9. Mercado Energético Francia",
-    "sub": "Precios negativos · Duck Curve · PPAs · Sectores",
-    "color": "c9",
-    "detail": {
-      "breadcrumb": "RAMA 9",
-      "title": "Mercado Energético Francia",
-      "sub": "El contexto que crea la oportunidad — datos para hablar con inversores",
-      "emoji": "📊",
-      "sections": [
-        {
-          "title": "EL PROBLEMA REAL",
-          "items": [
-            "No es sobreproducción estructural: es desequilibrio de sincronía",
-            "Demasiada energía en los momentos equivocados — especialmente al mediodía solar",
-            "El reinicio nuclear masivo (poco flexible) acentúa estos desequilibrios",
-            "Francia produce suficiente o demasiada electricidad, pero no logra electrificar sus usos rápidamente"
-          ]
-        },
-        {
-          "title": "CIFRAS CLAVE 2024",
-          "stats": [
-            {
-              "label": "Producción total",
-              "val": "536–561 TWh"
-            },
-            {
-              "label": "Consumo total",
-              "val": "449 TWh"
-            },
-            {
-              "label": "Exportaciones récord",
-              "val": "90–101 TWh"
-            },
-            {
-              "label": "Valor exportaciones",
-              "val": "4–5 mil M€"
-            },
-            {
-              "label": "% baja en carbono",
-              "val": "95%"
-            },
-            {
-              "label": "Solar 2024",
-              "val": "~24,8 TWh"
-            }
-          ]
-        },
-        {
-          "title": "OPORTUNIDAD PARA SOLUCIONES LOCALES",
-          "items": [
-            "El excedente exportado a precio negativo es materia prima para quien sepa absorberlo",
-            "Cada solución que convierte ese excedente en algo útil localmente destruye el status quo de la exportación",
-            "No hay un único destino correcto: agua, H₂, calor industrial, movilidad, conectividad, H₂ médico — todos son válidos"
-          ],
-          "type": "link"
-        }
-      ]
-    },
-    "children": [
-      {
-        "id": "r9_neg",
-        "emoji": "📉",
-        "label": "9.1 Precios Negativos — La Oportunidad",
-        "sub": "352h (2024) → 432h (2025) · 80M€ pérdidas · ×40 en 7 años",
-        "color": "c9",
-        "detail": {
-          "breadcrumb": "RAMA 9 › 9.1",
-          "title": "Precios Negativos — La Materia Prima",
-          "sub": "Electricidad que nadie quiere — y que crece cada año",
-          "emoji": "📉",
-          "sections": [
-            {
-              "title": "EVOLUCIÓN 2018→2025",
-              "stats": [
-                {
-                  "label": "Horas precio negativo 2018",
-                  "val": "~11h"
-                },
-                {
-                  "label": "Horas precio negativo 2024",
-                  "val": "352h"
-                },
-                {
-                  "label": "Horas precio negativo 2025",
-                  "val": ">432h"
-                },
-                {
-                  "label": "Crecimiento",
-                  "val": "×40 en 7 años"
-                },
-                {
-                  "label": "Pérdidas productores 2024",
-                  "val": "80 M€"
-                },
-                {
-                  "label": "Energía curtailed 2024",
-                  "val": "1,8 TWh"
-                },
-                {
-                  "label": "Compensación Estado 2024",
-                  "val": "15 M€"
-                }
-              ]
-            },
-            {
-              "title": "CUÁNDO OCURREN",
-              "items": [
-                "Por hora del día: 11h–16h (pico solar) y 2h–7h madrugada (nuclear sin demanda)",
-                "Por época: abril–octubre (solar + nuclear + baja demanda calefacción)",
-                "Primer semestre: 2× más horas negativas que el segundo",
-                "Q2 2024: +10% del tiempo con precio negativo — solo en ese trimestre",
-                "Récord: 31 marzo 2025 a las 13:30 — pico solar de 18 GW inédito"
-              ]
-            },
-            {
-              "title": "LO QUE SIGNIFICA PARA CUALQUIER SOLUCIÓN",
-              "items": [
-                "Esas horas son la materia prima: electricidad gratuita o pagada por consumirla",
-                "Cualquier proceso que pueda encenderse y apagarse en esas ventanas tiene ventaja estructural",
-                "El trend es claro: cada año hay más horas negativas — la oportunidad crece sola"
-              ],
-              "type": "link"
-            }
-          ]
-        }
       },
       {
-        "id": "r9_duck",
-        "emoji": "🦆",
-        "label": "9.2 Duck Curve Francesa",
-        "sub": "Nuclear inflexible + solar = desequilibrio crónico",
-        "color": "c9",
-        "detail": {
-          "breadcrumb": "RAMA 9 › 9.2",
-          "title": "La Duck Curve Francesa",
-          "sub": "Por qué el problema empeora estructuralmente cada año",
-          "emoji": "🦆",
-          "sections": [
-            {
-              "title": "QUÉ ES",
-              "items": [
-                "Curva en forma de pato: producción solar sube al mediodía, demanda baja → precio se hunde",
-                "La nuclear francesa (67% del mix) es poco flexible: difícil de apagar y encender",
-                "Resultado: al mediodía hay exceso estructural que el sistema no puede absorber rápidamente"
-              ]
-            },
-            {
-              "title": "EVIDENCIA RECIENTE",
-              "items": [
-                "Noviembre 2024: EDF apagó 6 reactores en 3 días por récord de viento (tormenta Bert, 19,3 GW) — primera vez en la historia",
-                "No fue el viento quien reemplazó a los reactores: había demasiada energía y nadie a quien vendérsela a precio rentable",
-                "Abril 2024: EDF moduló reactores por precios negativos ligados a renovables",
-                "RTE prevé que para 2030 los HEMS podrían reducir el curtailment un 75%"
-              ]
-            },
-            {
-              "title": "POR QUÉ EMPEORA",
-              "items": [
-                "Cada nuevo GW solar instalado añade más horas de precio negativo al mediodía",
-                "Francia instaló +5 GW solar en 2024 (total: 25,3 GW) — la tendencia no se detiene",
-                "El problema no es la energía solar: es la falta de sumideros flexibles locales"
-              ],
-              "type": "warning"
-            }
-          ]
-        }
-      },
-      {
-        "id": "r9_ppas",
-        "emoji": "📝",
-        "label": "9.3 PPAs en Francia",
-        "sub": "4 GW contratado · Gap SMEs · Fin ARENH dic. 2025",
-        "color": "c9",
-        "detail": {
-          "breadcrumb": "RAMA 9 › 9.3",
-          "title": "El Mercado de PPAs en Francia",
-          "sub": "El vehículo contractual para cualquier solución de largo plazo",
-          "emoji": "📝",
-          "sections": [
-            {
-              "title": "ESTADO DEL MERCADO",
-              "stats": [
-                {
-                  "label": "Capacidad bajo PPA (2024)",
-                  "val": "4 GW"
-                },
-                {
-                  "label": "Crecimiento 2025",
-                  "val": "600→1.200 MW"
-                },
-                {
-                  "label": "PPA industrial firmado 2024",
-                  "val": "65 €/MWh (15 años)"
-                },
-                {
-                  "label": "Precio spot normal",
-                  "val": "45–80 €/MWh"
-                },
-                {
-                  "label": "Precio spot horas negativas",
-                  "val": "~−19 €/MWh"
-                }
-              ]
-            },
-            {
-              "title": "VENTANA REGULATORIA CRÍTICA",
-              "items": [
-                "Fin del ARENH (diciembre 2025): compradores corporativos pierden acceso a nuclear a 42€/MWh",
-                "Están buscando alternativas ahora — ventana de entrada perfecta para cualquier propuesta",
-                "Décret du 27 juin 2024: autorización específica de la CRE antes de firmar un PPA",
-                "Loi APER 2023: simplifica instalaciones pero exige zonas específicas de suelo"
-              ]
-            },
-            {
-              "title": "GAP DE MERCADO",
-              "items": [
-                "Compradores corporativos actuales: Orange, Carrefour, SNCF, Les Mousquetaires, Leroy Merlin",
-                "Mercado de PPAs para SMEs y residencial: casi inexistente — ahí está el gap",
-                "La mayoría de PPAs son para grandes grupos con consumo >100 GWh/año"
-              ],
-              "type": "link"
-            }
-          ]
-        }
-      },
-      {
-        "id": "r9_sectores",
-        "emoji": "🏗️",
-        "label": "9.4 Sectores Consumidores",
-        "sub": "Residencial 39% · Terciario 32% · Industrial 26%",
-        "color": "c9",
-        "detail": {
-          "breadcrumb": "RAMA 9 › 9.4",
-          "title": "Sectores Consumidores de Electricidad — Francia 2024",
-          "sub": "449 TWh de consumo eléctrico total — dónde está el mercado",
-          "emoji": "🏗️",
-          "sections": [
-            {
-              "title": "CONSUMO ELÉCTRICO POR SECTOR (449 TWh total)",
-              "stats": [
-                {
-                  "label": "Residencial",
-                  "val": "175 TWh (39%)"
-                },
-                {
-                  "label": "Terciario",
-                  "val": "144 TWh (32%)"
-                },
-                {
-                  "label": "Industrial",
-                  "val": "117 TWh (26%)"
-                },
-                {
-                  "label": "Transporte + Agri.",
-                  "val": "13 TWh (3%)"
-                }
-              ]
-            },
-            {
-              "title": "PANELES SOLARES POR SEGMENTO (fin 2024)",
-              "stats": [
-                {
-                  "label": "Residencial",
-                  "val": "677.000 inst. / 3,8 GW"
-                },
-                {
-                  "label": "Terciario/C&I",
-                  "val": "~350.000 inst. / ~4 GW"
-                },
-                {
-                  "label": "Grandes plantas (>12 MW)",
-                  "val": "~17 GW vía RTE"
-                }
-              ]
-            },
-            {
-              "title": "PARADOJA CLAVE",
-              "items": [
-                "El sector industrial tiene 17 GW instalados pero vende casi todo a la red — genera el mayor excedente",
-                "El residencial creció +54% en instalaciones en 2024, pero autoconsume casi todo",
-                "Pocas empresas, mucha energía, mucho excedente — la materia prima está en la industria",
-                "Terciario privado (Carrefour, SNCF, hoteles): ya firma PPAs, busca soluciones activamente"
-              ]
-            }
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "id": "r10",
-    "emoji": "💰",
-    "label": "10. Modelo de Negocio",
-    "sub": "4 fuentes descorrelacionadas · Agua · Red · Carbono · Minerales",
-    "color": "c2",
-    "detail": {
-      "breadcrumb": "RAMA 10",
-      "title": "Modelo de Negocio — 4 Fuentes de Ingresos",
-      "sub": "La fortaleza del modelo es la diversificación — ninguna fuente depende de las otras",
-      "emoji": "💰",
-      "sections": [
-        {
-          "title": "POR QUÉ 4 FUENTES ES CLAVE PARA INVERSORES",
-          "items": [
-            "La mayoría de proyectos renovables tienen una sola fuente: el precio spot — que puede ser negativo",
-            "Este modelo tiene 4 fuentes descorrelacionadas: si una baja, las otras no dependen de ella",
-            "En lenguaje financiero: diversificación de flujos de caja → menor riesgo percibido → mejor valoración",
-            "El modelo no impone un único uso del excedente — cada territorio elige la combinación óptima"
-          ]
-        },
-        {
-          "title": "CUADRO DE LAS 4 FUENTES",
-          "stats": [
-            {
-              "label": "Agua (estabilidad)",
-              "val": "★★★★★"
-            },
-            {
-              "label": "Flexibilidad de red",
-              "val": "★★★★"
-            },
-            {
-              "label": "Créditos de carbono",
-              "val": "★★★"
-            },
-            {
-              "label": "Sal y minerales",
-              "val": "★★"
-            }
-          ]
-        },
-        {
-          "title": "INSIGHT CENTRAL",
-          "items": [
-            "\"Francia tiene demasiada energía exactamente cuando nadie la quiere, y demasiado poco de lo que esa energía podría producir\"",
-            "La pregunta disruptiva: ¿Conoces algún negocio donde tu materia prima a veces tiene precio negativo — te pagan por consumirla — y aun así produces algo vendible?"
-          ],
-          "type": "link"
-        }
-      ]
-    },
-    "children": [
-      {
-        "id": "r10_agua",
-        "emoji": "💧",
-        "label": "10.1 Venta de Agua",
-        "sub": "PPA hídrico · Precio fijo 5–15 años · Demanda garantizada",
-        "color": "c2",
-        "detail": {
-          "breadcrumb": "RAMA 10 › 10.1",
-          "title": "Venta de Agua — Primera Fuente de Ingresos",
-          "sub": "Demanda garantizada independientemente del precio de la energía",
-          "emoji": "💧",
-          "sections": [
-            {
-              "title": "MODELO",
-              "items": [
-                "Contrato a precio fijo por m³, similar a un PPA pero para agua (5–15 años)",
-                "El precio del agua en Francia ha subido consistentemente — demanda estructural",
-                "El agua desacopla la producción del consumo: un tanque almacena semanas, no horas"
-              ]
-            },
-            {
-              "title": "CLIENTES POTENCIALES",
-              "items": [
-                "Hogares y residencias en zonas con escasez hídrica estival (Occitanie, PACA)",
-                "SMEs: restaurantes, hoteles, agricultura, industria ligera",
-                "Municipios que complementan su red pública durante periodos de sequía",
-                "Hospitales y centros de salud rurales"
-              ]
-            },
-            {
-              "title": "VENTAJA OCULTA VS. ENERGÍA",
-              "items": [
-                "Un tanque de agua almacena el equivalente energético de días o semanas sin pérdidas ni degradación",
-                "Costo de almacenamiento: prácticamente cero comparado con baterías",
-                "Desacopla producción de consumo — lo que ninguna batería puede hacer con la electricidad"
-              ],
-              "type": "link"
-            }
-          ]
-        }
-      },
-      {
-        "id": "r10_red",
-        "emoji": "⚡",
-        "label": "10.2 Flexibilidad de Red (RTE)",
-        "sub": "Effacement · 50–150 €/MWh · Regulatorio maduro",
-        "color": "c2",
-        "detail": {
-          "breadcrumb": "RAMA 10 › 10.2",
-          "title": "Flexibilidad de Red — Servicios a RTE",
-          "sub": "RTE paga por consumir electricidad cuando hay exceso en la red",
-          "emoji": "⚡",
-          "sections": [
-            {
-              "title": "QUÉ ES EL EFFACEMENT",
-              "items": [
-                "RTE paga a actores que pueden encender o apagar su consumo bajo demanda para equilibrar la red",
-                "Te registras como consumidor flexible — cuando hay exceso, te activan y te pagan",
-                "Aplica a cualquier proceso flexible: desalinización, electrólisis, bombeo, carga EV, calefacción industrial",
-                "Te pagan dos veces: RTE paga por consumir, y tú conviertes esa electricidad en un producto que también vendes"
-              ]
-            },
-            {
-              "title": "RETRIBUCIÓN",
-              "stats": [
-                {
-                  "label": "Rango de pago RTE",
-                  "val": "50–150 €/MWh"
-                },
-                {
-                  "label": "Madurez regulatoria",
-                  "val": "Alta"
-                },
-                {
-                  "label": "Referencia",
-                  "val": "Enerdigit ya cobra esto"
-                }
-              ]
-            },
-            {
-              "title": "RIESGO A GESTIONAR",
-              "items": [
-                "RTE puede cortar tu producción si no tienes acuerdo formal previo",
-                "Necesitas validación técnica como carga flexible certificada",
-                "Incluir gestión de RTE en el timeline desde el primer día del proyecto"
-              ],
-              "type": "warning"
-            }
-          ]
-        }
-      },
-      {
-        "id": "r10_carbono",
-        "emoji": "🌿",
-        "label": "10.3 Créditos de Carbono",
-        "sub": "Label Bas Carbone · 30–80 €/tCO₂ · Narrativa ESG",
-        "color": "c2",
-        "detail": {
-          "breadcrumb": "RAMA 10 › 10.3",
-          "title": "Créditos de Carbono — Tercera Fuente",
-          "sub": "Ingreso recurrente y mejora de historia ESG ante inversores",
-          "emoji": "🌿",
-          "sections": [
-            {
-              "title": "CÓMO SE GENERAN",
-              "items": [
-                "Cada proceso reemplaza métodos que consumen energía fósil o infraestructura intensiva en carbono",
-                "Al absorber excedentes que habrían sido curtailed, se evita que esa energía se desperdicie",
-                "Huella de carbono calculable y certificable por unidad de producción o servicio"
-              ]
-            },
-            {
-              "title": "CÓMO SE MONETIZAN",
-              "stats": [
-                {
-                  "label": "Mecanismo Francia",
-                  "val": "Label Bas Carbone"
-                },
-                {
-                  "label": "Mercado voluntario europeo",
-                  "val": "30–80 €/tCO₂"
-                },
-                {
-                  "label": "Certificación europea",
-                  "val": "Garanties d'Origine"
-                }
-              ]
-            },
-            {
-              "title": "VALOR ESTRATÉGICO",
-              "items": [
-                "No es el ingreso principal, pero es recurrente, predecible y mejora la historia ESG",
-                "Atrae inversores ESG y fondos de impacto que de otro modo no mirarían el proyecto",
-                "Certificaciones adicionales: ISO 14001, Label Bas Carbone"
-              ],
-              "type": "link"
-            }
-          ]
-        }
-      },
-      {
-        "id": "r10_minerales",
-        "emoji": "🧂",
-        "label": "10.4 Sal y Minerales",
-        "sub": "Salmuera → sal · magnesio · potasio · litio",
-        "color": "c2",
-        "detail": {
-          "breadcrumb": "RAMA 10 › 10.4",
-          "title": "Sal y Minerales — Cuarta Fuente (cuando aplica desalinización)",
-          "sub": "Convierte el único residuo en un producto — modelo sin desperdicios",
-          "emoji": "🧂",
-          "sections": [
-            {
-              "title": "CONTEXTO",
-              "items": [
-                "Aplica específicamente cuando la solución elegida incluye desalinización u ósmosis inversa",
-                "La salmuera residual pasa de ser un coste de gestión a ser una fuente de ingresos",
-                "Valor narrativo: \"no tenemos residuos, tenemos cuatro productos\""
-              ]
-            },
-            {
-              "title": "PRODUCTOS EXTRAÍBLES",
-              "items": [
-                "NaCl (sal): evaporación solar → sal cristalizable. Sal de Camargue: 0,50–3 €/kg",
-                "MgCl₂ (magnesio): construcción, alimentación animal, metalurgia",
-                "Potasio: fertilizantes agrícolas directos",
-                "Litio: extracción DLE, $3.500–4.400/ton (Stanford 2024) — requiere tecnología adicional"
-              ]
-            },
-            {
-              "title": "ESTRATEGIA POR FASES",
-              "items": [
-                "Fase MVP: devolver salmuera diluida al mar bajo protocolo ambiental certificado — impacto neto cero",
-                "Fase escala: cristalizar y vender sal → cuarta fuente sin cambiar el proceso central",
-                "Fases posteriores: extracción de magnesio, potasio, litio según rentabilidad"
-              ],
-              "type": "link"
-            }
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "id": "r11",
-    "emoji": "🗺️",
-    "label": "11. Competidores y Aliados",
-    "sub": "Effacement · Baterías · V2G · H₂ verde · PPAs · Desalinización",
-    "color": "c3",
-    "detail": {
-      "breadcrumb": "RAMA 11",
-      "title": "Mapa de Competidores y Aliados en Francia",
-      "sub": "6 categorías de soluciones — algunas compiten, otras son aliados naturales",
-      "emoji": "🗺️",
-      "sections": [
-        {
-          "title": "POSICIONAMIENTO ESTRATÉGICO",
-          "items": [
-            "Effacement (Enerdigit): competidor directo en captación del excedente — no produce nada físico",
-            "Baterías estacionarias: competidor indirecto — almacena energía, no producto",
-            "V2G (DREEV/EDF): amenaza a largo plazo (2030+), hoy en fase piloto",
-            "H₂ verde: competidor institucional con mucho dinero público pero baja madurez",
-            "PPAs solares (Valeco, Technique Solaire, Engle): aliados naturales — tienen el excedente",
-            "Desalinización solar: sin actor en Francia — espacio abierto"
-          ]
-        },
-        {
-          "title": "CONCLUSIÓN ESTRATÉGICA",
-          "items": [
-            "No hay ningún actor en Francia combinando solar distribuido + múltiples usos del excedente + distribución local a SMEs y residencial",
-            "Lo más cercano geográficamente: proyectos en Mediterráneo sur",
-            "Ventana de primer entrante en Francia todavía abierta"
-          ],
-          "type": "link"
-        }
-      ]
-    },
-    "children": [
-      {
-        "id": "r11_effacement",
-        "emoji": "🔌",
-        "label": "11.1 Flexibilidad de Demanda (Effacement)",
-        "sub": "Enerdigit · Orus Energy · Ecojoko",
-        "color": "c3",
-        "detail": {
-          "breadcrumb": "RAMA 11 › 11.1",
-          "title": "Flexibilidad de Demanda — Competidores Directos en Captación",
-          "sub": "Ya cobran por absorber excedentes, pero solo gestionan la demanda — no crean producto",
-          "emoji": "🔌",
-          "sections": [
-            {
-              "title": "ACTORES",
-              "items": [
-                "Enerdigit (Nantes): startup más relevante. 20 empleados, >20M€ CA en 2024. Remunerada por transferir electricidad no consumida. Planea diversificarse con baterías",
-                "Orus Energy (GreenTech Innovation 2024): ayuda y remunera a edificios comerciales por gestionar su consumo inteligentemente",
-                "Ecojoko: asistente para particulares, integra tarifas horas punta/valle"
-              ]
-            },
-            {
-              "title": "SU LIMITACIÓN",
-              "items": [
-                "Absorben energía cuando sobra y ajustan el consumo — solo gestionan la demanda eléctrica",
-                "No producen ningún bien físico con esa energía",
-                "Cualquier solución que convierta el excedente en un producto físico tiene ventaja diferencial directa"
-              ],
-              "type": "link"
-            }
-          ]
-        }
-      },
-      {
-        "id": "r11_baterias",
-        "emoji": "🔋",
-        "label": "11.2 Almacenamiento por Baterías",
-        "sub": "Ze Energy · STEPs · 1.300M€ UE",
-        "color": "c3",
-        "detail": {
-          "breadcrumb": "RAMA 11 › 11.2",
-          "title": "Almacenamiento por Baterías Estacionarias",
-          "sub": "Competidor indirecto — almacena energía pero no la convierte en producto",
-          "emoji": "🔋",
-          "sections": [
-            {
-              "title": "ACTORES",
-              "items": [
-                "Ze Energy (creada 2019): diseña, construye y opera centrales híbridas solar + almacenamiento. Levantó fondos con Amundi Transition Énergétique",
-                "STEPs: ~5 GW turbinado + 4,3 GW bombeo en Francia a finales de 2024. Solicitudes de conexión multiplicadas por dos desde 2022",
-                "Inversión pública UE: 1.300 M€ validados por CE para flexibilidad no carbonada"
-              ]
-            },
-            {
-              "title": "LIMITACIÓN",
-              "items": [
-                "Una batería almacena electricidad durante horas — no días ni semanas",
-                "Re-vende electricidad cuyo precio puede seguir siendo bajo o negativo",
-                "El almacenamiento físico (agua, H₂, calor) puede durar semanas sin pérdidas"
-              ],
-              "type": "link"
-            }
-          ]
-        }
-      },
-      {
-        "id": "r11_v2g",
-        "emoji": "🚗",
-        "label": "11.3 Vehículos Eléctricos V2G",
-        "sub": "DREEV · Proyecto EVVE · Amenaza 2030+",
-        "color": "c3",
-        "detail": {
-          "breadcrumb": "RAMA 11 › 11.3",
-          "title": "V2G — Vehículos como Almacenamiento",
-          "sub": "Solución avanzada y bien financiada, pero en fase piloto hoy",
-          "emoji": "🚗",
-          "sections": [
-            {
-              "title": "ACTORES",
-              "items": [
-                "DREEV (EDF + Nuvve): certificado por RTE. V2G en empresas y colectividades. Valorización en mercado de ajuste",
-                "Proyecto EVVE (EDF + Fondo Innovación Europeo): 800 estaciones bidireccionales → batería virtual de 8,36 MW",
-                "Potencial 2040: los VE conectados podrían reducir hasta el 92% la necesidad de almacenamiento estacionario"
-              ]
-            },
-            {
-              "title": "EVALUACIÓN",
-              "items": [
-                "A corto plazo: V2G en fase piloto, no cubre el gap actual",
-                "A largo plazo (2030+): amenaza indirecta si los coches se convierten en baterías masivas",
-                "Para entonces, soluciones con producto físico ya tendrán contratos y escala"
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "id": "r11_h2verde",
-        "emoji": "⚗️",
-        "label": "11.4 Hidrógeno Verde",
-        "sub": "Air Liquide · TotalEnergies · Masshylia · 9.000M€",
-        "color": "c3",
-        "detail": {
-          "breadcrumb": "RAMA 11 › 11.4",
-          "title": "Hidrógeno Verde — Competidor Institucional",
-          "sub": "Mucho dinero público, pero también más riesgos e infraestructura nueva necesaria",
-          "emoji": "⚗️",
-          "sections": [
-            {
-              "title": "ACTORES",
-              "items": [
-                "Air Liquide + TotalEnergies: 450 MW de electrolizadores planificados en Francia",
-                "Masshylia (TotalEnergies + Engie, La Mède, PACA): piloto H₂ verde a partir de FV. 5 toneladas H₂/día",
-                "Hyd'Occ (Port-la-Nouvelle, Occitanie): mayor usina H₂ verde de Francia. 3.000 t/año en 2025",
-                "Inversión pública: 9.000 M€ atribuidos al H₂ descarbonado hasta 2030"
-              ]
-            },
-            {
-              "title": "SU TALÓN DE AQUILES",
-              "items": [
-                "Cour des comptes: los objetivos parecen fuera de alcance — solo 0,5 GW plenamente asegurados para 2030",
-                "Requiere infraestructura de distribución nueva e inexistente",
-                "Costos de almacenamiento altísimos — mercado final aún no existe a escala"
-              ]
-            },
-            {
-              "title": "ARGUMENTO ANTE INVERSORES",
-              "items": [
-                "El H₂ verde necesita 9.000 M€ de inversión pública para arrancar",
-                "Soluciones que usan infraestructura existente pueden ejecutarse con mucho menos capital",
-                "No compiten en el mismo mercado: H₂ apunta a industria pesada, otras soluciones apuntan a SMEs y consumo local"
-              ],
-              "type": "link"
-            }
-          ]
-        }
-      },
-      {
-        "id": "r11_ppas",
-        "emoji": "🤝",
-        "label": "11.5 Productores Solares — Aliados Naturales",
-        "sub": "Engle · Valeco · Technique Solaire · TotalEnergies",
-        "color": "c3",
-        "detail": {
-          "breadcrumb": "RAMA 11 › 11.5",
-          "title": "Productores Solares — Aliados, No Competidores",
-          "sub": "Tienen exactamente el problema que una solución de absorción resuelve",
-          "emoji": "🤝",
-          "sections": [
-            {
-              "title": "ACTORES",
-              "items": [
-                "Technique Solaire: 302M€ levantados en 2025 para 341 proyectos en Francia, España y Países Bajos",
-                "Valeco (filial EnBW): PPAs greenfield 5–18 años, agrovoltaísmo. Fuerte en Occitanie y Nouvelle-Aquitaine",
-                "Engle: uno de los mayores propietarios de parques solares en Francia",
-                "TotalEnergies: producción solar a gran escala, cofundador Masshylia"
-              ]
-            },
-            {
-              "title": "POR QUÉ SON ALIADOS",
-              "items": [
-                "Todos tienen el mismo problema: entre las 12h y las 16h sus precios se vuelven negativos",
-                "PPA inverso: ellos ceden excedente a precio cero o negativo, la solución lo convierte en producto",
-                "Si Engle o TotalEnergies firman contigo, es la mejor carta de presentación ante inversores y reguladores",
-                "Alineación de incentivos perfecta: ellos quieren deshacerse del excedente, tú lo quieres consumir"
-              ]
-            },
-            {
-              "title": "FRASE PARA EL PITCH HACIA ELLOS",
-              "items": [
-                "\"Tu electricidad que hoy vale cero o negativo entre las 12h y 16h, con nosotros vale [producto de impacto local].\""
-              ],
-              "type": "link"
-            }
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "id": "r12",
-    "emoji": "🚀",
-    "label": "12. Go-to-Market y MVP",
-    "sub": "2 meses · Occitanie/PACA · B2B primero · 3 fases",
-    "color": "c6",
-    "detail": {
-      "breadcrumb": "RAMA 12",
-      "title": "Go-to-Market y MVP",
-      "sub": "Cómo llegar al mercado en 2 meses y escalar de forma sostenible",
-      "emoji": "🚀",
-      "sections": [
-        {
-          "title": "MODELO DE 3 FASES",
-          "items": [
-            "Fase 1 (MVP ~2 meses): acuerdo con 1 productor solar en Occitanie o PACA. Excedente a precio cero o negativo. Demostrar que el modelo funciona",
-            "Fase 2 (Escala B2B): más productores, producto o servicio vendido a municipios e industria local",
-            "Fase 3 (Residencial): cuando hay volumen, marca y validación regulatoria"
-          ]
-        },
-        {
-          "title": "TERRITORIO MVP PRIORITARIO",
-          "items": [
-            "Sur de Francia (Occitanie, PACA): más horas de precio negativo, más sequía estival, más interés político",
-            "Presencia de Valeco y Technique Solaire — excedente disponible ahora",
-            "Récord: 31 marzo 2025, pico solar de 18 GW al mediodía"
-          ],
-          "type": "link"
-        }
-      ]
-    },
-    "children": [
-      {
-        "id": "r12_b2b",
-        "emoji": "🏭",
-        "label": "12.1 Por Qué Empezar por B2B",
-        "sub": "Productores solares primero · Ciclo corto · Alineación perfecta",
-        "color": "c6",
-        "detail": {
-          "breadcrumb": "RAMA 12 › 12.1",
-          "title": "Por Qué Empezar por Productores Solares, No por Hogares",
-          "sub": "La decisión estratégica más importante del go-to-market",
-          "emoji": "🏭",
-          "sections": [
-            {
-              "title": "POR QUÉ NO EMPEZAR POR HOGARES",
-              "items": [
-                "Ciclo de venta larguísimo: 6 a 18 meses por cliente individual",
-                "Ticket pequeño: necesitarías miles de hogares para un negocio viable en fase MVP",
-                "Costo de adquisición altísimo por contrato pequeño",
-                "Educación de mercado desde cero: el hogar promedio no sabe qué es la sobreproducción"
-              ]
-            },
-            {
-              "title": "POR QUÉ EMPEZAR POR PRODUCTORES SOLARES",
-              "items": [
-                "Ya tienen el problema que resuelves — lo viven cada día entre las 12h y las 16h",
-                "Una sola firma = impacto masivo: un contrato con Technique Solaire da acceso a cientos de MW",
-                "Hablan tu lenguaje: PPAs, precios negativos, curtailment, RTE",
-                "Te legitiman ante todos los demás inversores y reguladores",
-                "Alineación de incentivos perfecta: ellos quieren deshacerse del excedente, tú lo quieres consumir"
-              ]
-            },
-            {
-              "title": "FRASE PARA EL PITCH",
-              "items": [
-                "\"No vendemos puerta a puerta. Firmamos un contrato con quien ya tiene el problema, y desde ahí llegamos a miles de usuarios finales sin tocarlos uno por uno.\""
-              ],
-              "type": "link"
-            }
-          ]
-        }
-      },
-      {
-        "id": "r12_stakeholders",
-        "emoji": "🏛️",
-        "label": "12.2 Stakeholders Críticos",
-        "sub": "RTE · Enedis · CRE · ADEME · BpiFrance · Mairies",
-        "color": "c6",
-        "detail": {
-          "breadcrumb": "RAMA 12 › 12.2",
-          "title": "Stakeholders que No Puedes Ignorar",
-          "sub": "Cada uno puede bloquear o acelerar el proyecto",
-          "emoji": "🏛️",
-          "sections": [
-            {
-              "title": "TABLA DE STAKEHOLDERS",
-              "items": [
-                "RTE: gestor red nacional. Puede pagar por flexibilidad O cortar tu producción. Sin su validación el MVP no funciona",
-                "Enedis: distribución local. Bloquea conexión de SMEs si no está alineado",
-                "CRE: aprueba PPAs. Retraso de meses si no se gestiona en el timeline",
-                "ADEME: financia pilotos — subvenciones clave para el MVP",
-                "Mairies / collectivités: permiso de suelo, apoyo político local",
-                "BpiFrance / Crédit Agricole: financiación de proyectos — capex inicial",
-                "SMEs: target de demanda final — sin educación, no adoptan"
-              ]
-            },
-            {
-              "title": "REGULATORIO CLAVE",
-              "items": [
-                "Décret du 27 juin 2024: autorización específica de la CRE antes de firmar un PPA",
-                "Loi APER 2023: simplifica instalaciones pero exige zonas específicas de suelo"
-              ],
-              "type": "warning"
-            }
-          ]
-        }
-      },
-      {
-        "id": "r12_mvp",
-        "emoji": "🎯",
-        "label": "12.3 Los 6 Elementos del MVP",
-        "sub": "Problema verificado · Ventana regulatoria · Modelo triple",
-        "color": "c6",
-        "detail": {
-          "breadcrumb": "RAMA 12 › 12.3",
-          "title": "Los 6 Elementos del MVP",
-          "sub": "Lo que el MVP en 2 meses debe demostrar",
-          "emoji": "🎯",
-          "sections": [
-            {
-              "title": "LOS 6 ELEMENTOS",
-              "items": [
-                "① Problema verificado: 80M€ pérdidas en 2024, 32% más horas negativas en 2025",
-                "② Ventana regulatoria: fin del ARENH en dic. 2025 → urgencia real para compradores",
-                "③ Mercado cuantificado: 39% consumo residencial + 32% terciario sin solución de absorción local",
-                "④ Tecnología existente: las soluciones de absorción de excedentes ya funcionan (RO, electrólisis, bombeo, carga EV)",
-                "⑤ Modelo de ingresos múltiple: producto + flexibilidad de red (RTE) + garantías de origen verde",
-                "⑥ Territorio MVP: Sur de Francia (Occitanie, PACA) — más solar, más escasez, más interés político"
-              ]
-            },
-            {
-              "title": "FRASE PARA INVERSORES",
-              "items": [
-                "\"En las horas de precio negativo (12–16h, primavera–verano), absorbemos el excedente solar local y lo convertimos en valor real para la región, mientras generamos créditos de flexibilidad para RTE.\""
-              ],
-              "type": "link"
-            }
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "id": "r13",
-    "emoji": "🎤",
-    "label": "13. Pitch para Inversores",
-    "sub": "Insight central · Datos impactantes · Objeciones y respuestas",
-    "color": "c8",
-    "detail": {
-      "breadcrumb": "RAMA 13",
-      "title": "Pitch para Inversores",
-      "sub": "Los argumentos, datos y frases para defender el modelo ante cualquier inversor",
-      "emoji": "🎤",
-      "sections": [
-        {
-          "title": "EL INSIGHT CENTRAL",
-          "items": [
-            "\"Francia tiene demasiada energía exactamente cuando nadie la quiere, y demasiado poco de lo que esa energía podría producir\"",
-            "El mercado pregunta: ¿cómo almacenamos o exportamos el excedente?",
-            "Este proyecto pregunta: ¿en qué producto o servicio con demanda garantizada podemos convertirlo?",
-            "Esa diferencia de perspectiva define un negocio disruptivo frente a uno incremental"
-          ]
-        },
-        {
-          "title": "LA PREGUNTA QUE DESARMA AL INVERSOR ESCÉPTICO",
-          "items": [
-            "\"¿Conoces algún otro negocio donde tu materia prima principal a veces tiene precio negativo — te pagan por consumirla — y aun así produces algo que puedes vender?\"",
-            "La respuesta honesta: no, no existe otro así en Francia hoy"
-          ],
-          "type": "link"
-        }
-      ]
-    },
-    "children": [
-      {
-        "id": "r13_datos",
-        "emoji": "📈",
-        "label": "13.1 Datos Impactantes para el Pitch",
-        "sub": "352h→432h · 80M€ · ×40 en 7 años · 1,8 TWh tirada",
-        "color": "c8",
-        "detail": {
-          "breadcrumb": "RAMA 13 › 13.1",
-          "title": "Datos Impactantes — Usar Directamente en el Pitch",
-          "sub": "Ordenados para máximo impacto ante inversores",
-          "emoji": "📈",
-          "sections": [
-            {
-              "title": "LOS NÚMEROS QUE IMPACTAN",
-              "stats": [
-                {
-                  "label": "Horas precio negativo 2018",
-                  "val": "~11h"
-                },
-                {
-                  "label": "Horas precio negativo 2024",
-                  "val": "352h"
-                },
-                {
-                  "label": "Horas precio negativo 2025",
-                  "val": ">432h"
-                },
-                {
-                  "label": "Crecimiento en 7 años",
-                  "val": "×40"
-                },
-                {
-                  "label": "Pérdidas productores 2024",
-                  "val": "80 M€"
-                },
-                {
-                  "label": "Energía tirada 2024",
-                  "val": "1,8 TWh"
-                },
-                {
-                  "label": "Q2 2024 precio negativo",
-                  "val": "+10% del tiempo"
-                },
-                {
-                  "label": "Compensación Estado 2024",
-                  "val": "15 M€"
-                }
-              ]
-            },
-            {
-              "title": "FRASE DE CIERRE PARA EL PITCH",
-              "items": [
-                "\"En 2024, Francia tuvo 352 horas en las que los productores pagaban para que alguien les quitara su energía. En 2025 ya se superaron las 432 horas antes de acabar el año — y la tendencia es vertical.\""
-              ],
-              "type": "link"
-            }
-          ]
-        }
-      },
-      {
-        "id": "r13_defensas",
-        "emoji": "🛡️",
-        "label": "13.2 Objeciones y Respuestas",
-        "sub": "Baterías · Regulación · Residuos · Riesgos reales",
-        "color": "c8",
-        "detail": {
-          "breadcrumb": "RAMA 13 › 13.2",
-          "title": "Objeciones Frecuentes y Cómo Responderlas",
-          "sub": "Las preguntas que lanzará cualquier inversor o regulador",
-          "emoji": "🛡️",
-          "sections": [
-            {
-              "title": "¿No es esto lo mismo que las baterías?",
-              "items": [
-                "No. Una batería re-vende electricidad cuyo precio puede seguir siendo negativo",
-                "Convertir el excedente en un producto físico desacopla el valor del precio eléctrico completamente",
-                "Almacenamiento físico (agua, H₂, calor): semanas sin degradación, a costo casi cero"
-              ]
-            },
-            {
-              "title": "¿El regulador no va a bloquear esto?",
-              "items": [
-                "El camino regulatorio ya existe: Enerdigit cobra por effacement, DREEV está certificado por RTE",
-                "Hay que gestionar CRE, RTE y Enedis desde el día 1 — no ignorarlos",
-                "Décret du 27 juin 2024 y Loi APER 2023 son el marco legal vigente"
-              ]
-            },
-            {
-              "title": "RIESGOS REALES QUE NO SE PUEDEN IGNORAR",
-              "items": [
-                "⚠️ Canibalización de precios: más paneles = más horas negativas — hay que operar precisamente en esas horas",
-                "⚠️ Curtailment: RTE puede cortar producción si la red está saturada — acuerdo previo obligatorio",
-                "⚠️ Modelo múltiple: requiere gestión más compleja que un modelo mono-producto"
-              ],
-              "type": "warning"
-            }
-          ]
-        }
-      },
-      {
-        "id": "r13_esg",
-        "emoji": "🏷️",
-        "label": "13.3 Certificaciones ESG y Posicionamiento",
-        "sub": "Label Bas Carbone · Garanties d'Origine · ISO 14001",
-        "color": "c8",
-        "detail": {
-          "breadcrumb": "RAMA 13 › 13.3",
-          "title": "Certificaciones ESG y Posicionamiento de Marca",
-          "sub": "Cómo presentar el proyecto para atraer inversores de impacto",
-          "emoji": "🏷️",
-          "sections": [
-            {
-              "title": "CERTIFICACIONES RELEVANTES",
-              "items": [
-                "Label Bas Carbone (Francia): mecanismo oficial del Estado para proyectos de reducción de emisiones fuera del EU ETS",
-                "Garanties d'Origine: certifica que la electricidad proviene de fuentes renovables — estándar europeo",
-                "ISO 14001: gestión ambiental — relevante para contratos con corporaciones y administraciones"
-              ]
-            },
-            {
-              "title": "POSICIONAMIENTO",
-              "items": [
-                "No vender \"energía\": vender soberanía local + soluciones de impacto para regiones",
-                "Argumento emocional en Francia: \"pagar para exportar tu electricidad es un escándalo — nosotros la convertimos en valor para tu región\"",
-                "No estás inventando un mercado — estás entrando en mercados que llevan siglos funcionando"
-              ]
-            },
-            {
-              "title": "INVERSORES TARGET",
-              "items": [
-                "Fondos ESG e impacto: atraídos por Label Bas Carbone y narrativa de circularidad",
-                "Lita.co (Francia): inversión de impacto social, empresas publican necesidades abiertamente",
-                "Lumo (Francia): específica para proyectos de energía renovable ciudadana",
-                "BpiFrance: banco público de inversión, ha financiado proyectos fotovoltaicos directamente"
-              ],
-              "type": "link"
-            }
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "id": "r9",
-    "emoji": "📊",
-    "label": "9. Mercado Energético Francia",
-    "sub": "Producción · Precios negativos · PPAs",
-    "color": "c4",
-    "detail": {
-      "breadcrumb": "RAMA 9",
-      "title": "Mercado Energético Francia",
-      "sub": "El contexto que hace viable el proyecto — datos reales 2024–2025",
-      "emoji": "📊",
-      "sections": [
-        {
-          "title": "QUÉ ESTÁ PASANDO REALMENTE",
-          "items": [
-            "No es sobreproducción estructural — es desequilibrio de sincronía",
-            "Solar muy productivo al mediodía transforma el equilibrio de la red",
-            "Nuclear masiva, poco flexible, acentúa los desequilibrios",
-            "1er semestre 2025: 32% más horas con precio negativo que en 2024",
-            "Mayo 2025: 90% de los días tuvieron precios negativos o nulos (−19 €/MWh promedio)"
-          ]
-        },
-        {
-          "title": "CIFRAS CLAVE 2024",
-          "stats": [
-            {
-              "label": "Producción total",
-              "val": "536–561 TWh"
-            },
-            {
-              "label": "Consumo total",
-              "val": "449 TWh"
-            },
-            {
-              "label": "Exportaciones",
-              "val": "~90–101 TWh"
-            },
-            {
-              "label": "% baja en carbono",
-              "val": "95%"
-            },
-            {
-              "label": "Nuclear 2024",
-              "val": "~361 TWh (67%)"
-            },
-            {
-              "label": "Solar 2024",
-              "val": "~24,8 TWh (+10%)"
-            }
-          ]
-        },
-        {
-          "title": "PRECIOS NEGATIVOS — LA OPORTUNIDAD",
-          "stats": [
-            {
-              "label": "Horas precio neg. 2024",
-              "val": "352 h"
-            },
-            {
-              "label": "Horas precio neg. 2025",
-              "val": ">432 h"
-            },
-            {
-              "label": "Pérdidas productores 2024",
-              "val": "80 M€"
-            },
-            {
-              "label": "Energía curtailed 2024",
-              "val": "1,8 TWh"
-            },
-            {
-              "label": "Q2 2024 precio neg.",
-              "val": ">10% tiempo"
-            }
-          ]
-        },
-        {
-          "title": "CUÁNDO OCURREN LOS PRECIOS NEGATIVOS",
-          "items": [
-            "Por hora del día: 11h–16h (pico solar) y 2h–7h (nuclear sin demanda nocturna)",
-            "Por época del año: abril–octubre (temporada solar)",
-            "1er semestre: 2× más horas negativas que el 2do semestre",
-            "Récord: 31 marzo 2025 a las 13:30 — producción solar alcanzó 18 GW"
-          ]
-        },
-        {
-          "title": "DUCK CURVE FRANCESA",
-          "items": [
-            "EDF apagó 6 reactores nucleares el 24–25 nov. 2024 por récord eólico (19,3 GW)",
-            "Primera vez en la historia que se apagan 6 reactores por exceso de oferta",
-            "Demuestra que incluso la nuclear \"inflexible\" tiene que ceder ante la sobreoferta"
-          ]
-        },
-        {
-          "title": "MERCADO PPA EN FRANCIA",
-          "items": [
-            "2025: mercado PPA crece de 600 MW a más de 1.200 MW de capacidades contratadas",
-            "Compradores corporativos activos: Orange, Carrefour, SNCF, Les Mousquetaires, Leroy Merlin",
-            "Gap enorme: mercado PPAs para SMEs está subdesarrollado — ahí está la oportunidad",
-            "Fin del ARENH (dic. 2025): mecanismo que permitía comprar nuclear a 42 €/MWh",
-            "Con el ARENH desaparecido, los compradores buscan alternativas PPA privadas urgentemente"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "r10",
-    "emoji": "💰",
-    "label": "10. Modelo de Negocio",
-    "sub": "4 fuentes de ingresos descorrelacionadas",
-    "color": "c5",
-    "detail": {
-      "breadcrumb": "RAMA 10",
-      "title": "Modelo de Negocio",
-      "sub": "4 fuentes de ingresos descorrelacionadas — el argumento clave para inversores",
-      "emoji": "💰",
-      "sections": [
-        {
-          "title": "POR QUÉ 4 FUENTES DESCORRELACIONADAS",
-          "items": [
-            "La mayoría de proyectos renovables tienen una sola fuente: precio spot de electricidad",
-            "Si el precio baja o es negativo, el modelo colapsa",
-            "Con 4 fuentes descorrelacionadas: si una baja, las otras compensan",
-            "En lenguaje financiero: diversificación de flujos de caja → menor riesgo → mejor valoración"
-          ]
-        }
-      ]
-    },
-    "children": [
-      {
-        "id": "r10_agua",
-        "emoji": "💧",
-        "label": "10.1 Venta de agua",
-        "sub": "PPA hídrico · precio fijo · demanda garantizada",
-        "color": "c5",
-        "detail": {
-          "breadcrumb": "RAMA 10 › 10.1",
-          "title": "Venta de Agua",
-          "sub": "Primera fuente de ingresos — la más estable",
-          "emoji": "💧",
-          "sections": [
-            {
-              "title": "CLIENTES",
-              "items": [
-                "Hogares y residencias en zonas con escasez hídrica estival (Occitanie, PACA)",
-                "SMEs: restaurantes, hoteles, agricultura, industria ligera",
-                "Municipios que complementan su red pública"
-              ]
-            },
-            {
-              "title": "MODELO DE COBRO",
-              "items": [
-                "Contrato a precio fijo por m³, similar a un PPA pero para agua",
-                "Plazo: 5–15 años — el cliente sabe exactamente cuánto paga",
-                "El precio del agua en Francia ha subido consistentemente — atractivo para el cliente"
-              ]
-            },
-            {
-              "title": "VENTAJA COMPETITIVA",
-              "items": [
-                "El agua tiene demanda garantizada independientemente del precio de la energía",
-                "Almacenamiento en tanques: desacopla producción del consumo (días o semanas)",
-                "Una batería almacena electricidad horas — un tanque almacena el equivalente semanas a coste casi nulo"
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "id": "r10_rte",
-        "emoji": "⚡",
-        "label": "10.2 Flexibilidad de red — RTE",
-        "sub": "Effacement · 50–150 €/MWh · madurez regulatoria",
-        "color": "c5",
-        "detail": {
-          "breadcrumb": "RAMA 10 › 10.2",
-          "title": "Flexibilidad de Red (RTE)",
-          "sub": "Segunda fuente — RTE paga por consumir en momentos de exceso",
-          "emoji": "⚡",
-          "sections": [
-            {
-              "title": "QUÉ ES EXACTAMENTE",
-              "items": [
-                "RTE (Réseau de Transport d'Électricité) paga a actores que pueden encender o apagar su consumo bajo demanda",
-                "Se llaman \"servicios de ajuste\" o \"effacement\"",
-                "Te registras como consumidor flexible, cuando RTE tiene exceso de producción, te activan y te pagan por consumir"
-              ]
-            },
-            {
-              "title": "EN NÚMEROS",
-              "stats": [
-                {
-                  "label": "Pago RTE",
-                  "val": "50–150 €/MWh"
-                },
-                {
-                  "label": "Madurez",
-                  "val": "Alta"
-                },
-                {
-                  "label": "Referencia",
-                  "val": "Enerdigit"
-                }
-              ]
-            },
-            {
-              "title": "LA DOBLE GANANCIA",
-              "items": [
-                "RTE te paga por consumir la electricidad",
-                "Tú conviertes esa electricidad en agua (u otro producto) que también vendes",
-                "Dos ingresos por la misma acción: consumir excedente solar"
-              ]
-            },
-            {
-              "title": "STAKEHOLDER CRÍTICO",
-              "items": [
-                "⚠️ RTE puede cortar tu producción si la red está saturada y no tienes acuerdo",
-                "⚠️ Su validación técnica como \"carga flexible certificada\" te abre el mercado de servicios de ajuste",
-                "Sin su cooperación el modelo no funciona — con su cooperación te pagan por existir"
-              ],
-              "type": "warning"
-            }
-          ]
-        }
-      },
-      {
-        "id": "r10_carbono",
-        "emoji": "🌱",
-        "label": "10.3 Créditos de carbono",
-        "sub": "Label Bas Carbone · 30–80 €/tCO₂ · narrativa ESG",
-        "color": "c5",
-        "detail": {
-          "breadcrumb": "RAMA 10 › 10.3",
-          "title": "Créditos de Carbono",
-          "sub": "Tercera fuente — recurrente, predecible, mejora la historia ESG",
-          "emoji": "🌱",
-          "sections": [
-            {
-              "title": "CÓMO SE GENERAN",
-              "items": [
-                "La instalación reemplaza métodos que consumen energía fósil o requieren infraestructura en carbono",
-                "Cada m³ de agua producida con energía solar que desplaza agua convencional tiene huella calculable y certificable",
-                "Al absorber excedentes solares que de otro modo serían curtailed, se evita que esa energía se desperdicie"
-              ]
-            },
-            {
-              "title": "CÓMO SE MONETIZAN",
-              "stats": [
-                {
-                  "label": "Precio mercado voluntario",
-                  "val": "30–80 €/tCO₂"
-                },
-                {
-                  "label": "Mecanismo Francia",
-                  "val": "Label Bas Carbone"
-                },
-                {
-                  "label": "Alternativa UE",
-                  "val": "Garanties d'Origine"
-                }
-              ]
-            },
-            {
-              "title": "VALOR ESTRATÉGICO",
-              "items": [
-                "No es el ingreso principal — pero es recurrente y predecible",
-                "Mejora enormemente la historia ESG ante inversores",
-                "Certificaciones relevantes: Label Bas Carbone, Garanties d'Origine, ISO 14001"
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "id": "r10_sal",
-        "emoji": "🧂",
-        "label": "10.4 Sal y minerales",
-        "sub": "0,50–3 €/kg · residuo → producto · narrativa ZLD",
-        "color": "c5",
-        "detail": {
-          "breadcrumb": "RAMA 10 › 10.4",
-          "title": "Sal y Minerales",
-          "sub": "Cuarta fuente — convierte el único residuo en producto",
-          "emoji": "🧂",
-          "sections": [
-            {
-              "title": "QUÉ SE OBTIENE",
-              "items": [
-                "La salmuera de la ósmosis inversa contiene sal cristalizable, magnesio, potasio y litio",
-                "En lugar de ser un coste de gestión de residuos, se convierte en producto vendible",
-                "Francia tiene industria de sal establecida (Guérande, Camargue) — hay mercado y know-how local"
-              ]
-            },
-            {
-              "title": "PRECIOS DE REFERENCIA",
-              "stats": [
-                {
-                  "label": "Sal calidad Francia",
-                  "val": "0,50–3 €/kg"
-                },
-                {
-                  "label": "Uso",
-                  "val": "Industrial constante"
-                },
-                {
-                  "label": "Litio (DLE)",
-                  "val": "3.500–4.400 $/t"
-                }
-              ]
-            },
-            {
-              "title": "VALOR NARRATIVO PARA INVERSORES",
-              "items": [
-                "El mensaje: \"No tenemos residuos, tenemos cuatro productos\"",
-                "Convierte el modelo en prácticamente libre de desperdicios (ZLD)",
-                "En fase MVP: salmuera diluida devuelta al mar bajo protocolo ambiental certificado",
-                "En escala: cristalizar y vender la sal añade una cuarta fuente de ingresos sin cambiar el proceso central"
-              ]
-            }
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "id": "r11",
-    "emoji": "⚔️",
-    "label": "11. Competidores y Aliados",
-    "sub": "Mapa completo de soluciones en Francia",
-    "color": "c6",
-    "detail": {
-      "breadcrumb": "RAMA 11",
-      "title": "Competidores y Aliados",
-      "sub": "6 categorías de soluciones — algunas son competidores directos, otras aliados naturales",
-      "emoji": "⚔️",
-      "sections": [
-        {
-          "title": "MAPA ESTRATÉGICO",
-          "items": [
-            "Effacement / demanda flexible: competidor directo (Enerdigit, Orus Energy)",
-            "Baterías estacionarias: competidor indirecto (Ze Energy)",
-            "V2G vehículos eléctricos: amenaza a largo plazo (DREEV/EDF, Proyecto EVVE)",
-            "Hidrógeno verde: competidor institucional (Air Liquide + TotalEnergies, Hyd'Occ)",
-            "PPAs para SMEs y productores solares: aliados naturales (Engle, Valeco/EnBW, Technique Solaire)",
-            "Exportación: el status quo que el proyecto reemplaza"
-          ]
-        },
-        {
-          "title": "CONCLUSIÓN ESTRATÉGICA",
-          "items": [
-            "No hay ningún actor en Francia combinando solar distribuido + producción local + PPA para SMEs y residencias",
-            "Ese espacio está vacío — ventana de primer entrante",
-            "Lo más cercano está en Arabia Saudita (DESOLINATION) o España/Marruecos"
-          ],
-          "type": "link"
-        }
-      ]
-    },
-    "children": [
-      {
-        "id": "r11_eff",
-        "emoji": "🔌",
-        "label": "11.1 Effacement / demanda",
-        "sub": "Enerdigit · Orus Energy · competidores directos",
-        "color": "c6",
-        "detail": {
-          "breadcrumb": "RAMA 11 › 11.1",
-          "title": "Flexibilidad de Demanda (Effacement)",
-          "sub": "El principio: pagar a empresas para que consuman más en momentos de exceso",
-          "emoji": "🔌",
-          "sections": [
-            {
-              "title": "ACTORES PRINCIPALES",
-              "items": [
-                "Enerdigit (Nantes): startup más relevante en este espacio, 20 empleados, >20M€ CA 2024, soluciones industriales de flexibilidad de red",
-                "Orus Energy (GreenTech Innovation 2024): ayuda y remunera a edificios comerciales por gestionar consumo de manera inteligente",
-                "Ecojoko: asistente conectado para particulares, hace visible el consumo en tiempo real"
-              ]
-            },
-            {
-              "title": "RELEVANCIA PARA EL PROYECTO",
-              "items": [
-                "La producción de cualquier producto (agua, H₂, etc.) como \"carga flexible\" es exactamente este modelo",
-                "Enerdigit y Orus son competidores directos en la captación de empresas como \"sumideros flexibles\"",
-                "La diferencia: el proyecto produce algo físico (agua, H₂…), ellos solo ajustan el consumo"
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "id": "r11_bat",
-        "emoji": "🔋",
-        "label": "11.2 Baterías estacionarias",
-        "sub": "Ze Energy · competidor indirecto",
-        "color": "c6",
-        "detail": {
-          "breadcrumb": "RAMA 11 › 11.2",
-          "title": "Almacenamiento por Baterías Estacionarias",
-          "sub": "Competidor indirecto — almacenan energía, el proyecto la convierte en producto",
-          "emoji": "🔋",
-          "sections": [
-            {
-              "title": "ACTORES",
-              "items": [
-                "Ze Energy (creada 2019): diseña, construye y opera centrales híbridas solar + almacenamiento, financiada por Amundi Transition Énergétique",
-                "STEP (stations de pompage-turbinage): ~5 GW turbinado + 4,3 GW bombeo en Francia a finales 2024",
-                "Inversión pública: CE validó 1.300 M€ en Francia para soluciones de flexibilidad no carbonadas"
-              ]
-            },
-            {
-              "title": "VENTAJA DEL PROYECTO SOBRE BATERÍAS",
-              "items": [
-                "Una batería almacena electricidad horas — un tanque de agua almacena el equivalente energético días o semanas",
-                "Sin pérdidas, sin degradación, a coste casi nulo",
-                "Es el \"almacenamiento\" más barato que existe — nadie en el mercado energético lo está mirando así"
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "id": "r11_v2g",
-        "emoji": "🚗",
-        "label": "11.3 V2G — vehículos eléctricos",
-        "sub": "DREEV/EDF · amenaza a largo plazo",
-        "color": "c6",
-        "detail": {
-          "breadcrumb": "RAMA 11 › 11.3",
-          "title": "V2G — Vehículos Eléctricos como Almacenamiento",
-          "sub": "Una de las soluciones mejor financiadas en Francia — amenaza a largo plazo",
-          "emoji": "🚗",
-          "sections": [
-            {
-              "title": "ACTORES",
-              "items": [
-                "DREEV (EDF + Nuvve): RTE certificó su participación, implementa V2G en empresas y colectividades locales",
-                "Proyecto EVVE (EDF + Fondo Innovación Europeo): 800 estaciones de carga bidireccionales, batería virtual de 8,36 MW"
-              ]
-            },
-            {
-              "title": "POTENCIAL A LARGO PLAZO",
-              "items": [
-                "VE conectados casa + trabajo podrían reducir hasta 92% la necesidad de almacenamiento por batería estacionaria",
-                "Para 2040: ahorros potenciales de hasta 4.400 M€ anuales",
-                "RTE ya lo anticipa en sus escenarios de \"descarbonización rápida\""
-              ]
-            },
-            {
-              "title": "RELEVANCIA PARA EL PROYECTO",
-              "items": [
-                "A corto plazo (MVP 2 meses): V2G está aún en fase piloto, no cubre el gap",
-                "A largo plazo: si millones de coches se convierten en baterías móviles, la necesidad de otros sumideros disminuye",
-                "Ventaja del proyecto: produce algo físico con demanda garantizada — el V2G no produce agua"
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "id": "r11_h2",
-        "emoji": "🟢",
-        "label": "11.4 Hidrógeno verde",
-        "sub": "Air Liquide · TotalEnergies · Hyd'Occ · competidor inst.",
-        "color": "c6",
-        "detail": {
-          "breadcrumb": "RAMA 11 › 11.4",
-          "title": "Hidrógeno Verde (Power-to-Gas)",
-          "sub": "Competidor institucional — el Estado apuesta fuerte aquí",
-          "emoji": "🟢",
-          "sections": [
-            {
-              "title": "ACTORES PRINCIPALES",
-              "items": [
-                "Air Liquide + TotalEnergies: 450 MW de electrolizadores combinados para H₂ verde",
-                "Masshylia (TotalEnergies + Engie): proyecto piloto en La Méde, PACA — 5 toneladas/día de H₂ verde desde solar",
-                "Hyd'Occ (Port-la-Nouvelle, Occitanie): mayor usina de H₂ verde de Francia, objetivo 3.000 t/año en 2025",
-                "Inversión pública: 9.000 M€ atribuidos al desarrollo del H₂ descarbonado hasta 2030"
-              ]
-            },
-            {
-              "title": "PERO HAY UN FRENO IMPORTANTE",
-              "items": [
-                "Cour des comptes: nuevos objetivos de producción de H₂ \"parecen aún fuera de alcance\"",
-                "Solo 0,5 GW plenamente asegurados de aquí a 2030",
-                "Infraestructura de distribución de H₂ inexistente — hay que construirla desde cero"
-              ]
-            },
-            {
-              "title": "ARGUMENTO CLAVE ANTE INVERSORES",
-              "items": [
-                "Donde el H₂ verde necesita 9.000 M€ públicos para arrancar, el proyecto puede funcionar con infraestructura existente",
-                "El H₂ no tiene mercado a escala hoy — el agua lleva siglos con mercado funcionando"
-              ],
-              "type": "link"
-            }
-          ]
-        }
-      },
-      {
-        "id": "r11_ppa",
-        "emoji": "🤝",
-        "label": "11.5 PPAs para SMEs — aliados naturales",
-        "sub": "Technique Solaire · Valeco · Engle · TotalEnergies",
-        "color": "c6",
-        "detail": {
-          "breadcrumb": "RAMA 11 › 11.5",
-          "title": "Productores Solares — Aliados Naturales",
-          "sub": "Tienen el mismo problema que el proyecto resuelve",
-          "emoji": "🤝",
-          "sections": [
-            {
-              "title": "ACTORES",
-              "items": [
-                "Technique Solaire: construye y opera centrales FV propias, levantó 302 M€ en 2025 para 341 proyectos en Francia, España y Países Bajos",
-                "Valeco (filial EnBW): PPAs greenfield 5–18 años, agrovoltaísmo, fuerte presencia en Occitanie y Nouvelle-Aquitaine",
-                "Engle: uno de los mayores propietarios de parques solares en Francia, firmó con Orange 51 MWc en Hautes-Alpes",
-                "TotalEnergies: produce energía solar a gran escala, cofundador de Masshylia (solar + H₂)"
-              ]
-            },
-            {
-              "title": "POR QUÉ SON ALIADOS",
-              "items": [
-                "Ya tienen el problema que el proyecto resuelve: electricidad que vale cero o negativo entre las 12h y las 16h",
-                "No hay que convencerlos de que el problema existe — lo viven cada día en euros perdidos",
-                "Una sola firma con Technique Solaire o Valeco da acceso a decenas o cientos de MW de capacidad de golpe",
-                "El pitch hacia ellos es muy simple: \"tu electricidad que hoy vale cero o negativo entre las 12h y 16h, con nosotros vale un producto\""
-              ]
-            },
-            {
-              "title": "GO-TO-MARKET DERIVADO",
-              "items": [
-                "Fase 1 MVP: firma acuerdo con 1 productor solar en Occitanie o PACA",
-                "Ellos dan su excedente a precio cero o negativo — el proyecto produce y demuestra el modelo",
-                "Fase 2: con el caso de éxito, ir a más productores"
-              ],
-              "type": "link"
-            }
-          ]
-        }
-      },
-      {
-        "id": "r11_exp",
-        "emoji": "📤",
-        "label": "11.6 Exportación (status quo)",
-        "sub": "El problema que el proyecto reemplaza",
-        "color": "c6",
-        "detail": {
-          "breadcrumb": "RAMA 11 › 11.6",
-          "title": "Exportación — El Status Quo",
-          "sub": "La respuesta de emergencia actual del Estado francés",
-          "emoji": "📤",
-          "sections": [
-            {
-              "title": "QUÉ ES",
-              "items": [
-                "Cuando hay demasiada electricidad, Francia la exporta a Alemania, España, Italia o Suiza",
-                "El problema: cuando la oferta supera la demanda, los precios se vuelven negativos",
-                "Los productores deben \"pagar para exportar\" su electricidad",
-                "2024: Francia exportó récord de 90–101 TWh, pero generando pérdidas cuando los precios eran negativos"
-              ]
-            },
-            {
-              "title": "RELEVANCIA PARA EL PROYECTO",
-              "items": [
-                "La exportación es el status quo que el proyecto desplaza",
-                "La narrativa para inversores: exportar a precio negativo es una pérdida de valor",
-                "El proyecto convierte esa pérdida en un producto vendible localmente"
-              ],
-              "type": "link"
-            }
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "id": "r12",
-    "emoji": "🚀",
-    "label": "12. Go-to-Market y MVP",
-    "sub": "3 fases · 2 meses · Stakeholders críticos",
-    "color": "c7",
-    "detail": {
-      "breadcrumb": "RAMA 12",
-      "title": "Go-to-Market y MVP",
-      "sub": "Cómo llegar al mercado en 2 meses y escalar de forma sostenible",
-      "emoji": "🚀",
-      "sections": [
-        {
-          "title": "LA FRASE PARA EL PITCH",
-          "items": [
-            "\"No vendemos puerta a puerta. Firmamos un contrato con quien ya tiene el problema, y desde ahí llegamos a miles de usuarios finales sin tocarlos uno por uno.\""
-          ],
-          "type": "link"
-        },
-        {
-          "title": "MODELO DE 3 FASES",
-          "items": [
-            "Fase 1 — MVP (2 meses): 1 productor solar en Occitanie o PACA, excedente a precio cero, demostrar que el modelo funciona",
-            "Fase 2 — Escala B2B: más productores, agua vendida a municipios e industria local — no a hogares individuales todavía",
-            "Fase 3 — Residencial: con volumen, marca y validación regulatoria, abrir el canal residencial con la historia ya construida"
-          ]
-        }
-      ]
-    },
-    "children": [
-      {
-        "id": "r12_mvp",
-        "emoji": "🔬",
-        "label": "12.1 Fase 1 — MVP (2 meses)",
-        "sub": "Occitanie o PACA · 1 productor solar · demostrar modelo",
-        "color": "c7",
-        "detail": {
-          "breadcrumb": "RAMA 12 › 12.1",
-          "title": "Fase 1 — MVP",
-          "sub": "Tu MVP en 2 meses debe demostrar una sola cosa convincente",
-          "emoji": "🔬",
-          "sections": [
-            {
-              "title": "EL OBJETIVO DEL MVP",
-              "items": [
-                "\"En las horas de precio negativo (12–16h, primavera–verano), absorbemos el excedente solar local y producimos agua potable/industrial, revendida bajo PPA a SMEs y hogares de la región, mientras generamos créditos de flexibilidad para RTE.\""
-              ]
-            },
-            {
-              "title": "TERRITORIO MVP",
-              "items": [
-                "Sur de Francia (Occitanie, PACA) — más solar, más escasez hídrica, más interés político",
-                "Fuerte presencia de Valeco y Technique Solaire en esa zona — aliados naturales directos"
-              ]
-            },
-            {
-              "title": "ELEMENTOS DEL PITCH MVP",
-              "items": [
-                "① Problema verificado: 80 M€ de pérdidas en 2024, 32% más horas negativas en 2025 — datos oficiales",
-                "② Ventana regulatoria: fin del ARENH en dic. 2025 → urgencia real para compradores",
-                "③ Mercado cuantificado: 39% consumo residencial + 32% terciario = 71% sin solución de absorción local",
-                "④ Tecnología existente: osmosis inversa ya funciona con solar (DESOLINATION, proyectos Mediterráneo)",
-                "⑤ Modelo de ingresos triple: agua + flexibilidad RTE + créditos de carbono",
-                "⑥ Territorio MVP: sur de Francia — más sol, más sequía, más interés político"
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "id": "r12_b2b",
-        "emoji": "🏭",
-        "label": "12.2 Fase 2 — Escala B2B",
-        "sub": "Más productores · municipios · industria local",
-        "color": "c7",
-        "detail": {
-          "breadcrumb": "RAMA 12 › 12.2",
-          "title": "Fase 2 — Escala B2B",
-          "sub": "Con el caso de éxito del MVP, ir a más productores y clientes institucionales",
-          "emoji": "🏭",
-          "sections": [
-            {
-              "title": "CLIENTES PRIORITARIOS",
-              "items": [
-                "Municipios: complementan su red pública con agua a precio fijo bajo PPA",
-                "SMEs terciarias: restaurantes, hoteles, oficinas con alta demanda de agua y electricidad",
-                "Industria ligera local: agroalimentaria, farmacéutica, manufactura de precisión"
-              ]
-            },
-            {
-              "title": "POR QUÉ MUNICIPIOS PRIMERO",
-              "items": [
-                "Decisión B2B — un contrato con el municipio da acceso a toda la población",
-                "El municipio entiende el concepto de PPA (ya los tienen para energía)",
-                "Apoyo político local = permiso de suelo + menor fricción regulatoria"
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "id": "r12_res",
-        "emoji": "🏠",
-        "label": "12.3 Fase 3 — Residencial",
-        "sub": "Volumen + marca + validación → canal residencial",
-        "color": "c7",
-        "detail": {
-          "breadcrumb": "RAMA 12 › 12.3",
-          "title": "Fase 3 — Residencial",
-          "sub": "Solo cuando hay volumen, marca y validación regulatoria",
-          "emoji": "🏠",
-          "sections": [
-            {
-              "title": "POR QUÉ NO EMPEZAR POR HOGARES",
-              "items": [
-                "Ciclo de venta larguísimo: cada hogar es una decisión individual — puede tardar 6 a 18 meses en firmar",
-                "Ticket pequeño: un hogar consume poco — necesitarías miles para tener volumen viable",
-                "Coste de adquisición altísimo: publicidad, visitas, demos, seguimiento — todo por un contrato pequeño",
-                "Educación de mercado desde cero: el hogar promedio no sabe qué es sobreproducción solar ni un PPA"
-              ]
-            },
-            {
-              "title": "CUÁNDO TIENE SENTIDO EL RESIDENCIAL",
-              "items": [
-                "Cuando tienes un caso de éxito B2B que certifica el modelo técnico y económico",
-                "Cuando tienes marca reconocida que reduce el coste de adquisición por hogar",
-                "Cuando tienes validación regulatoria que elimina barreras de entrada"
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "id": "r12_prod",
-        "emoji": "🌞",
-        "label": "12.4 Por qué productores solares primero",
-        "sub": "Alineación perfecta de incentivos",
-        "color": "c7",
-        "detail": {
-          "breadcrumb": "RAMA 12 › 12.4",
-          "title": "Por qué Empezar por Productores Solares",
-          "sub": "La respuesta es clara: perfecta alineación de incentivos",
-          "emoji": "🌞",
-          "sections": [
-            {
-              "title": "4 RAZONES",
-              "items": [
-                "① Ya tienen el problema: no hay que convencerlos — lo viven cada día en euros perdidos entre las 12h y 16h",
-                "② Una sola firma, impacto masivo: un contrato con Technique Solaire o Valeco da acceso a decenas o cientos de MW",
-                "③ Hablan tu lenguaje: entienden PPAs, precios negativos, curtailment, RTE, flexibilidad de red — la conversación es técnica y rápida",
-                "④ Te legitiman ante todos los demás: si Engle o TotalEnergies firman contigo, eso es la mejor carta de presentación ante inversores, reguladores y eventualmente hogares"
-              ]
-            },
-            {
-              "title": "ALINEACIÓN DE INCENTIVOS",
-              "items": [
-                "Ellos quieren deshacerse del excedente — el proyecto lo quiere consumir",
-                "No hay negociación compleja — los intereses apuntan exactamente en la misma dirección",
-                "El pitch: \"tu electricidad que hoy vale cero o negativo entre las 12h y 16h, con nosotros vale agua\""
-              ],
-              "type": "link"
-            }
-          ]
-        }
-      },
-      {
-        "id": "r12_stake",
-        "emoji": "🗺️",
-        "label": "12.5 Stakeholders críticos",
-        "sub": "RTE · Enedis · CRE · ADEME · BpiFrance · Mairies",
-        "color": "c7",
-        "detail": {
-          "breadcrumb": "RAMA 12 › 12.5",
-          "title": "Stakeholders Críticos",
-          "sub": "Los actores que no puedes ignorar — rol, riesgo y oportunidad",
-          "emoji": "🗺️",
-          "sections": [
-            {
-              "title": "TABLA DE STAKEHOLDERS",
-              "stats": [
-                {
-                  "label": "RTE",
-                  "val": "Red transporte"
-                },
-                {
-                  "label": "Enedis",
-                  "val": "Distribución local"
-                },
-                {
-                  "label": "CRE",
-                  "val": "Regulador PPAs"
-                },
-                {
-                  "label": "ADEME",
-                  "val": "Financia pilotos"
-                },
-                {
-                  "label": "BpiFrance",
-                  "val": "Financia proyectos"
-                },
-                {
-                  "label": "Mairies",
-                  "val": "Suelo + política"
-                }
-              ]
-            },
-            {
-              "title": "RIESGOS SI LOS IGNORAS",
-              "items": [
-                "RTE: puede cortar tu producción sin validación — MVP no funciona",
-                "Enedis: puede bloquear conexión de SMEs a la red de distribución",
-                "CRE: retraso de meses si no tienes su aprobación para firmar PPAs",
-                "ADEME: pierdes subvenciones clave para el piloto",
-                "Mairies: sin ellos no hay terreno — sin terreno no hay proyecto",
-                "BpiFrance: sin ellos no hay capex para arrancar"
-              ]
-            },
-            {
-              "title": "MARCO REGULATORIO CLAVE",
-              "items": [
-                "Décret du 27 juin 2024: los productores necesitan autorización específica de la CRE antes de firmar un PPA",
-                "Loi APER 2023: simplifica instalaciones pero exige zonas específicas para suelo",
-                "Incluir estos hitos en el timeline del proyecto para inversores"
-              ],
-              "type": "warning"
-            }
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "id": "r13",
-    "emoji": "🎯",
-    "label": "13. Pitch para Inversores",
-    "sub": "Argumentos · Datos · La pregunta devastadora",
-    "color": "c8",
-    "detail": {
-      "breadcrumb": "RAMA 13",
-      "title": "Pitch para Inversores",
-      "sub": "Los argumentos, datos y frases para defender el modelo ante cualquier inversor",
-      "emoji": "🎯",
-      "sections": [
-        {
-          "title": "EL INSIGHT CENTRAL",
-          "items": [
-            "\"Francia tiene demasiada energía exactamente cuando nadie la quiere, y demasiado poco de lo que esa energía podría producir.\"",
-            "El problema no es que falte energía — el problema es que sobra en el momento equivocado y nadie sabe convertirla en algo útil"
-          ]
-        },
-        {
-          "title": "EN UNA FRASE PARA INVERSORES",
-          "items": [
-            "\"Somos la única empresa que convierte el problema de Francia —electricidad que nadie quiere— en el recurso que Francia más va a necesitar: agua.\""
-          ],
-          "type": "link"
-        }
-      ]
-    },
-    "children": [
-      {
-        "id": "r13_insight",
-        "emoji": "💡",
-        "label": "13.1 El insight central",
-        "sub": "Por qué agua y no otra cosa",
-        "color": "c8",
-        "detail": {
-          "breadcrumb": "RAMA 13 › 13.1",
-          "title": "El Insight Central",
-          "sub": "La segunda capa del insight — por qué es realmente defensible",
-          "emoji": "💡",
-          "sections": [
-            {
-              "title": "POR QUÉ AGUA Y NO OTRA COSA",
-              "items": [
-                "El agua tiene 3 propiedades que ningún otro producto tiene simultáneamente:",
-                "① Demanda garantizada sin importar el precio de la energía",
-                "② Almacenamiento barato durante días o semanas en simples tanques",
-                "③ Mercado que ya existe con infraestructura de distribución conocida"
-              ]
-            },
-            {
-              "title": "VENTAJA SOBRE H₂ VERDE",
-              "items": [
-                "El H₂ también convierte excedentes en producto, pero necesita infraestructura nueva, costes de almacenamiento altísimos, y su mercado aún no existe a escala",
-                "No estás inventando un mercado — estás entrando en uno que lleva siglos funcionando"
-              ]
-            },
-            {
-              "title": "LA PREGUNTA QUE DEJA SIN PALABRAS",
-              "items": [
-                "\"¿Conoces algún otro negocio donde tu materia prima principal —la electricidad— a veces tiene precio negativo, es decir, te pagan por consumirla, y aun así produces algo que puedes vender?\"",
-                "Esa es la esencia del modelo. La respuesta honesta es: no, no existe otro así en Francia hoy"
-              ],
-              "type": "link"
-            }
-          ]
-        }
-      },
-      {
-        "id": "r13_elementos",
-        "emoji": "📋",
-        "label": "13.2 Los 6 elementos del pitch",
-        "sub": "Problema · Ventana · Mercado · Tech · Modelo · MVP",
-        "color": "c8",
-        "detail": {
-          "breadcrumb": "RAMA 13 › 13.2",
-          "title": "Los 6 Elementos del Pitch",
-          "sub": "Estructura para presentar el proyecto a cualquier inversor",
-          "emoji": "📋",
-          "sections": [
-            {
-              "title": "ESTRUCTURA",
-              "items": [
-                "① Problema verificado: 80 M€ de pérdidas en 2024, 32% más horas negativas en 2025 — tienes datos oficiales",
-                "② Ventana regulatoria: fin del ARENH en dic. 2025 → urgencia real para compradores corporativos",
-                "③ Mercado cuantificado: 39% consumo residencial + 32% terciario sin solución de absorción local",
-                "④ Tecnología existente: osmosis inversa ya funciona con solar, no es investigación — es ingeniería",
-                "⑤ Modelo de ingresos triple: agua + flexibilidad RTE + créditos de carbono (+ sal en escala)",
-                "⑥ Territorio MVP: sur de Francia — más sol, más sequía, más interés político, más aliados naturales"
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "id": "r13_datos",
+        "id": "r9",
         "emoji": "📊",
-        "label": "13.3 Datos impactantes",
-        "sub": "352h · 80 M€ · +32% · 1,8 TWh curtailed",
-        "color": "c8",
+        "label": "9. Mercado Energético Francia",
+        "sub": "Producción · Precios negativos · PPAs",
+        "color": "c4",
         "detail": {
-          "breadcrumb": "RAMA 13 › 13.3",
-          "title": "Datos Impactantes para el Pitch",
-          "sub": "Los números ordenados para usar directamente en una presentación",
+          "breadcrumb": "RAMA 9",
+          "title": "Mercado Energético Francia",
+          "sub": "El contexto que hace viable el proyecto — datos reales 2024–2025",
           "emoji": "📊",
           "sections": [
             {
-              "title": "DATOS PARA ABRIR EL PITCH",
+              "title": "QUÉ ESTÁ PASANDO REALMENTE",
+              "items": [
+                "No es sobreproducción estructural — es desequilibrio de sincronía",
+                "Solar muy productivo al mediodía transforma el equilibrio de la red",
+                "Nuclear masiva, poco flexible, acentúa los desequilibrios",
+                "1er semestre 2025: 32% más horas con precio negativo que en 2024",
+                "Mayo 2025: 90% de los días tuvieron precios negativos o nulos (−19 €/MWh promedio)"
+              ]
+            },
+            {
+              "title": "CIFRAS CLAVE 2024",
+              "stats": [
+                {
+                  "label": "Producción total",
+                  "val": "536–561 TWh"
+                },
+                {
+                  "label": "Consumo total",
+                  "val": "449 TWh"
+                },
+                {
+                  "label": "Exportaciones",
+                  "val": "~90–101 TWh"
+                },
+                {
+                  "label": "% baja en carbono",
+                  "val": "95%"
+                },
+                {
+                  "label": "Nuclear 2024",
+                  "val": "~361 TWh (67%)"
+                },
+                {
+                  "label": "Solar 2024",
+                  "val": "~24,8 TWh (+10%)"
+                }
+              ]
+            },
+            {
+              "title": "PRECIOS NEGATIVOS — LA OPORTUNIDAD",
               "stats": [
                 {
                   "label": "Horas precio neg. 2024",
@@ -3281,11 +1358,7 @@
                   "val": ">432 h"
                 },
                 {
-                  "label": "Crecimiento en 7 años",
-                  "val": "40×"
-                },
-                {
-                  "label": "Pérdidas productores",
+                  "label": "Pérdidas productores 2024",
                   "val": "80 M€"
                 },
                 {
@@ -3293,196 +1366,1295 @@
                   "val": "1,8 TWh"
                 },
                 {
-                  "label": "Q2 2024 precio negativo",
+                  "label": "Q2 2024 precio neg.",
                   "val": ">10% tiempo"
                 }
               ]
             },
             {
-              "title": "LA FRASE DE CIERRE",
+              "title": "CUÁNDO OCURREN LOS PRECIOS NEGATIVOS",
               "items": [
-                "\"En 2024, Francia tuvo 352 horas en las que los productores de electricidad pagaban para que alguien les quitara su energía. En 2025 ya se superaron las 432 horas antes de acabar el año — y la tendencia es vertical. Nuestro modelo existe para estar ahí exactamente en esas horas.\""
+                "Por hora del día: 11h–16h (pico solar) y 2h–7h (nuclear sin demanda nocturna)",
+                "Por época del año: abril–octubre (temporada solar)",
+                "1er semestre: 2× más horas negativas que el 2do semestre",
+                "Récord: 31 marzo 2025 a las 13:30 — producción solar alcanzó 18 GW"
+              ]
+            },
+            {
+              "title": "DUCK CURVE FRANCESA",
+              "items": [
+                "EDF apagó 6 reactores nucleares el 24–25 nov. 2024 por récord eólico (19,3 GW)",
+                "Primera vez en la historia que se apagan 6 reactores por exceso de oferta",
+                "Demuestra que incluso la nuclear \"inflexible\" tiene que ceder ante la sobreoferta"
+              ]
+            },
+            {
+              "title": "MERCADO PPA EN FRANCIA",
+              "items": [
+                "2025: mercado PPA crece de 600 MW a más de 1.200 MW de capacidades contratadas",
+                "Compradores corporativos activos: Orange, Carrefour, SNCF, Les Mousquetaires, Leroy Merlin",
+                "Gap enorme: mercado PPAs para SMEs está subdesarrollado — ahí está la oportunidad",
+                "Fin del ARENH (dic. 2025): mecanismo que permitía comprar nuclear a 42 €/MWh",
+                "Con el ARENH desaparecido, los compradores buscan alternativas PPA privadas urgentemente"
+              ]
+            }
+          ]
+        },
+        "children": [
+          {
+            "id": "r9_neg",
+            "emoji": "📉",
+            "label": "9.1 Precios Negativos — La Oportunidad",
+            "sub": "352h (2024) → 432h (2025) · 80M€ pérdidas · ×40 en 7 años",
+            "color": "c9",
+            "detail": {
+              "breadcrumb": "RAMA 9 › 9.1",
+              "title": "Precios Negativos — La Materia Prima",
+              "sub": "Electricidad que nadie quiere — y que crece cada año",
+              "emoji": "📉",
+              "sections": [
+                {
+                  "title": "EVOLUCIÓN 2018→2025",
+                  "stats": [
+                    {
+                      "label": "Horas precio negativo 2018",
+                      "val": "~11h"
+                    },
+                    {
+                      "label": "Horas precio negativo 2024",
+                      "val": "352h"
+                    },
+                    {
+                      "label": "Horas precio negativo 2025",
+                      "val": ">432h"
+                    },
+                    {
+                      "label": "Crecimiento",
+                      "val": "×40 en 7 años"
+                    },
+                    {
+                      "label": "Pérdidas productores 2024",
+                      "val": "80 M€"
+                    },
+                    {
+                      "label": "Energía curtailed 2024",
+                      "val": "1,8 TWh"
+                    },
+                    {
+                      "label": "Compensación Estado 2024",
+                      "val": "15 M€"
+                    }
+                  ]
+                },
+                {
+                  "title": "CUÁNDO OCURREN",
+                  "items": [
+                    "Por hora del día: 11h–16h (pico solar) y 2h–7h madrugada (nuclear sin demanda)",
+                    "Por época: abril–octubre (solar + nuclear + baja demanda calefacción)",
+                    "Primer semestre: 2× más horas negativas que el segundo",
+                    "Q2 2024: +10% del tiempo con precio negativo — solo en ese trimestre",
+                    "Récord: 31 marzo 2025 a las 13:30 — pico solar de 18 GW inédito"
+                  ]
+                },
+                {
+                  "title": "LO QUE SIGNIFICA PARA CUALQUIER SOLUCIÓN",
+                  "items": [
+                    "Esas horas son la materia prima: electricidad gratuita o pagada por consumirla",
+                    "Cualquier proceso que pueda encenderse y apagarse en esas ventanas tiene ventaja estructural",
+                    "El trend es claro: cada año hay más horas negativas — la oportunidad crece sola"
+                  ],
+                  "type": "link"
+                }
+              ]
+            }
+          },
+          {
+            "id": "r9_duck",
+            "emoji": "🦆",
+            "label": "9.2 Duck Curve Francesa",
+            "sub": "Nuclear inflexible + solar = desequilibrio crónico",
+            "color": "c9",
+            "detail": {
+              "breadcrumb": "RAMA 9 › 9.2",
+              "title": "La Duck Curve Francesa",
+              "sub": "Por qué el problema empeora estructuralmente cada año",
+              "emoji": "🦆",
+              "sections": [
+                {
+                  "title": "QUÉ ES",
+                  "items": [
+                    "Curva en forma de pato: producción solar sube al mediodía, demanda baja → precio se hunde",
+                    "La nuclear francesa (67% del mix) es poco flexible: difícil de apagar y encender",
+                    "Resultado: al mediodía hay exceso estructural que el sistema no puede absorber rápidamente"
+                  ]
+                },
+                {
+                  "title": "EVIDENCIA RECIENTE",
+                  "items": [
+                    "Noviembre 2024: EDF apagó 6 reactores en 3 días por récord de viento (tormenta Bert, 19,3 GW) — primera vez en la historia",
+                    "No fue el viento quien reemplazó a los reactores: había demasiada energía y nadie a quien vendérsela a precio rentable",
+                    "Abril 2024: EDF moduló reactores por precios negativos ligados a renovables",
+                    "RTE prevé que para 2030 los HEMS podrían reducir el curtailment un 75%"
+                  ]
+                },
+                {
+                  "title": "POR QUÉ EMPEORA",
+                  "items": [
+                    "Cada nuevo GW solar instalado añade más horas de precio negativo al mediodía",
+                    "Francia instaló +5 GW solar en 2024 (total: 25,3 GW) — la tendencia no se detiene",
+                    "El problema no es la energía solar: es la falta de sumideros flexibles locales"
+                  ],
+                  "type": "warning"
+                }
+              ]
+            }
+          },
+          {
+            "id": "r9_ppas",
+            "emoji": "📝",
+            "label": "9.3 PPAs en Francia",
+            "sub": "4 GW contratado · Gap SMEs · Fin ARENH dic. 2025",
+            "color": "c9",
+            "detail": {
+              "breadcrumb": "RAMA 9 › 9.3",
+              "title": "El Mercado de PPAs en Francia",
+              "sub": "El vehículo contractual para cualquier solución de largo plazo",
+              "emoji": "📝",
+              "sections": [
+                {
+                  "title": "ESTADO DEL MERCADO",
+                  "stats": [
+                    {
+                      "label": "Capacidad bajo PPA (2024)",
+                      "val": "4 GW"
+                    },
+                    {
+                      "label": "Crecimiento 2025",
+                      "val": "600→1.200 MW"
+                    },
+                    {
+                      "label": "PPA industrial firmado 2024",
+                      "val": "65 €/MWh (15 años)"
+                    },
+                    {
+                      "label": "Precio spot normal",
+                      "val": "45–80 €/MWh"
+                    },
+                    {
+                      "label": "Precio spot horas negativas",
+                      "val": "~−19 €/MWh"
+                    }
+                  ]
+                },
+                {
+                  "title": "VENTANA REGULATORIA CRÍTICA",
+                  "items": [
+                    "Fin del ARENH (diciembre 2025): compradores corporativos pierden acceso a nuclear a 42€/MWh",
+                    "Están buscando alternativas ahora — ventana de entrada perfecta para cualquier propuesta",
+                    "Décret du 27 juin 2024: autorización específica de la CRE antes de firmar un PPA",
+                    "Loi APER 2023: simplifica instalaciones pero exige zonas específicas de suelo"
+                  ]
+                },
+                {
+                  "title": "GAP DE MERCADO",
+                  "items": [
+                    "Compradores corporativos actuales: Orange, Carrefour, SNCF, Les Mousquetaires, Leroy Merlin",
+                    "Mercado de PPAs para SMEs y residencial: casi inexistente — ahí está el gap",
+                    "La mayoría de PPAs son para grandes grupos con consumo >100 GWh/año"
+                  ],
+                  "type": "link"
+                }
+              ]
+            }
+          },
+          {
+            "id": "r9_sectores",
+            "emoji": "🏗️",
+            "label": "9.4 Sectores Consumidores",
+            "sub": "Residencial 39% · Terciario 32% · Industrial 26%",
+            "color": "c9",
+            "detail": {
+              "breadcrumb": "RAMA 9 › 9.4",
+              "title": "Sectores Consumidores de Electricidad — Francia 2024",
+              "sub": "449 TWh de consumo eléctrico total — dónde está el mercado",
+              "emoji": "🏗️",
+              "sections": [
+                {
+                  "title": "CONSUMO ELÉCTRICO POR SECTOR (449 TWh total)",
+                  "stats": [
+                    {
+                      "label": "Residencial",
+                      "val": "175 TWh (39%)"
+                    },
+                    {
+                      "label": "Terciario",
+                      "val": "144 TWh (32%)"
+                    },
+                    {
+                      "label": "Industrial",
+                      "val": "117 TWh (26%)"
+                    },
+                    {
+                      "label": "Transporte + Agri.",
+                      "val": "13 TWh (3%)"
+                    }
+                  ]
+                },
+                {
+                  "title": "PANELES SOLARES POR SEGMENTO (fin 2024)",
+                  "stats": [
+                    {
+                      "label": "Residencial",
+                      "val": "677.000 inst. / 3,8 GW"
+                    },
+                    {
+                      "label": "Terciario/C&I",
+                      "val": "~350.000 inst. / ~4 GW"
+                    },
+                    {
+                      "label": "Grandes plantas (>12 MW)",
+                      "val": "~17 GW vía RTE"
+                    }
+                  ]
+                },
+                {
+                  "title": "PARADOJA CLAVE",
+                  "items": [
+                    "El sector industrial tiene 17 GW instalados pero vende casi todo a la red — genera el mayor excedente",
+                    "El residencial creció +54% en instalaciones en 2024, pero autoconsume casi todo",
+                    "Pocas empresas, mucha energía, mucho excedente — la materia prima está en la industria",
+                    "Terciario privado (Carrefour, SNCF, hoteles): ya firma PPAs, busca soluciones activamente"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "r10",
+        "emoji": "💰",
+        "label": "10. Modelo de Negocio",
+        "sub": "4 fuentes de ingresos descorrelacionadas",
+        "color": "c5",
+        "detail": {
+          "breadcrumb": "RAMA 10",
+          "title": "Modelo de Negocio",
+          "sub": "4 fuentes de ingresos descorrelacionadas — el argumento clave para inversores",
+          "emoji": "💰",
+          "sections": [
+            {
+              "title": "POR QUÉ 4 FUENTES DESCORRELACIONADAS",
+              "items": [
+                "La mayoría de proyectos renovables tienen una sola fuente: precio spot de electricidad",
+                "Si el precio baja o es negativo, el modelo colapsa",
+                "Con 4 fuentes descorrelacionadas: si una baja, las otras compensan",
+                "En lenguaje financiero: diversificación de flujos de caja → menor riesgo → mejor valoración"
+              ]
+            }
+          ]
+        },
+        "children": [
+          {
+            "id": "r10_agua",
+            "emoji": "💧",
+            "label": "10.1 Venta de agua",
+            "sub": "PPA hídrico · precio fijo · demanda garantizada",
+            "color": "c5",
+            "detail": {
+              "breadcrumb": "RAMA 10 › 10.1",
+              "title": "Venta de Agua",
+              "sub": "Primera fuente de ingresos — la más estable",
+              "emoji": "💧",
+              "sections": [
+                {
+                  "title": "CLIENTES",
+                  "items": [
+                    "Hogares y residencias en zonas con escasez hídrica estival (Occitanie, PACA)",
+                    "SMEs: restaurantes, hoteles, agricultura, industria ligera",
+                    "Municipios que complementan su red pública"
+                  ]
+                },
+                {
+                  "title": "MODELO DE COBRO",
+                  "items": [
+                    "Contrato a precio fijo por m³, similar a un PPA pero para agua",
+                    "Plazo: 5–15 años — el cliente sabe exactamente cuánto paga",
+                    "El precio del agua en Francia ha subido consistentemente — atractivo para el cliente"
+                  ]
+                },
+                {
+                  "title": "VENTAJA COMPETITIVA",
+                  "items": [
+                    "El agua tiene demanda garantizada independientemente del precio de la energía",
+                    "Almacenamiento en tanques: desacopla producción del consumo (días o semanas)",
+                    "Una batería almacena electricidad horas — un tanque almacena el equivalente semanas a coste casi nulo"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r10_rte",
+            "emoji": "⚡",
+            "label": "10.2 Flexibilidad de red — RTE",
+            "sub": "Effacement · 50–150 €/MWh · madurez regulatoria",
+            "color": "c5",
+            "detail": {
+              "breadcrumb": "RAMA 10 › 10.2",
+              "title": "Flexibilidad de Red (RTE)",
+              "sub": "Segunda fuente — RTE paga por consumir en momentos de exceso",
+              "emoji": "⚡",
+              "sections": [
+                {
+                  "title": "QUÉ ES EXACTAMENTE",
+                  "items": [
+                    "RTE (Réseau de Transport d'Électricité) paga a actores que pueden encender o apagar su consumo bajo demanda",
+                    "Se llaman \"servicios de ajuste\" o \"effacement\"",
+                    "Te registras como consumidor flexible, cuando RTE tiene exceso de producción, te activan y te pagan por consumir"
+                  ]
+                },
+                {
+                  "title": "EN NÚMEROS",
+                  "stats": [
+                    {
+                      "label": "Pago RTE",
+                      "val": "50–150 €/MWh"
+                    },
+                    {
+                      "label": "Madurez",
+                      "val": "Alta"
+                    },
+                    {
+                      "label": "Referencia",
+                      "val": "Enerdigit"
+                    }
+                  ]
+                },
+                {
+                  "title": "LA DOBLE GANANCIA",
+                  "items": [
+                    "RTE te paga por consumir la electricidad",
+                    "Tú conviertes esa electricidad en agua (u otro producto) que también vendes",
+                    "Dos ingresos por la misma acción: consumir excedente solar"
+                  ]
+                },
+                {
+                  "title": "STAKEHOLDER CRÍTICO",
+                  "items": [
+                    "⚠️ RTE puede cortar tu producción si la red está saturada y no tienes acuerdo",
+                    "⚠️ Su validación técnica como \"carga flexible certificada\" te abre el mercado de servicios de ajuste",
+                    "Sin su cooperación el modelo no funciona — con su cooperación te pagan por existir"
+                  ],
+                  "type": "warning"
+                }
+              ]
+            }
+          },
+          {
+            "id": "r10_carbono",
+            "emoji": "🌱",
+            "label": "10.3 Créditos de carbono",
+            "sub": "Label Bas Carbone · 30–80 €/tCO₂ · narrativa ESG",
+            "color": "c5",
+            "detail": {
+              "breadcrumb": "RAMA 10 › 10.3",
+              "title": "Créditos de Carbono",
+              "sub": "Tercera fuente — recurrente, predecible, mejora la historia ESG",
+              "emoji": "🌱",
+              "sections": [
+                {
+                  "title": "CÓMO SE GENERAN",
+                  "items": [
+                    "La instalación reemplaza métodos que consumen energía fósil o requieren infraestructura en carbono",
+                    "Cada m³ de agua producida con energía solar que desplaza agua convencional tiene huella calculable y certificable",
+                    "Al absorber excedentes solares que de otro modo serían curtailed, se evita que esa energía se desperdicie"
+                  ]
+                },
+                {
+                  "title": "CÓMO SE MONETIZAN",
+                  "stats": [
+                    {
+                      "label": "Precio mercado voluntario",
+                      "val": "30–80 €/tCO₂"
+                    },
+                    {
+                      "label": "Mecanismo Francia",
+                      "val": "Label Bas Carbone"
+                    },
+                    {
+                      "label": "Alternativa UE",
+                      "val": "Garanties d'Origine"
+                    }
+                  ]
+                },
+                {
+                  "title": "VALOR ESTRATÉGICO",
+                  "items": [
+                    "No es el ingreso principal — pero es recurrente y predecible",
+                    "Mejora enormemente la historia ESG ante inversores",
+                    "Certificaciones relevantes: Label Bas Carbone, Garanties d'Origine, ISO 14001"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r10_sal",
+            "emoji": "🧂",
+            "label": "10.4 Sal y minerales",
+            "sub": "0,50–3 €/kg · residuo → producto · narrativa ZLD",
+            "color": "c5",
+            "detail": {
+              "breadcrumb": "RAMA 10 › 10.4",
+              "title": "Sal y Minerales",
+              "sub": "Cuarta fuente — convierte el único residuo en producto",
+              "emoji": "🧂",
+              "sections": [
+                {
+                  "title": "QUÉ SE OBTIENE",
+                  "items": [
+                    "La salmuera de la ósmosis inversa contiene sal cristalizable, magnesio, potasio y litio",
+                    "En lugar de ser un coste de gestión de residuos, se convierte en producto vendible",
+                    "Francia tiene industria de sal establecida (Guérande, Camargue) — hay mercado y know-how local"
+                  ]
+                },
+                {
+                  "title": "PRECIOS DE REFERENCIA",
+                  "stats": [
+                    {
+                      "label": "Sal calidad Francia",
+                      "val": "0,50–3 €/kg"
+                    },
+                    {
+                      "label": "Uso",
+                      "val": "Industrial constante"
+                    },
+                    {
+                      "label": "Litio (DLE)",
+                      "val": "3.500–4.400 $/t"
+                    }
+                  ]
+                },
+                {
+                  "title": "VALOR NARRATIVO PARA INVERSORES",
+                  "items": [
+                    "El mensaje: \"No tenemos residuos, tenemos cuatro productos\"",
+                    "Convierte el modelo en prácticamente libre de desperdicios (ZLD)",
+                    "En fase MVP: salmuera diluida devuelta al mar bajo protocolo ambiental certificado",
+                    "En escala: cristalizar y vender la sal añade una cuarta fuente de ingresos sin cambiar el proceso central"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "r11",
+        "emoji": "⚔️",
+        "label": "11. Competidores y Aliados",
+        "sub": "Mapa completo de soluciones en Francia",
+        "color": "c6",
+        "detail": {
+          "breadcrumb": "RAMA 11",
+          "title": "Competidores y Aliados",
+          "sub": "6 categorías de soluciones — algunas son competidores directos, otras aliados naturales",
+          "emoji": "⚔️",
+          "sections": [
+            {
+              "title": "MAPA ESTRATÉGICO",
+              "items": [
+                "Effacement / demanda flexible: competidor directo (Enerdigit, Orus Energy)",
+                "Baterías estacionarias: competidor indirecto (Ze Energy)",
+                "V2G vehículos eléctricos: amenaza a largo plazo (DREEV/EDF, Proyecto EVVE)",
+                "Hidrógeno verde: competidor institucional (Air Liquide + TotalEnergies, Hyd'Occ)",
+                "PPAs para SMEs y productores solares: aliados naturales (Engle, Valeco/EnBW, Technique Solaire)",
+                "Exportación: el status quo que el proyecto reemplaza"
+              ]
+            },
+            {
+              "title": "CONCLUSIÓN ESTRATÉGICA",
+              "items": [
+                "No hay ningún actor en Francia combinando solar distribuido + producción local + PPA para SMEs y residencias",
+                "Ese espacio está vacío — ventana de primer entrante",
+                "Lo más cercano está en Arabia Saudita (DESOLINATION) o España/Marruecos"
+              ],
+              "type": "link"
+            }
+          ]
+        },
+        "children": [
+          {
+            "id": "r11_eff",
+            "emoji": "🔌",
+            "label": "11.1 Effacement / demanda",
+            "sub": "Enerdigit · Orus Energy · competidores directos",
+            "color": "c6",
+            "detail": {
+              "breadcrumb": "RAMA 11 › 11.1",
+              "title": "Flexibilidad de Demanda (Effacement)",
+              "sub": "El principio: pagar a empresas para que consuman más en momentos de exceso",
+              "emoji": "🔌",
+              "sections": [
+                {
+                  "title": "ACTORES PRINCIPALES",
+                  "items": [
+                    "Enerdigit (Nantes): startup más relevante en este espacio, 20 empleados, >20M€ CA 2024, soluciones industriales de flexibilidad de red",
+                    "Orus Energy (GreenTech Innovation 2024): ayuda y remunera a edificios comerciales por gestionar consumo de manera inteligente",
+                    "Ecojoko: asistente conectado para particulares, hace visible el consumo en tiempo real"
+                  ]
+                },
+                {
+                  "title": "RELEVANCIA PARA EL PROYECTO",
+                  "items": [
+                    "La producción de cualquier producto (agua, H₂, etc.) como \"carga flexible\" es exactamente este modelo",
+                    "Enerdigit y Orus son competidores directos en la captación de empresas como \"sumideros flexibles\"",
+                    "La diferencia: el proyecto produce algo físico (agua, H₂…), ellos solo ajustan el consumo"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r11_bat",
+            "emoji": "🔋",
+            "label": "11.2 Baterías estacionarias",
+            "sub": "Ze Energy · competidor indirecto",
+            "color": "c6",
+            "detail": {
+              "breadcrumb": "RAMA 11 › 11.2",
+              "title": "Almacenamiento por Baterías Estacionarias",
+              "sub": "Competidor indirecto — almacenan energía, el proyecto la convierte en producto",
+              "emoji": "🔋",
+              "sections": [
+                {
+                  "title": "ACTORES",
+                  "items": [
+                    "Ze Energy (creada 2019): diseña, construye y opera centrales híbridas solar + almacenamiento, financiada por Amundi Transition Énergétique",
+                    "STEP (stations de pompage-turbinage): ~5 GW turbinado + 4,3 GW bombeo en Francia a finales 2024",
+                    "Inversión pública: CE validó 1.300 M€ en Francia para soluciones de flexibilidad no carbonadas"
+                  ]
+                },
+                {
+                  "title": "VENTAJA DEL PROYECTO SOBRE BATERÍAS",
+                  "items": [
+                    "Una batería almacena electricidad horas — un tanque de agua almacena el equivalente energético días o semanas",
+                    "Sin pérdidas, sin degradación, a coste casi nulo",
+                    "Es el \"almacenamiento\" más barato que existe — nadie en el mercado energético lo está mirando así"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r11_v2g",
+            "emoji": "🚗",
+            "label": "11.3 V2G — vehículos eléctricos",
+            "sub": "DREEV/EDF · amenaza a largo plazo",
+            "color": "c6",
+            "detail": {
+              "breadcrumb": "RAMA 11 › 11.3",
+              "title": "V2G — Vehículos Eléctricos como Almacenamiento",
+              "sub": "Una de las soluciones mejor financiadas en Francia — amenaza a largo plazo",
+              "emoji": "🚗",
+              "sections": [
+                {
+                  "title": "ACTORES",
+                  "items": [
+                    "DREEV (EDF + Nuvve): RTE certificó su participación, implementa V2G en empresas y colectividades locales",
+                    "Proyecto EVVE (EDF + Fondo Innovación Europeo): 800 estaciones de carga bidireccionales, batería virtual de 8,36 MW"
+                  ]
+                },
+                {
+                  "title": "POTENCIAL A LARGO PLAZO",
+                  "items": [
+                    "VE conectados casa + trabajo podrían reducir hasta 92% la necesidad de almacenamiento por batería estacionaria",
+                    "Para 2040: ahorros potenciales de hasta 4.400 M€ anuales",
+                    "RTE ya lo anticipa en sus escenarios de \"descarbonización rápida\""
+                  ]
+                },
+                {
+                  "title": "RELEVANCIA PARA EL PROYECTO",
+                  "items": [
+                    "A corto plazo (MVP 2 meses): V2G está aún en fase piloto, no cubre el gap",
+                    "A largo plazo: si millones de coches se convierten en baterías móviles, la necesidad de otros sumideros disminuye",
+                    "Ventaja del proyecto: produce algo físico con demanda garantizada — el V2G no produce agua"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r11_h2",
+            "emoji": "🟢",
+            "label": "11.4 Hidrógeno verde",
+            "sub": "Air Liquide · TotalEnergies · Hyd'Occ · competidor inst.",
+            "color": "c6",
+            "detail": {
+              "breadcrumb": "RAMA 11 › 11.4",
+              "title": "Hidrógeno Verde (Power-to-Gas)",
+              "sub": "Competidor institucional — el Estado apuesta fuerte aquí",
+              "emoji": "🟢",
+              "sections": [
+                {
+                  "title": "ACTORES PRINCIPALES",
+                  "items": [
+                    "Air Liquide + TotalEnergies: 450 MW de electrolizadores combinados para H₂ verde",
+                    "Masshylia (TotalEnergies + Engie): proyecto piloto en La Méde, PACA — 5 toneladas/día de H₂ verde desde solar",
+                    "Hyd'Occ (Port-la-Nouvelle, Occitanie): mayor usina de H₂ verde de Francia, objetivo 3.000 t/año en 2025",
+                    "Inversión pública: 9.000 M€ atribuidos al desarrollo del H₂ descarbonado hasta 2030"
+                  ]
+                },
+                {
+                  "title": "PERO HAY UN FRENO IMPORTANTE",
+                  "items": [
+                    "Cour des comptes: nuevos objetivos de producción de H₂ \"parecen aún fuera de alcance\"",
+                    "Solo 0,5 GW plenamente asegurados de aquí a 2030",
+                    "Infraestructura de distribución de H₂ inexistente — hay que construirla desde cero"
+                  ]
+                },
+                {
+                  "title": "ARGUMENTO CLAVE ANTE INVERSORES",
+                  "items": [
+                    "Donde el H₂ verde necesita 9.000 M€ públicos para arrancar, el proyecto puede funcionar con infraestructura existente",
+                    "El H₂ no tiene mercado a escala hoy — el agua lleva siglos con mercado funcionando"
+                  ],
+                  "type": "link"
+                }
+              ]
+            }
+          },
+          {
+            "id": "r11_ppa",
+            "emoji": "🤝",
+            "label": "11.5 PPAs para SMEs — aliados naturales",
+            "sub": "Technique Solaire · Valeco · Engle · TotalEnergies",
+            "color": "c6",
+            "detail": {
+              "breadcrumb": "RAMA 11 › 11.5",
+              "title": "Productores Solares — Aliados Naturales",
+              "sub": "Tienen el mismo problema que el proyecto resuelve",
+              "emoji": "🤝",
+              "sections": [
+                {
+                  "title": "ACTORES",
+                  "items": [
+                    "Technique Solaire: construye y opera centrales FV propias, levantó 302 M€ en 2025 para 341 proyectos en Francia, España y Países Bajos",
+                    "Valeco (filial EnBW): PPAs greenfield 5–18 años, agrovoltaísmo, fuerte presencia en Occitanie y Nouvelle-Aquitaine",
+                    "Engle: uno de los mayores propietarios de parques solares en Francia, firmó con Orange 51 MWc en Hautes-Alpes",
+                    "TotalEnergies: produce energía solar a gran escala, cofundador de Masshylia (solar + H₂)"
+                  ]
+                },
+                {
+                  "title": "POR QUÉ SON ALIADOS",
+                  "items": [
+                    "Ya tienen el problema que el proyecto resuelve: electricidad que vale cero o negativo entre las 12h y las 16h",
+                    "No hay que convencerlos de que el problema existe — lo viven cada día en euros perdidos",
+                    "Una sola firma con Technique Solaire o Valeco da acceso a decenas o cientos de MW de capacidad de golpe",
+                    "El pitch hacia ellos es muy simple: \"tu electricidad que hoy vale cero o negativo entre las 12h y 16h, con nosotros vale un producto\""
+                  ]
+                },
+                {
+                  "title": "GO-TO-MARKET DERIVADO",
+                  "items": [
+                    "Fase 1 MVP: firma acuerdo con 1 productor solar en Occitanie o PACA",
+                    "Ellos dan su excedente a precio cero o negativo — el proyecto produce y demuestra el modelo",
+                    "Fase 2: con el caso de éxito, ir a más productores"
+                  ],
+                  "type": "link"
+                }
+              ]
+            }
+          },
+          {
+            "id": "r11_exp",
+            "emoji": "📤",
+            "label": "11.6 Exportación (status quo)",
+            "sub": "El problema que el proyecto reemplaza",
+            "color": "c6",
+            "detail": {
+              "breadcrumb": "RAMA 11 › 11.6",
+              "title": "Exportación — El Status Quo",
+              "sub": "La respuesta de emergencia actual del Estado francés",
+              "emoji": "📤",
+              "sections": [
+                {
+                  "title": "QUÉ ES",
+                  "items": [
+                    "Cuando hay demasiada electricidad, Francia la exporta a Alemania, España, Italia o Suiza",
+                    "El problema: cuando la oferta supera la demanda, los precios se vuelven negativos",
+                    "Los productores deben \"pagar para exportar\" su electricidad",
+                    "2024: Francia exportó récord de 90–101 TWh, pero generando pérdidas cuando los precios eran negativos"
+                  ]
+                },
+                {
+                  "title": "RELEVANCIA PARA EL PROYECTO",
+                  "items": [
+                    "La exportación es el status quo que el proyecto desplaza",
+                    "La narrativa para inversores: exportar a precio negativo es una pérdida de valor",
+                    "El proyecto convierte esa pérdida en un producto vendible localmente"
+                  ],
+                  "type": "link"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "r12",
+        "emoji": "🚀",
+        "label": "12. Go-to-Market y MVP",
+        "sub": "3 fases · 2 meses · Stakeholders críticos",
+        "color": "c7",
+        "detail": {
+          "breadcrumb": "RAMA 12",
+          "title": "Go-to-Market y MVP",
+          "sub": "Cómo llegar al mercado en 2 meses y escalar de forma sostenible",
+          "emoji": "🚀",
+          "sections": [
+            {
+              "title": "LA FRASE PARA EL PITCH",
+              "items": [
+                "\"No vendemos puerta a puerta. Firmamos un contrato con quien ya tiene el problema, y desde ahí llegamos a miles de usuarios finales sin tocarlos uno por uno.\""
               ],
               "type": "link"
             },
             {
-              "title": "DATO MÁS PODEROSO",
+              "title": "MODELO DE 3 FASES",
               "items": [
-                "En 2018 Francia tuvo solo 11 horas con precio negativo",
-                "En 2025 ya superó las 432 horas — crecimiento de 40× en 7 años",
-                "No hay señal de que se detenga"
+                "Fase 1 — MVP (2 meses): 1 productor solar en Occitanie o PACA, excedente a precio cero, demostrar que el modelo funciona",
+                "Fase 2 — Escala B2B: más productores, agua vendida a municipios e industria local — no a hogares individuales todavía",
+                "Fase 3 — Residencial: con volumen, marca y validación regulatoria, abrir el canal residencial con la historia ya construida"
               ]
             }
-          ]
-        }
-      },
-      {
-        "id": "r13_esg",
-        "emoji": "🌿",
-        "label": "13.4 Certificaciones ESG",
-        "sub": "Label Bas Carbone · Garanties d'Origine · ISO 14001",
-        "color": "c8",
-        "detail": {
-          "breadcrumb": "RAMA 13 › 13.4",
-          "title": "Certificaciones ESG Relevantes",
-          "sub": "Las certificaciones que atraen a inversores ESG y fondos de impacto",
-          "emoji": "🌿",
-          "sections": [
-            {
-              "title": "CERTIFICACIONES CLAVE",
-              "items": [
-                "Label Bas Carbone (Francia): mecanismo oficial del Estado para proyectos de reducción de emisiones fuera del mercado EU ETS",
-                "Garanties d'Origine: certificado europeo que acredita que la energía proviene de fuentes renovables",
-                "ISO 14001: sistema de gestión ambiental — demuestra rigor en la gestión de impactos ambientales (salmuera, consumo de agua)",
-                "CSRD (Corporate Sustainability Reporting Directive): reporte obligatorio de sostenibilidad para empresas UE — el proyecto puede ayudar a clientes a cumplirlo"
-              ]
-            },
-            {
-              "title": "POR QUÉ IMPORTAN",
-              "items": [
-                "Atraen a fondos de inversión ESG que exigen compromiso medioambiental certificado",
-                "Reducen el coste de capital (mejor tasa de financiación con avales verdes)",
-                "El Label Bas Carbone también es la vía para monetizar los créditos de carbono en el mercado voluntario francés"
-              ]
-            }
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "id": "r14",
-    "emoji": "⚡",
-    "label": "14. EDF Power Solutions",
-    "sub": "Competidor clave · Actor de referencia en Francia",
-    "color": "c7",
-    "detail": {
-      "breadcrumb": "RAMA 14",
-      "title": "EDF Power Solutions",
-      "sub": "Competidor y potencial referencia para el modelo de negocio",
-      "emoji": "⚡",
-      "sections": [
-        {
-          "title": "QUÉ ES",
-          "items": [
-            "Nació de la fusión de EDF Renewables y la División Internacional de EDF (mayo 2025)",
-            "Opera en más de 25 países diseñando soluciones para reducir la huella de carbono",
-            "Actor principal en eólica onshore y offshore en Francia y en el mundo durante 15 años"
           ]
         },
-        {
-          "title": "SUBRAMAS",
-          "items": [
-            "14.1 ¿Qué es EDF Power Solutions?",
-            "14.2 Compromisos CSR — Ambitions 2035"
-          ]
-        }
-      ]
-    },
-    "children": [
-      {
-        "id": "r14_1",
-        "emoji": "🔌",
-        "label": "14.1 ¿Qué es EDF Power Solutions?",
-        "sub": "Presencia · Mercados · Desafíos",
-        "color": "c7",
-        "detail": {
-          "breadcrumb": "RAMA 14 › 14.1",
-          "title": "¿Qué es EDF Power Solutions?",
-          "sub": "Historia, presencia global y mercados que abordan",
-          "emoji": "🔌",
-          "sections": [
-            {
-              "title": "ORIGEN Y ESCALA",
-              "items": [
-                "Nació de la fusión de EDF Renewables y la División Internacional de EDF en mayo 2025",
-                "Opera en más de 25 países, diseñando e implementando soluciones para reducir la huella de carbono",
-                "Pionero y actor principal en eólica onshore y offshore en Francia y en el mundo — 18 países con parques eólicos"
-              ]
-            },
-            {
-              "title": "MERCADOS QUE ABORDAN",
-              "items": [
-                "Energías renovables: eólica onshore/offshore, solar FV (incluidos proyectos flotantes)",
-                "Primera central FV flotante del grupo EDF en Francia: 20 MWc sobre embalse hidroeléctrico en los Alpes",
-                "Almacenamiento y flexibilidad: baterías, bombeo hidroeléctrico, carga inteligente de EVs, microrredes, H₂ verde",
-                "Planta virtual PowerShift: optimiza activos como baterías y VEs para acceder a nuevas fuentes de ingresos",
-                "Sistemas off-grid con desalación: proyecto AMAALA (Arabia Saudí) — electricidad + agua 24/7 para 65.000 personas",
-                "Mercados emergentes: África, Oriente Medio, India, América del Norte y Europa"
-              ]
-            },
-            {
-              "title": "DESAFÍOS QUE ENFRENTAN",
-              "items": [
-                "Curtailment y sobreproducción renovable: el paisaje energético evoluciona rápido, con presión por mayor flexibilidad",
-                "Integración de flexibilidad a escala: con la expansión de las renovables, la intermitencia es el reto central",
-                "Reformas regulatorias y riesgo político: 2025 marcó ruptura política en el alineamiento sobre el net zero",
-                "Incertidumbre política afecta la confianza inversora y la continuidad de las políticas"
+        "children": [
+          {
+            "id": "r12_mvp",
+            "emoji": "🔬",
+            "label": "12.1 Fase 1 — MVP (2 meses)",
+            "sub": "Occitanie o PACA · 1 productor solar · demostrar modelo",
+            "color": "c7",
+            "detail": {
+              "breadcrumb": "RAMA 12 › 12.1",
+              "title": "Fase 1 — MVP",
+              "sub": "Tu MVP en 2 meses debe demostrar una sola cosa convincente",
+              "emoji": "🔬",
+              "sections": [
+                {
+                  "title": "EL OBJETIVO DEL MVP",
+                  "items": [
+                    "\"En las horas de precio negativo (12–16h, primavera–verano), absorbemos el excedente solar local y producimos agua potable/industrial, revendida bajo PPA a SMEs y hogares de la región, mientras generamos créditos de flexibilidad para RTE.\""
+                  ]
+                },
+                {
+                  "title": "TERRITORIO MVP",
+                  "items": [
+                    "Sur de Francia (Occitanie, PACA) — más solar, más escasez hídrica, más interés político",
+                    "Fuerte presencia de Valeco y Technique Solaire en esa zona — aliados naturales directos"
+                  ]
+                },
+                {
+                  "title": "ELEMENTOS DEL PITCH MVP",
+                  "items": [
+                    "① Problema verificado: 80 M€ de pérdidas en 2024, 32% más horas negativas en 2025 — datos oficiales",
+                    "② Ventana regulatoria: fin del ARENH en dic. 2025 → urgencia real para compradores",
+                    "③ Mercado cuantificado: 39% consumo residencial + 32% terciario = 71% sin solución de absorción local",
+                    "④ Tecnología existente: osmosis inversa ya funciona con solar (DESOLINATION, proyectos Mediterráneo)",
+                    "⑤ Modelo de ingresos triple: agua + flexibilidad RTE + créditos de carbono",
+                    "⑥ Territorio MVP: sur de Francia — más sol, más sequía, más interés político"
+                  ]
+                }
               ]
             }
-          ]
-        }
+          },
+          {
+            "id": "r12_b2b",
+            "emoji": "🏭",
+            "label": "12.2 Fase 2 — Escala B2B",
+            "sub": "Más productores · municipios · industria local",
+            "color": "c7",
+            "detail": {
+              "breadcrumb": "RAMA 12 › 12.2",
+              "title": "Fase 2 — Escala B2B",
+              "sub": "Con el caso de éxito del MVP, ir a más productores y clientes institucionales",
+              "emoji": "🏭",
+              "sections": [
+                {
+                  "title": "CLIENTES PRIORITARIOS",
+                  "items": [
+                    "Municipios: complementan su red pública con agua a precio fijo bajo PPA",
+                    "SMEs terciarias: restaurantes, hoteles, oficinas con alta demanda de agua y electricidad",
+                    "Industria ligera local: agroalimentaria, farmacéutica, manufactura de precisión"
+                  ]
+                },
+                {
+                  "title": "POR QUÉ MUNICIPIOS PRIMERO",
+                  "items": [
+                    "Decisión B2B — un contrato con el municipio da acceso a toda la población",
+                    "El municipio entiende el concepto de PPA (ya los tienen para energía)",
+                    "Apoyo político local = permiso de suelo + menor fricción regulatoria"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r12_res",
+            "emoji": "🏠",
+            "label": "12.3 Fase 3 — Residencial",
+            "sub": "Volumen + marca + validación → canal residencial",
+            "color": "c7",
+            "detail": {
+              "breadcrumb": "RAMA 12 › 12.3",
+              "title": "Fase 3 — Residencial",
+              "sub": "Solo cuando hay volumen, marca y validación regulatoria",
+              "emoji": "🏠",
+              "sections": [
+                {
+                  "title": "POR QUÉ NO EMPEZAR POR HOGARES",
+                  "items": [
+                    "Ciclo de venta larguísimo: cada hogar es una decisión individual — puede tardar 6 a 18 meses en firmar",
+                    "Ticket pequeño: un hogar consume poco — necesitarías miles para tener volumen viable",
+                    "Coste de adquisición altísimo: publicidad, visitas, demos, seguimiento — todo por un contrato pequeño",
+                    "Educación de mercado desde cero: el hogar promedio no sabe qué es sobreproducción solar ni un PPA"
+                  ]
+                },
+                {
+                  "title": "CUÁNDO TIENE SENTIDO EL RESIDENCIAL",
+                  "items": [
+                    "Cuando tienes un caso de éxito B2B que certifica el modelo técnico y económico",
+                    "Cuando tienes marca reconocida que reduce el coste de adquisición por hogar",
+                    "Cuando tienes validación regulatoria que elimina barreras de entrada"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r12_prod",
+            "emoji": "🌞",
+            "label": "12.4 Por qué productores solares primero",
+            "sub": "Alineación perfecta de incentivos",
+            "color": "c7",
+            "detail": {
+              "breadcrumb": "RAMA 12 › 12.4",
+              "title": "Por qué Empezar por Productores Solares",
+              "sub": "La respuesta es clara: perfecta alineación de incentivos",
+              "emoji": "🌞",
+              "sections": [
+                {
+                  "title": "4 RAZONES",
+                  "items": [
+                    "① Ya tienen el problema: no hay que convencerlos — lo viven cada día en euros perdidos entre las 12h y 16h",
+                    "② Una sola firma, impacto masivo: un contrato con Technique Solaire o Valeco da acceso a decenas o cientos de MW",
+                    "③ Hablan tu lenguaje: entienden PPAs, precios negativos, curtailment, RTE, flexibilidad de red — la conversación es técnica y rápida",
+                    "④ Te legitiman ante todos los demás: si Engle o TotalEnergies firman contigo, eso es la mejor carta de presentación ante inversores, reguladores y eventualmente hogares"
+                  ]
+                },
+                {
+                  "title": "ALINEACIÓN DE INCENTIVOS",
+                  "items": [
+                    "Ellos quieren deshacerse del excedente — el proyecto lo quiere consumir",
+                    "No hay negociación compleja — los intereses apuntan exactamente en la misma dirección",
+                    "El pitch: \"tu electricidad que hoy vale cero o negativo entre las 12h y 16h, con nosotros vale agua\""
+                  ],
+                  "type": "link"
+                }
+              ]
+            }
+          },
+          {
+            "id": "r12_stake",
+            "emoji": "🗺️",
+            "label": "12.5 Stakeholders críticos",
+            "sub": "RTE · Enedis · CRE · ADEME · BpiFrance · Mairies",
+            "color": "c7",
+            "detail": {
+              "breadcrumb": "RAMA 12 › 12.5",
+              "title": "Stakeholders Críticos",
+              "sub": "Los actores que no puedes ignorar — rol, riesgo y oportunidad",
+              "emoji": "🗺️",
+              "sections": [
+                {
+                  "title": "TABLA DE STAKEHOLDERS",
+                  "stats": [
+                    {
+                      "label": "RTE",
+                      "val": "Red transporte"
+                    },
+                    {
+                      "label": "Enedis",
+                      "val": "Distribución local"
+                    },
+                    {
+                      "label": "CRE",
+                      "val": "Regulador PPAs"
+                    },
+                    {
+                      "label": "ADEME",
+                      "val": "Financia pilotos"
+                    },
+                    {
+                      "label": "BpiFrance",
+                      "val": "Financia proyectos"
+                    },
+                    {
+                      "label": "Mairies",
+                      "val": "Suelo + política"
+                    }
+                  ]
+                },
+                {
+                  "title": "RIESGOS SI LOS IGNORAS",
+                  "items": [
+                    "RTE: puede cortar tu producción sin validación — MVP no funciona",
+                    "Enedis: puede bloquear conexión de SMEs a la red de distribución",
+                    "CRE: retraso de meses si no tienes su aprobación para firmar PPAs",
+                    "ADEME: pierdes subvenciones clave para el piloto",
+                    "Mairies: sin ellos no hay terreno — sin terreno no hay proyecto",
+                    "BpiFrance: sin ellos no hay capex para arrancar"
+                  ]
+                },
+                {
+                  "title": "MARCO REGULATORIO CLAVE",
+                  "items": [
+                    "Décret du 27 juin 2024: los productores necesitan autorización específica de la CRE antes de firmar un PPA",
+                    "Loi APER 2023: simplifica instalaciones pero exige zonas específicas para suelo",
+                    "Incluir estos hitos en el timeline del proyecto para inversores"
+                  ],
+                  "type": "warning"
+                }
+              ]
+            }
+          }
+        ]
       },
       {
-        "id": "r14_2",
-        "emoji": "🌿",
-        "label": "14.2 Compromisos CSR — Ambitions 2035",
-        "sub": "3 ejes · 12 compromisos · ODS",
-        "color": "c7",
+        "id": "r13",
+        "emoji": "🎯",
+        "label": "13. Pitch para Inversores",
+        "sub": "Argumentos · Datos · La pregunta devastadora",
+        "color": "c8",
         "detail": {
-          "breadcrumb": "RAMA 14 › 14.2",
-          "title": "Los 12 compromisos CSR del Grupo EDF — Ambitions 2035",
-          "sub": "3 ejes estratégicos vinculados a los ODS de Naciones Unidas",
-          "emoji": "🌿",
+          "breadcrumb": "RAMA 13",
+          "title": "Pitch para Inversores",
+          "sub": "Los argumentos, datos y frases para defender el modelo ante cualquier inversor",
+          "emoji": "🎯",
           "sections": [
             {
-              "title": "RAZÓN DE SER",
+              "title": "EL INSIGHT CENTRAL",
               "items": [
-                "Construir un futuro energético net zero con electricidad y soluciones innovadoras",
-                "Ayudar a salvar el planeta e impulsar el bienestar y el desarrollo económico"
+                "\"Francia tiene demasiada energía exactamente cuando nadie la quiere, y demasiado poco de lo que esa energía podría producir.\"",
+                "El problema no es que falte energía — el problema es que sobra en el momento equivocado y nadie sabe convertirla en algo útil"
               ]
             },
             {
-              "title": "EJE 1 — Construir el sistema eléctrico del mañana (ODS 7, 9, 11, 13)",
+              "title": "EN UNA FRASE PARA INVERSORES",
               "items": [
-                "Compromiso 1 — Net Zero emisiones para 2050",
-                "Compromiso 2 — Fomentar la electrificación de clientes y territorios",
-                "Compromiso 3 — Descarbonizar el mix energético (desplazar combustibles fósiles)",
-                "Compromiso 4 — Desarrollar redes avanzadas y soluciones de flexibilidad",
-                "Reducción Scope 1: ÷3 desde 2015 · Meta: -60% en 2025, -70% en 2030, -80% en 2035, net zero en 2050"
+                "\"Somos la única empresa que convierte el problema de Francia —electricidad que nadie quiere— en el recurso que Francia más va a necesitar: agua.\""
+              ],
+              "type": "link"
+            }
+          ]
+        },
+        "children": [
+          {
+            "id": "r13_insight",
+            "emoji": "💡",
+            "label": "13.1 El insight central",
+            "sub": "Por qué agua y no otra cosa",
+            "color": "c8",
+            "detail": {
+              "breadcrumb": "RAMA 13 › 13.1",
+              "title": "El Insight Central",
+              "sub": "La segunda capa del insight — por qué es realmente defensible",
+              "emoji": "💡",
+              "sections": [
+                {
+                  "title": "POR QUÉ AGUA Y NO OTRA COSA",
+                  "items": [
+                    "El agua tiene 3 propiedades que ningún otro producto tiene simultáneamente:",
+                    "① Demanda garantizada sin importar el precio de la energía",
+                    "② Almacenamiento barato durante días o semanas en simples tanques",
+                    "③ Mercado que ya existe con infraestructura de distribución conocida"
+                  ]
+                },
+                {
+                  "title": "VENTAJA SOBRE H₂ VERDE",
+                  "items": [
+                    "El H₂ también convierte excedentes en producto, pero necesita infraestructura nueva, costes de almacenamiento altísimos, y su mercado aún no existe a escala",
+                    "No estás inventando un mercado — estás entrando en uno que lleva siglos funcionando"
+                  ]
+                },
+                {
+                  "title": "LA PREGUNTA QUE DEJA SIN PALABRAS",
+                  "items": [
+                    "\"¿Conoces algún otro negocio donde tu materia prima principal —la electricidad— a veces tiene precio negativo, es decir, te pagan por consumirla, y aun así produces algo que puedes vender?\"",
+                    "Esa es la esencia del modelo. La respuesta honesta es: no, no existe otro así en Francia hoy"
+                  ],
+                  "type": "link"
+                }
+              ]
+            }
+          },
+          {
+            "id": "r13_elementos",
+            "emoji": "📋",
+            "label": "13.2 Los 6 elementos del pitch",
+            "sub": "Problema · Ventana · Mercado · Tech · Modelo · MVP",
+            "color": "c8",
+            "detail": {
+              "breadcrumb": "RAMA 13 › 13.2",
+              "title": "Los 6 Elementos del Pitch",
+              "sub": "Estructura para presentar el proyecto a cualquier inversor",
+              "emoji": "📋",
+              "sections": [
+                {
+                  "title": "ESTRUCTURA",
+                  "items": [
+                    "① Problema verificado: 80 M€ de pérdidas en 2024, 32% más horas negativas en 2025 — tienes datos oficiales",
+                    "② Ventana regulatoria: fin del ARENH en dic. 2025 → urgencia real para compradores corporativos",
+                    "③ Mercado cuantificado: 39% consumo residencial + 32% terciario sin solución de absorción local",
+                    "④ Tecnología existente: osmosis inversa ya funciona con solar, no es investigación — es ingeniería",
+                    "⑤ Modelo de ingresos triple: agua + flexibilidad RTE + créditos de carbono (+ sal en escala)",
+                    "⑥ Territorio MVP: sur de Francia — más sol, más sequía, más interés político, más aliados naturales"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r13_datos",
+            "emoji": "📊",
+            "label": "13.3 Datos impactantes",
+            "sub": "352h · 80 M€ · +32% · 1,8 TWh curtailed",
+            "color": "c8",
+            "detail": {
+              "breadcrumb": "RAMA 13 › 13.3",
+              "title": "Datos Impactantes para el Pitch",
+              "sub": "Los números ordenados para usar directamente en una presentación",
+              "emoji": "📊",
+              "sections": [
+                {
+                  "title": "DATOS PARA ABRIR EL PITCH",
+                  "stats": [
+                    {
+                      "label": "Horas precio neg. 2024",
+                      "val": "352 h"
+                    },
+                    {
+                      "label": "Horas precio neg. 2025",
+                      "val": ">432 h"
+                    },
+                    {
+                      "label": "Crecimiento en 7 años",
+                      "val": "40×"
+                    },
+                    {
+                      "label": "Pérdidas productores",
+                      "val": "80 M€"
+                    },
+                    {
+                      "label": "Energía curtailed 2024",
+                      "val": "1,8 TWh"
+                    },
+                    {
+                      "label": "Q2 2024 precio negativo",
+                      "val": ">10% tiempo"
+                    }
+                  ]
+                },
+                {
+                  "title": "LA FRASE DE CIERRE",
+                  "items": [
+                    "\"En 2024, Francia tuvo 352 horas en las que los productores de electricidad pagaban para que alguien les quitara su energía. En 2025 ya se superaron las 432 horas antes de acabar el año — y la tendencia es vertical. Nuestro modelo existe para estar ahí exactamente en esas horas.\""
+                  ],
+                  "type": "link"
+                },
+                {
+                  "title": "DATO MÁS PODEROSO",
+                  "items": [
+                    "En 2018 Francia tuvo solo 11 horas con precio negativo",
+                    "En 2025 ya superó las 432 horas — crecimiento de 40× en 7 años",
+                    "No hay señal de que se detenga"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r13_esg",
+            "emoji": "🌿",
+            "label": "13.4 Certificaciones ESG",
+            "sub": "Label Bas Carbone · Garanties d'Origine · ISO 14001",
+            "color": "c8",
+            "detail": {
+              "breadcrumb": "RAMA 13 › 13.4",
+              "title": "Certificaciones ESG Relevantes",
+              "sub": "Las certificaciones que atraen a inversores ESG y fondos de impacto",
+              "emoji": "🌿",
+              "sections": [
+                {
+                  "title": "CERTIFICACIONES CLAVE",
+                  "items": [
+                    "Label Bas Carbone (Francia): mecanismo oficial del Estado para proyectos de reducción de emisiones fuera del mercado EU ETS",
+                    "Garanties d'Origine: certificado europeo que acredita que la energía proviene de fuentes renovables",
+                    "ISO 14001: sistema de gestión ambiental — demuestra rigor en la gestión de impactos ambientales (salmuera, consumo de agua)",
+                    "CSRD (Corporate Sustainability Reporting Directive): reporte obligatorio de sostenibilidad para empresas UE — el proyecto puede ayudar a clientes a cumplirlo"
+                  ]
+                },
+                {
+                  "title": "POR QUÉ IMPORTAN",
+                  "items": [
+                    "Atraen a fondos de inversión ESG que exigen compromiso medioambiental certificado",
+                    "Reducen el coste de capital (mejor tasa de financiación con avales verdes)",
+                    "El Label Bas Carbone también es la vía para monetizar los créditos de carbono en el mercado voluntario francés"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "r14",
+        "emoji": "⚡",
+        "label": "14. EDF Power Solutions",
+        "sub": "Competidor clave · Actor de referencia en Francia",
+        "color": "c7",
+        "detail": {
+          "breadcrumb": "RAMA 14",
+          "title": "EDF Power Solutions",
+          "sub": "Competidor y potencial referencia para el modelo de negocio",
+          "emoji": "⚡",
+          "sections": [
+            {
+              "title": "QUÉ ES",
+              "items": [
+                "Nació de la fusión de EDF Renewables y la División Internacional de EDF (mayo 2025)",
+                "Opera en más de 25 países diseñando soluciones para reducir la huella de carbono",
+                "Actor principal en eólica onshore y offshore en Francia y en el mundo durante 15 años"
               ]
             },
             {
-              "title": "EJE 2 — Operar dentro de los límites del planeta (ODS 6, 12, 14, 15)",
+              "title": "SUBRAMAS",
               "items": [
-                "Compromiso 5 — Adaptación al cambio climático",
-                "Compromiso 6 — Preservar y regenerar ecosistemas",
-                "Compromiso 7 — Gestión sostenible del agua (recurso esencial para el negocio)",
-                "Compromiso 8 — Economía circular y sobriedad de recursos",
-                "El 97% del agua dulce retirada en Francia es devuelta al entorno natural"
-              ]
-            },
-            {
-              "title": "EJE 3 — Actuar para una transición justa (ODS 5, 8, 12, 17)",
-              "items": [
-                "Compromiso 9 — Garantizar salud, seguridad y bienestar de empleados y socios",
-                "Compromiso 10 — Combatir la pobreza energética",
-                "Compromiso 11 — Promover los derechos humanos e inclusión",
-                "Compromiso 12 — Fortalecer las comunidades locales"
-              ]
-            },
-            {
-              "title": "COMPROMISOS ADICIONALES Y CALIFICACIONES ESG",
-              "items": [
-                "EV100 desde 2017: primera empresa francesa — flota 100% eléctrica para 2030",
-                "Bonos verdes: proyectos eólicos, solares, hidroeléctricos, eficiencia energética, redes y nuclear",
-                "Biodiversidad: 50 años de compromiso — Entreprises engagés pour la nature + act4nature",
-                "CDP Climate Change: A (media del sector: C)",
-                "Moody's ESG: 77/100 (media sector: 68) · MSCI: AA · Ecovadis: top 5% (78/100)"
+                "14.1 ¿Qué es EDF Power Solutions?",
+                "14.2 Compromisos CSR — Ambitions 2035"
               ]
             }
           ]
-        }
+        },
+        "children": [
+          {
+            "id": "r14_1",
+            "emoji": "🔌",
+            "label": "14.1 ¿Qué es EDF Power Solutions?",
+            "sub": "Presencia · Mercados · Desafíos",
+            "color": "c7",
+            "detail": {
+              "breadcrumb": "RAMA 14 › 14.1",
+              "title": "¿Qué es EDF Power Solutions?",
+              "sub": "Historia, presencia global y mercados que abordan",
+              "emoji": "🔌",
+              "sections": [
+                {
+                  "title": "ORIGEN Y ESCALA",
+                  "items": [
+                    "Nació de la fusión de EDF Renewables y la División Internacional de EDF en mayo 2025",
+                    "Opera en más de 25 países, diseñando e implementando soluciones para reducir la huella de carbono",
+                    "Pionero y actor principal en eólica onshore y offshore en Francia y en el mundo — 18 países con parques eólicos"
+                  ]
+                },
+                {
+                  "title": "MERCADOS QUE ABORDAN",
+                  "items": [
+                    "Energías renovables: eólica onshore/offshore, solar FV (incluidos proyectos flotantes)",
+                    "Primera central FV flotante del grupo EDF en Francia: 20 MWc sobre embalse hidroeléctrico en los Alpes",
+                    "Almacenamiento y flexibilidad: baterías, bombeo hidroeléctrico, carga inteligente de EVs, microrredes, H₂ verde",
+                    "Planta virtual PowerShift: optimiza activos como baterías y VEs para acceder a nuevas fuentes de ingresos",
+                    "Sistemas off-grid con desalación: proyecto AMAALA (Arabia Saudí) — electricidad + agua 24/7 para 65.000 personas",
+                    "Mercados emergentes: África, Oriente Medio, India, América del Norte y Europa"
+                  ]
+                },
+                {
+                  "title": "DESAFÍOS QUE ENFRENTAN",
+                  "items": [
+                    "Curtailment y sobreproducción renovable: el paisaje energético evoluciona rápido, con presión por mayor flexibilidad",
+                    "Integración de flexibilidad a escala: con la expansión de las renovables, la intermitencia es el reto central",
+                    "Reformas regulatorias y riesgo político: 2025 marcó ruptura política en el alineamiento sobre el net zero",
+                    "Incertidumbre política afecta la confianza inversora y la continuidad de las políticas"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "r14_2",
+            "emoji": "🌿",
+            "label": "14.2 Compromisos CSR — Ambitions 2035",
+            "sub": "3 ejes · 12 compromisos · ODS",
+            "color": "c7",
+            "detail": {
+              "breadcrumb": "RAMA 14 › 14.2",
+              "title": "Los 12 compromisos CSR del Grupo EDF — Ambitions 2035",
+              "sub": "3 ejes estratégicos vinculados a los ODS de Naciones Unidas",
+              "emoji": "🌿",
+              "sections": [
+                {
+                  "title": "RAZÓN DE SER",
+                  "items": [
+                    "Construir un futuro energético net zero con electricidad y soluciones innovadoras",
+                    "Ayudar a salvar el planeta e impulsar el bienestar y el desarrollo económico"
+                  ]
+                },
+                {
+                  "title": "EJE 1 — Construir el sistema eléctrico del mañana (ODS 7, 9, 11, 13)",
+                  "items": [
+                    "Compromiso 1 — Net Zero emisiones para 2050",
+                    "Compromiso 2 — Fomentar la electrificación de clientes y territorios",
+                    "Compromiso 3 — Descarbonizar el mix energético (desplazar combustibles fósiles)",
+                    "Compromiso 4 — Desarrollar redes avanzadas y soluciones de flexibilidad",
+                    "Reducción Scope 1: ÷3 desde 2015 · Meta: -60% en 2025, -70% en 2030, -80% en 2035, net zero en 2050"
+                  ]
+                },
+                {
+                  "title": "EJE 2 — Operar dentro de los límites del planeta (ODS 6, 12, 14, 15)",
+                  "items": [
+                    "Compromiso 5 — Adaptación al cambio climático",
+                    "Compromiso 6 — Preservar y regenerar ecosistemas",
+                    "Compromiso 7 — Gestión sostenible del agua (recurso esencial para el negocio)",
+                    "Compromiso 8 — Economía circular y sobriedad de recursos",
+                    "El 97% del agua dulce retirada en Francia es devuelta al entorno natural"
+                  ]
+                },
+                {
+                  "title": "EJE 3 — Actuar para una transición justa (ODS 5, 8, 12, 17)",
+                  "items": [
+                    "Compromiso 9 — Garantizar salud, seguridad y bienestar de empleados y socios",
+                    "Compromiso 10 — Combatir la pobreza energética",
+                    "Compromiso 11 — Promover los derechos humanos e inclusión",
+                    "Compromiso 12 — Fortalecer las comunidades locales"
+                  ]
+                },
+                {
+                  "title": "COMPROMISOS ADICIONALES Y CALIFICACIONES ESG",
+                  "items": [
+                    "EV100 desde 2017: primera empresa francesa — flota 100% eléctrica para 2030",
+                    "Bonos verdes: proyectos eólicos, solares, hidroeléctricos, eficiencia energética, redes y nuclear",
+                    "Biodiversidad: 50 años de compromiso — Entreprises engagés pour la nature + act4nature",
+                    "CDP Climate Change: A (media del sector: C)",
+                    "Moody's ESG: 77/100 (media sector: 68) · MSCI: AA · Ecovadis: top 5% (78/100)"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
       }
     ]
   }
